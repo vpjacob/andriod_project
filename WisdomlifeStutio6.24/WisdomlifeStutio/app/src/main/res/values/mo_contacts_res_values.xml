@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <!--联系人  -->
+    <!-- Phone的type.没有包含Custom和Assistant -->
+    <string name="contacts_call_home">"呼叫住宅电话"</string>
+    <string name="contacts_call_mobile">"呼叫手机"</string>
+    <string name="contacts_call_work">"呼叫单位"</string>
+    <string name="contacts_call_fax_work">"呼叫单位传真"</string>
+    <string name="contacts_call_fax_home">"呼叫住宅传真"</string>
+    <string name="contacts_call_pager">"呼叫寻呼机"</string>
+    <string name="contacts_call_other">"呼叫"</string>
+    <string name="contacts_call_callback">"呼叫回拨号码"</string>
+    <string name="contacts_call_car">"呼叫车载电话"</string>
+    <string name="contacts_call_company_main">"呼叫公司总机"</string>
+    <string name="contacts_call_isdn">"呼叫 ISDN"</string>
+    <string name="contacts_call_main">"呼叫总机"</string>
+    <string name="contacts_call_other_fax">"呼叫传真号码"</string>
+    <string name="contacts_call_radio">"呼叫无线装置"</string>
+    <string name="contacts_call_telex">"呼叫电报"</string>
+    <string name="contacts_call_tty_tdd">"呼叫 TTY/TDD"</string>
+    <string name="contacts_call_work_mobile">"呼叫单位手机"</string>
+    <string name="contacts_call_work_pager">"呼叫单位寻呼机"</string>
+    <string name="contacts_call_mms">"呼叫彩信号码"</string>
+    
+     <!-- Email的type.没有包含Custom -->
+    <string name="contacts_email_home">"向住宅邮箱发送电子邮件"</string>
+    <string name="contacts_email_mobile">"向手机发送电子邮件"</string>
+    <string name="contacts_email_work">"向单位邮箱发送电子邮件"</string>
+    <string name="contacts_email_other">"发送电子邮件"</string>
+    
+       <!-- Im的protocol,没有包含Custom -->
+    <string name="contacts_chat_aim">"使用 AIM 聊天"</string>
+    <string name="contacts_chat_msn">"使用 Windows Live 聊天"</string>
+    <string name="contacts_chat_yahoo">"使用雅虎软件聊天"</string>
+    <string name="contacts_chat_skype">"使用 Skype 聊天"</string>
+    <string name="contacts_chat_qq">"使用 QQ 聊天"</string>
+    <string name="contacts_chat_gtalk">"使用 Google Talk 聊天"</string>
+    <string name="contacts_chat_icq">"使用 ICQ 聊天"</string>
+    <string name="contacts_chat_jabber">"使用 Jabber 聊天"</string>
+    
+     <!-- StructuredPostal的type -->
+    <string name="contacts_map_home">"查看住宅地址"</string>
+    <string name="contacts_map_work">"查看单位地址"</string>
+    <string name="contacts_map_other">"查看地址"</string>
+</resources>

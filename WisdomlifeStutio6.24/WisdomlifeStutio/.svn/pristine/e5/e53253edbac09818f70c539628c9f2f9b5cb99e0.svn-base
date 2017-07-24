@@ -1,0 +1,750 @@
+var _im_userid = '';
+var _im_username = '';
+var _im_portrait = '';
+
+var _im_myMessages = null;
+var _im_token = '';
+var _im_rong = null;
+var _im_uichatbox = null;
+var _im_targetid = '';
+
+var _im_conversationtype = '';
+
+var _im_sourcePath = "widget://image/em";
+var _im_emotionData;
+
+im_init = function() {
+	_im_userid = uid;
+	_im_username = uname;
+	_im_portrait = uimg;
+
+	_im_rong = api.require('rongCloud2');
+
+	api.ajax({
+		url : rootUrl + 'index.php/im/Im_ajax/getIMToken',
+		method : 'post',
+		timeout : 30,
+		dataType : 'json',
+		returnAll : false,
+		data : {
+			values : {
+				'userid' : _im_userid
+			}
+		}
+	}, function(ret, err) {
+		if (ret) {
+			_im_token = ret.token;
+			//alert(_im_userid + ' - ' + _im_username + ' - ' + _im_portrait);
+			_im_rong.init(function(retx, err) {
+				if (retx.status == 'error')
+					api.toast({
+						msg : err.code + 'w'
+					});
+			});
+
+			_im_rong.setConnectionStatusListener(function(ret, err) {
+
+			});
+
+			api.addEventListener({
+				name : 'noticeclicked'
+			}, function(ret, err) {
+				var value = ret.value;
+				//alert('cc' + value + ret.type);
+				if (ret.type == 0) {
+					//APICloud推送内容
+				} else if (ret.type == 1) {
+					//开发者自定义消息
+				}
+
+				mainView.loadPage('html/maillist/aboutmessage.html');
+			});
+
+			//监听消息
+			_im_rong.setOnReceiveMessageListener(function(ret, err) {
+
+				//alert('来消息了啊' + JSON.stringify(ret.result));
+				//alert(_im_conversationtype);
+				var message = $$('.messages');
+				var messageObj = ret.result.message;
+				var messageHtml = '';
+				if (messageObj.objectName == 'RC:TxtMsg') {
+					messageHtml = im_transText_two(messageObj.content.text);
+				} else if (messageObj.objectName == 'RC:ImgMsg') {
+					var imageurl = messageObj.content.imageUrl;
+					messageHtml = '<img src="' + imageurl + '" onclick="messageShowImg(this);"></img>';
+				} else if (messageObj.objectName == 'RC:VcMsg') {
+					var vcDuration = messageObj.content.duration;
+					var vcPath = messageObj.content.voicePath;
+					if(vcDuration > 0){
+						var voiceWidth = 15 + vcDuration * 2;
+						messageHtml = '<div style="width:'+voiceWidth+'px;" onclick="messageShowVoice(this);" id="'+vcPath+'">'+vcDuration+'\"</div>';
+					}
+				}
+				
+				//alert(_im_conversationtype + ' - ' + messageObj.conversationType);
+				
+				
+				if (message[0] && _im_targetid == messageObj.targetId && _im_conversationtype == messageObj.conversationType) {
+					//设置消息状态为已读
+					_im_rong.setMessageReceivedStatus({
+						messageId : messageObj.messageId,
+						receivedStatus : 'READ'
+					}, function(ret, err) {
+						//alert(ret.status + ' set read');
+					})
+					_im_recive_message(messageObj.senderUserId, messageHtml);
+				} else {
+					var mType = 'received';
+					var portrait;
+					var username;
+					var day = (new Date().getMonth() + 1) + '-' + new Date().getDate();
+					var time = (new Date()).getHours() + ':' + (new Date()).getMinutes();
+					var content = messageHtml;
+					var key = _im_targetid + '  - ' + _im_conversationtype;
+
+					_im_targetid = messageObj.targetId;
+					_im_conversationtype = messageObj.conversationType;
+
+					$$.ajax({
+						url : rootUrl + 'index.php/user/user_info/getUserBaseInfo',
+						data : {
+							userID : _im_targetid,
+							userLat : 1,
+							userLon : 1
+						},
+						dataType : 'json',
+						type : 'get',
+						timeout : 5000,
+						success : function(data) {
+							portrait = rootUrl + data.user_info.c_user_image;
+							username = data.user_info.c_user_name;
+							
+							im_CacheMessage(mType, portrait, username, day, time, content);
+						}
+					});
+
+					//alert($$('#im-aboutmessage')[0].id == 'im-aboutmessage');
+					if($$('#im-aboutmessage')[0] && $$('#im-aboutmessage')[0].id == 'im-aboutmessage'){
+						//mainView.reloadPage('html/maillist/aboutmessage.html');
+					}
+
+					api.notification({
+						notify : {
+							content : '有新消息'
+						}
+					}, function(ret, err) {
+						if (ret && ret.id) {
+							//mainView.loadPage('html/maillist/aboutmessage.html');
+						}
+					});
+					
+					
+				}
+			})
+
+			_im_rong.connect({
+				token : _im_token
+			}, function(ret, err) {
+				if (ret.status == 'success') {
+					
+					 api.toast({
+					 	msg : ret.result.userId
+					 });
+				
+					console.log('login success');
+					/*
+					 _im_rong.clearConversations({
+					 conversationTypes : ['PRIVATE', 'GROUP']
+					 }, function(ret, err) {
+					 //alert('清除状态' + ret.status);
+					 });
+					 
+
+					_im_rong.joinGroup({
+						groupId : '1',
+						groupName : 'tuatua group1'
+					}, function(ret, err) {
+						if (ret.status == 'success') {
+							//alert('join group success');
+						} else {
+							alert('join group fail');
+						}
+					})
+					
+					*/
+				}
+			});
+
+			sendRongyunTextMessage = function(reciverid, message) {
+				//alert(reciverid + ' - ' + _im_conversationtype);
+				_im_rong.sendTextMessage({
+					conversationType : _im_conversationtype,
+					targetId : reciverid,
+					text : message,
+					extra : ''
+				}, function(ret, err) {
+					if (ret.status == 'prepare') {
+						//console.log(JSON.stringify(ret.result.message));
+					} else if (ret.status == 'success') {
+						//console.log('success');
+					} else if (ret.status == 'error') {
+						//console.log(msg : err.code);
+					}
+				});
+			};
+
+			sendRongyunImageMessage = function(reciverid, imageurl) {
+				_im_rong.sendImageMessage({
+					conversationType : _im_conversationtype,
+					targetId : reciverid,
+					imagePath : imageurl,
+					extra : ''
+				}, function(ret, err) {
+					if (ret.status == 'prepare') {
+						/*
+						 api.toast({
+						 //msg : JSON.stringify(ret.result.message)
+						 });
+						 */
+					} else if (ret.status == 'progress') {
+						/*
+						 api.toast({
+						 //msg : ret.result.progress
+						 });
+						 */
+					} else if (ret.status == 'success') {
+						/*
+						 api.toast({
+						 //msg : ret.result.message.messageId
+						 });
+						 */
+					} else if (ret.status == 'error') {
+						/*
+						 api.toast({
+						 //msg : err.code
+						 });
+						 */
+					}
+				});
+			};
+			
+			sendRongyunVoiceMessage = function(reciverid, voicePath,duration) {
+				_im_rong.sendVoiceMessage({
+			        conversationType: _im_conversationtype,
+			        targetId: reciverid,
+			        voicePath: voicePath,
+			        duration: duration,
+			        extra: ''
+			    }, function (ret, err) {
+				        if (ret.status == 'prepare'){
+				            //api.toast({ msg: JSON.stringify(ret.result.message) });
+				        }else if (ret.status == 'success'){
+				            //api.toast({ msg: ret.result.message.messageId });
+				        }else if (ret.status == 'error'){
+				            //api.toast({ msg: err.code });
+			            }
+			    		}
+				);
+			};
+			
+
+			getRongyunLastestMessages = function(imType, imuser, imtarget) {
+				/*
+				 _im_rong.getLatestMessages({
+				 conversationType : imType,
+				 targetId : imtarget,
+				 count : 10
+				 }, function(ret, err) {
+				 _im_history_message(imuser, imtarget, ret.result);
+				 });
+				 */
+
+			};
+			
+			im_removeConversation = function(targetId,conversationType) {
+				_im_rong.removeConversation({
+				        conversationType: conversationType + '',
+				        targetId: targetId + ''
+				    }, function (ret, err) {
+				        //api.toast({ msg: ret.status });
+				});
+			};
+
+			im_getEmotionPaths(_im_sourcePath, function(emotion) {
+				_im_emotionData = emotion;
+			});
+
+		} else {
+			api.alert({
+				msg : ('错误码：' + err.code + '；错误信息：' + err.msg + '网络状态码：' + err.statusCode)
+			});
+		}
+	});
+};
+
+messageShowImg = function(obj){	
+		var srcImg = obj.src;
+		imageBrowser.openImages({
+		    imageUrls: [srcImg],
+		    showList:false
+		});
+	}
+
+messageShowVoiceAgian = function(obj){
+	var voicePath = obj.id;
+	var messageTextRed = $$('.voice-number-color');
+	var messageText = $$(obj).parent('.message-text');
+		messageTextRed.css('color','white');
+		messageTextRed.removeClass('voice-number-color');
+		api.stopPlay();
+		if(messageText.index() != messageTextRed.index()){
+			messageText.css('color','red');
+			messageText.addClass('voice-number-color');
+			api.startPlay({
+			    path: voicePath
+			},function( ret, err ){
+				$$(obj).off('click',messageShowVoiceAgian(obj)); 
+				messageText.css('color','white');
+			    messageText.removeClass('voice-number-color');
+			});
+		}
+}
+
+messageShowVoice = function(obj){
+	var voicePath = obj.id;
+	var messageText = $$(obj).parent('.message-text');
+	var messageTextRed = $$('.voice-number-color');
+	$$(obj).on('click',messageShowVoiceAgian(obj));
+	messageText.css('color','red');
+		messageText.addClass('voice-number-color');
+		api.startPlay({
+		    path: voicePath
+		},function( ret, err ){
+			$$(obj).off('click',messageShowVoiceAgian(obj)); 
+			messageText.css('color','white');
+		    messageText.removeClass('voice-number-color');
+		});
+}
+
+_im_send_message = function(userid, msgType, message,voicePath) {
+	var sendHtml = '';
+	var day = (new Date().getMonth() + 1) + '-' + new Date().getDate();
+	var time = (new Date()).getHours() + ':' + (new Date()).getMinutes();
+
+	if (msgType == 'text') {
+		sendHtml = message+' ';
+	} else if (msgType == 'image') {
+		sendHtml = '<img src="' + message + '" onclick="messageShowImg(this);"></img>';
+	}else if(msgType == 'voice'){
+		if(message > 0){
+			var voiceWidth = 15 + message * 2;
+			sendHtml = '<div style="width:'+voiceWidth+'px;" onclick="messageShowVoice(this);" id="'+voicePath+'">'+message+'\"</div>';
+		}
+	}
+	
+	_im_myMessages.addMessage({
+		text : sendHtml,
+		avatar : rootUrl + '/' + _im_portrait,
+		type : 'sent',
+		name : _im_username,
+		day : day,
+		time : time
+	});
+
+	var mType = 'sent';
+	var portrait = rootUrl + '/' + _im_portrait;
+	var username = _im_username;
+	var content = sendHtml;
+
+	im_CacheMessage(mType, portrait, username, day, time, content);
+
+	//alert('send - ' + JSON.stringify(_ms));
+
+};
+
+_im_recive_message = function(userid, message) {
+	$$.ajax({
+		url : rootUrl + 'index.php/user/user_info/getUserBaseInfo',
+		data : {
+			userID : userid,
+			userLat : 1,
+			userLon : 1
+		},
+		dataType : 'json',
+		type : 'get',
+		timeout : 5000,
+		//async : false,
+		success : function(data) {
+			//alert(data.user_info.c_user_name + ' -  ' + rootUrl + data.user_info.c_user_image);
+			var day = (new Date().getMonth() + 1) + '-' + new Date().getDate();
+			var time = (new Date()).getHours() + ':' + (new Date()).getMinutes();
+
+			_im_myMessages.addMessage({
+				text : message+' ',
+				type : 'received',
+				name : data.user_info.c_user_name,
+				avatar : rootUrl + data.user_info.c_user_image,
+				day : day,
+				time : time
+			});
+
+			var mType = 'received';
+			var portrait = rootUrl + data.user_info.c_user_image;
+			var username = data.user_info.c_user_name;
+			var date = new Date();
+			var content = message+' ';
+
+			im_CacheMessage(mType, portrait, username, day, time, content);
+		}
+	});
+};
+
+_im_history_message = function(userid, targetid, result) {
+	var _messages = new Array();
+	var _method = 'append';
+	var _animate = false;
+
+	if (result && result.length > 0)
+		result = result.reverse();
+
+	$$.each(result, function(index, obj) {
+		var messageHtml = '';
+		var sendDirection = '';
+		var username = '';
+		var portrait = '';
+
+		if (obj.objectName == 'RC:TxtMsg') {
+			messageHtml = im_transText(obj.content.text)+' ';
+		} else if (obj.objectName == 'RC:ImgMsg') {
+			var imageurl = obj.content.imageUrl;
+			messageHtml = '<img src="' + imageurl + '" onclick="messageShowImg(this);"></img>';
+		}else if (obj.objectName == 'RC:VcMsg') {
+			var vcDuration = messageObj.content.duration;
+			var vcPath = messageObj.content.voicePath;
+			if(vcDuration > 0){
+				var voiceWidth = 15 + vcDuration * 2;
+					messageHtml = '<div style="width:'+voiceWidth+'px;" onclick="messageShowVoice(this);" id="'+vcPath+'">'+vcDuration+'\"</div>';
+			}
+		}
+
+		if (obj.messageDirection == 'SEND') {
+			sendDirection = 'sent';
+			username = _im_username;
+			portrait = rootUrl + '/' + _im_portrait;
+		} else if (obj.messageDirection == 'RECEIVE') {
+			sendDirection = 'received';
+			username = _im_username;
+			portrait = rootUrl + '/' + _im_portrait;
+
+			$$.ajax({
+				url : rootUrl + 'index.php/user/user_info/getUserBaseInfo',
+				data : {
+					userID : obj.senderUserId,
+					userLat : 1,
+					userLon : 1
+				},
+				dataType : 'json',
+				type : 'get',
+				timeout : 5000,
+				//async : false,
+				success : function(data) {
+					portrait = rootUrl + data.user_info.c_user_image;
+					username = data.user_info.c_user_name;
+				}
+			});
+		}
+
+		var obj = {
+			text : messageHtml,
+			type : sendDirection,
+			name : username,
+			avatar : portrait,
+			date : 'Just now'
+		};
+
+		_messages.push(obj);
+
+		//return false;
+	});
+
+	_im_myMessages.addMessages(_messages, _method, _animate);
+};
+
+addConversation = function(uniqueid, conversationType, targetid, targetname, portrait, unreadMessageCount, lastmessage, sendtime, latestMessageId) {
+	if(lastmessage == undefined){
+		lastmessage = '';
+	}
+	var innerHtml = '';
+	var unreadMessageHtml = '';
+
+	if (unreadMessageCount != 0) {
+			innerHtml += '<li class="swipeout">';
+	
+			innerHtml += '	<div class="swipeout-content">';
+			innerHtml += '		<a href="html/im/chat.html?id=' + targetid + '&imtype=' + conversationType + '&tName=' + targetname + '" class="item-link item-content" style="padding-left: 8px;">';
+			innerHtml += '			<div  id="' + uniqueid + '-portrait" class="item-media">';
+			innerHtml += '				<i class="icon">';
+			innerHtml += '					<img src="' + portrait + '" style="-webkit-border-radius: 6px;" width="50" height="50"/>';
+			
+			if(unreadMessageCount > 99){
+				innerHtml += '              	<span class="badge bg-red">...</span>';
+			}else{
+				innerHtml += '              	<span class="badge bg-red">' + unreadMessageCount + '</span>';
+			}
+			innerHtml += '				</i>';
+			innerHtml += '			</div>';
+			innerHtml += '			<div class="item-inner">';
+			innerHtml += '				<div class="item-title-row" style="background: none;padding-right: 0px;">';
+			innerHtml += '					<div id="' + uniqueid + '-targetname" class="item-title" style="width:90%;color:#4E4E4E;">' + targetname + '</div>';
+			innerHtml += '					<div id="' + uniqueid + '-sendtime" class="item-after" style="font-size:10px;">' + sendtime + '</div>';
+			innerHtml += '				</div>';
+			innerHtml += '				<div id="' + uniqueid + '-lastmessage" class="item-text" style="width:50%;height:auto;font-size: 14px;margin-top:1.5px;">' + lastmessage + '</div>';
+			innerHtml += '			</div>';
+			innerHtml += '		</a>';
+			innerHtml += '	</div>';
+	
+			innerHtml += '	<div class="swipeout-actions-right">';
+			innerHtml += '		<a href="#" class="swipeout-delete" onclick="im_removeConversation(' + targetid + ',\'' + conversationType + '\')">删除</a>';
+			innerHtml += '	</div>';
+	
+			innerHtml += '</li>';
+		} else {
+			innerHtml += '<li class="swipeout">';
+	
+			innerHtml += '	<div class="swipeout-content">';
+			innerHtml += '		<a href="html/im/chat.html?id=' + targetid + '&imtype=' + conversationType + '&tName=' + targetname + '" class="item-link item-content" style="padding-left: 8px;">';
+			innerHtml += '			<div  id="' + uniqueid + '-portrait" class="item-media">';
+			innerHtml += '				<img src="' + portrait + '" style="-webkit-border-radius: 6px;" width="50" height="50" />';
+			innerHtml += '			</div>';
+			innerHtml += '			<div class="item-inner">';
+			innerHtml += '				<div class="item-title-row" style="background: none;padding-right: 0px;">';
+			innerHtml += '					<div id="' + uniqueid + '-targetname" class="item-title" style="width:90%;color:#4E4E4E;">' + targetname + '</div>';
+			innerHtml += '					<div id="' + uniqueid + '-sendtime" class="item-after" style="font-size:10px;">' + sendtime + '</div>';
+			innerHtml += '				</div>';
+			innerHtml += '				<div id="' + uniqueid + '-lastmessage" class="item-text" style="width:50%;height:auto;font-size: 14px;margin-top:1.5px;">' + lastmessage + '</div>';
+			innerHtml += '			</div>';
+			innerHtml += '		</a>';
+			innerHtml += '	</div>';
+	
+			innerHtml += '	<div class="swipeout-actions-right">';
+			innerHtml += '		<a href="#" class="swipeout-delete" onclick="im_removeConversation(' + targetid + ',\'' + conversationType + '\')">删除</a>';
+			innerHtml += '	</div>';
+	
+			innerHtml += '</li>';
+		}
+	return innerHtml;
+};
+
+//im_back = function() {
+//	chatUIOpenFlag = false;
+//	//_im_uichatbox.closeKeyboard();
+//	//_im_uichatbox.hide();
+//	_im_uichatbox.close();
+//	api.stopPlay();
+//	api.setFrameAttr({
+//	    name: 'ohmy',
+//	    rect: {
+//	        x: 0,
+//	        y: 20,
+//	        w: 'auto',
+//	        h: 'auto'
+//	    }
+//	});
+//	mainView.router.reloadPreviousPage('html/maillist/aboutmessage.html');
+//};
+
+im_getEmotionPaths = function(sourcePathOfChatBox, callback) {
+	var jsonPath = sourcePathOfChatBox + "/em.json";
+	api.readFile({
+		path : jsonPath
+	}, function(ret, err) {
+		if (ret.status) {
+			var emotionArray = JSON.parse(ret.data);
+			var emotion = {};
+			for (var idx in emotionArray) {
+				var emotionItem = emotionArray[idx];
+				var emotionText = emotionItem["text"];
+				var emotionUrl = "image/em/" + emotionItem["name"] + ".png";
+				emotion[emotionText] = emotionUrl;
+			}
+			/*把emotion对象 回调出去*/
+			if ("function" === typeof (callback)) {
+				callback(emotion);
+			}
+		}
+	});
+};
+
+im_getEmotionCommunityPaths = function(sourcePathOfChatBox, callback) {
+	var jsonPath = sourcePathOfChatBox + "/em.json";
+	api.readFile({
+		path : jsonPath
+	}, function(ret, err) {
+		if (ret.status) {
+			var emotionArray = JSON.parse(ret.data);
+			/*把emotion对象 回调出去*/
+			if ("function" === typeof (callback)) {
+				callback(emotionArray);
+			}
+		}
+	});
+};
+
+
+im_transText = function(text, imgWidth, imgHeight) {
+	var imgWidth = imgWidth || 30;
+	var imgHeight = imgHeight || 30;
+	var regx = /\[(.*?)\]/gm;
+	var textTransed = text.replace(regx, function(match) {
+		var imgSrc = '';
+
+		if (!_im_emotionData || !_im_emotionData[match]) {
+			return match;
+		}
+
+		imgSrc = _im_emotionData[match];
+
+		if (!imgSrc) {
+			return match;
+		}
+		var img = "<image src=" + imgSrc + " width=" + imgWidth + " height=" + imgHeight + "></image>";
+		return img;
+	});
+	return textTransed;
+};
+
+im_transText_two = function(text, imgWidth, imgHeight) {
+	var imgWidth = imgWidth || 30;
+	var imgHeight = imgHeight || 30;
+	var regx = /\[(.*?)\]/gm;
+	var textTransed = text.replace(regx, function(match) {
+		var imgSrc = '';
+
+		if (!_im_emotionData || !_im_emotionData[match]) {
+			return match;
+		}
+
+		imgSrc = _im_emotionData[match];
+
+		if (!imgSrc) {
+			return match;
+		}
+		var img = "<image src=" + imgSrc + " width=" + imgWidth + " height=" + imgHeight + " style='margin-left: 10px;'></image>";
+		return img;
+	});
+	return textTransed;
+};
+
+im_CacheMessage = function(mType, portrait, username, day, time, content) {
+	var _ms = {
+		'type' : mType,
+		'portrait' : portrait,
+		'username' : username,
+		'day' : day,
+		'time' : time,
+		'content' : content
+	};
+
+	var key = _im_targetid + '  - ' + _im_conversationtype;
+	var cache = getImStore(key);
+
+	cache.push(_ms);
+	setImStore(key, cache);
+
+};
+
+_im_history_message_new = function(userid, targetid, result) {
+	var _messages = new Array();
+	var _method = 'append';
+	var _animate = false;
+	var _count = 0;
+	
+
+	$$.each(result, function(index, obj) {
+		var messageHtml = '';
+		var sendDirection = '';
+		var username = '';
+		var portrait = '';
+		var day = '';
+		var time = '';
+
+		messageHtml = obj.content+' ';
+		sendDirection = obj.type;
+		username = obj.username;
+		portrait = obj.portrait;
+		day = obj.day;
+		time = obj.time;
+
+		var obj = {
+			text : messageHtml,
+			type : sendDirection,
+			name : username,
+			avatar : portrait,
+			day : day,
+			time : time
+		};
+
+		_messages.push(obj);
+
+		_count = index + 1;
+	});
+
+	$$('#im-message-count').html('消息(' + _count + ')');
+
+	_im_myMessages.addMessages(_messages, _method, _animate);
+};
+
+
+
+im_removeGroupNotification = function() {
+	_im_rong.getConversationList(function(ret, err) {
+		//alert(JSON.stringify(ret.result));
+		if (ret.result != '') {
+			$$.each(ret.result, function(index, obj) {
+				var uniqueid = '';
+				var conversationType = '';
+				var targetid = '';
+				console.log('group' + ' ' + obj.targetId + obj.conversationType);
+				//
+				targetid = obj.targetId;
+				if (obj.conversationType == 'PRIVATE') {
+					return true;
+				} else {
+					conversationType = 'GROUP';
+				}
+
+				im_removeConversation(targetid, conversationType);
+			});
+		}
+	});
+};
+
+im_groupNotificationExist = function() {
+	var resultFlag = false;
+	_im_rong.getConversationList(function(ret, err) {
+		//alert(JSON.stringify(ret.result));
+		if (ret.result != '') {
+			$$.each(ret.result, function(index, obj) {
+				var uniqueid = '';
+				var conversationType = '';
+				var targetid = '';
+				console.log('group' + ' ' + obj.targetId + obj.conversationType);
+				//
+				targetid = obj.targetId;
+				if (obj.conversationType == 'PRIVATE') {
+					return true;
+				} else {
+					conversationType = 'GROUP';
+					resutlFlag = true;
+
+					$$('#im-group-notification').css('display','block');
+
+					return false;
+				}
+			});
+		}
+	});
+};
+
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recyclerview_notice_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/tv_item_date"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="25%"
+        app:layout_heightPercent="55%"
+        android:layout_marginLeft="0dp"
+        app:layout_marginLeftPercent="6%"
+        android:gravity="left|bottom"
+        android:maxLines="1"
+        android:textSize="13sp"
+        android:textColor="#939393" />
+    <TextView
+        android:id="@+id/tv_item_time"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="25%"
+        app:layout_heightPercent="45%"
+        android:layout_marginLeft="0dp"
+        app:layout_marginLeftPercent="6%"
+        android:layout_below="@+id/tv_item_date"
+        android:gravity="left|top"
+        android:maxLines="1"
+        android:textSize="12sp"
+        android:textColor="#939393"  />
+
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="100%"
+        android:layout_marginLeft="0dp"
+        app:layout_marginLeftPercent="5%"
+        android:layout_toRightOf="@+id/tv_item_date"
+        android:layout_centerVertical="true"
+        android:gravity="left|center_vertical"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:textColor="#939393" />
+    <ImageView
+        android:id="@+id/iv_item"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="4%"
+        app:layout_heightPercent="30%"
+        android:layout_marginRight="0dp"
+        app:layout_marginRightPercent="6%"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@mipmap/yoho_visitor_arrow"/>
+
+</android.support.percent.PercentRelativeLayout>

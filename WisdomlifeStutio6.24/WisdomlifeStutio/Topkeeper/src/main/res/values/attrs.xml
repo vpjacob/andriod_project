@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ViewPager">
+        <attr name="containerHeight" format="dimension"/>			<!-- 容器的高度 -->
+        <attr name="indicatorSize" format="dimension"/>  		<!-- 指示器大小 -->
+        <attr name="indicatorDrawable" format="reference"/>	<!-- 指示器背景，可以说drawable对象 -->
+        <attr name="indicatorInterval" format="dimension"/>		<!-- 指示器之间的间隔 -->
+        <attr name="indicatorBigSize" format="dimension"/>		<!-- 指示器选中时大小 -->
+		<attr name="indicatorBackgroud" format="reference"/>	<!-- 指示器背景色 -->
+        <attr name="indicatorMarginBottom" format="dimension"/>	<!-- 指示器距离底部 -->
+    </declare-styleable>  
+     <declare-styleable name="pickerview">
+        <attr name="pickerview_gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr name="pickerview_textSize" format="dimension"/>
+        <attr name="pickerview_textColorOut" format="color"/>
+        <attr name="pickerview_textColorCenter" format="color"/>
+        <attr name="pickerview_dividerColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="TopkeeperTitleBar">
+        <attr name="titleBarTitle" format="string"/>
+        <attr name="titleBarLeftImage" format="reference"/>
+        <attr name="titleBarRightImage" format="reference"/>
+        <attr name="titleBarBackground" format="reference|color"/>
+    </declare-styleable>
+</resources>

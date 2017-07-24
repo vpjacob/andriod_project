@@ -1,0 +1,83 @@
+package com.doormaster.topkeeper.activity;
+
+import android.graphics.Color;
+import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+
+import com.doormaster.topkeeper.R;
+import com.doormaster.topkeeper.adapter.RecordDoorAdapter;
+import com.doormaster.topkeeper.bean.RecordBean;
+import com.doormaster.topkeeper.constant.Constants;
+import com.doormaster.topkeeper.db.OpenRecordData;
+import com.doormaster.topkeeper.utils.LogUtils;
+import com.doormaster.topkeeper.utils.SPUtils;
+import com.doormaster.topkeeper.view.DividerItemDecoration;
+import com.doormaster.topkeeper.view.TitleBar;
+
+import java.util.List;
+
+public class Act_OpenRecord extends BaseActivity {
+	private static final String TAG = "Act_OpenRecord";
+
+	RecyclerView recyList;
+
+	private String username;
+	private List<RecordBean> recordList;
+	private TitleBar title_bar;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+
+		super.onCreate(savedInstanceState);
+		setContentView(com.doormaster.topkeeper.R.layout.act_openrecord);
+
+		recyList = (RecyclerView) findViewById(R.id.recyList);
+		title_bar = (TitleBar) findViewById(R.id.title_bar);
+		title_bar.setTitle(getString(R.string.open_record));
+		title_bar.setLeftImageResource(R.drawable.left_ac);
+		title_bar.setLeftLayoutClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				finish();
+			}
+		});
+		title_bar.setBackgroundColor(Color.parseColor("#FFFFFF"));
+
+		initView();
+		setupView();
+	}
+
+	/**
+	 * 初始化界面
+	 */
+	private void initView() {
+
+		username = SPUtils.getString(Constants.USERNAME);
+		OpenRecordData recordData = new OpenRecordData(BaseApplication.getContext());
+		recordList = recordData.getOpenRecordList(username);
+		LogUtils.d(TAG, "recordList="+recordList);
+	}
+
+	/**
+	 * 加载事件
+	 */
+	private void setupView() {
+		//recyclerView属性
+		LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+		linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+		recyList.setLayoutManager(linearLayoutManager);
+		//自定义分割线
+		DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this,
+				DividerItemDecoration.VERTICAL_LIST);
+		dividerItemDecoration.setDivider(R.drawable.divider);
+		recyList.addItemDecoration(dividerItemDecoration);
+
+		if (recordList != null && !recordList.isEmpty()) {
+			RecordDoorAdapter adapter = new RecordDoorAdapter(this, recordList);
+			recyList.setAdapter(adapter);
+		}
+	}
+}

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:fitsSystemWindows="true"
+    android:background="@color/main_background" >
+    <include
+        android:id="@+id/main_top" 
+        layout="@layout/inteligoo_main_top"/>
+    <TextView 
+	    android:id="@+id/tv_device_getting_system"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/main_textcolor"
+	    android:layout_marginTop="5dp"
+	    android:paddingLeft="10dp"
+	    android:text="@string/activity_device_card_model_loading"
+	    android:visibility="gone"/>
+
+	<LinearLayout 
+	    android:id="@+id/ly_device_system_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+	
+		<!-- 韦根协议 start -->
+		<LinearLayout 
+		    android:id="@+id/ly_get_device_wiegand"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:visibility="gone"
+		    android:orientation="vertical"
+		    >
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.01dp"
+	        android:background="#A7A7AA" 
+	        android:layout_marginTop="20dp"
+	       	/>
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@color/main_background">
+	        <TextView 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.6"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingLeft="10dp"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_get_system_wiegand"
+	            android:textSize="15sp"
+	            />
+	        <TextView 
+	            android:id="@+id/tv_device_get_system_wiegand"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.4"
+	            android:gravity="right|center"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingRight="10dp"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_set_dev_Wiegand_26"
+	            android:textSize="15sp"/>
+	
+	    </LinearLayout>
+	    </LinearLayout>
+	    <!-- 韦根协议 end-->
+	    
+	    <!-- 开门时长 start -->
+	    
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.01dp"
+	        android:background="#A7A7AA"
+	        android:layout_marginTop="20dp"
+		/>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@color/main_background">
+	        <TextView 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.6"
+	            android:paddingLeft="10dp"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_get_system_open_delay"
+	            android:textSize="15sp"
+	            />
+	        <TextView 
+	            android:id="@+id/tv_device_get_system_open_delay"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.4"
+	            android:gravity="right|center"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingRight="10dp"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_get_system_open_delay"
+	            android:textSize="15sp"/>
+	
+	    </LinearLayout>
+	    
+	    <!-- 开门时长 end -->
+	    
+	    <!-- 卡登记数 start -->
+	    
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.01dp"
+	        android:background="#A7A7AA" />
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@color/main_background">
+	        <TextView 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.6"
+	            android:paddingLeft="10dp"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_get_system_cards_numbers"
+	            android:textSize="15sp"
+	            />
+	        <TextView 
+	            android:id="@+id/tv_device_get_system_cards_numbers"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.4"
+	            android:gravity="right|center"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingRight="10dp"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_get_system_cards_numbers"
+	            android:textSize="15sp"/>
+	
+	    </LinearLayout>
+	    
+	    <!-- 卡登记数 end -->
+	    
+	    <!-- 手机登记数 start -->
+	    
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.01dp"
+	        android:background="#A7A7AA" />
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@color/main_background">
+	        <TextView 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.6"
+	            android:paddingLeft="10dp"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_get_system_phone_numbers"
+	            android:textSize="15sp"
+	            />
+	        <TextView 
+	            android:id="@+id/tv_device_get_system_phone_numbers"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.4"
+	            android:gravity="right|center"
+	            android:paddingRight="10dp"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_get_system_phone_numbers"
+	            android:textSize="15sp"/>
+	
+	    </LinearLayout>
+	    
+	    <!-- 手机登记数 end -->
+	    
+	    <!-- 最大用户容量 start -->
+	    
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.01dp"
+	        android:background="#A7A7AA" />
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@color/main_background">
+	        <TextView 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.6"
+	            android:paddingLeft="10dp"
+	            android:paddingTop="10dp"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_get_system_max_user_container"
+	            android:textSize="15sp"
+	            />
+	        <TextView 
+	            android:id="@+id/tv_device_get_system_max_user_container"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.4"
+	            android:gravity="right|center"
+	            android:paddingRight="10dp"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_get_system_max_user_container"
+	            android:textSize="15sp"/>
+	
+	    </LinearLayout>
+	    
+	    <!-- 最大用户容量 end -->
+	    
+	    <!-- 设备开关 start -->
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.01dp"
+	        android:background="#A7A7AA" />
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@color/main_background">
+	        <TextView 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.6"
+	            android:paddingLeft="10dp"
+	            android:paddingTop="10dp"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_get_system_dev_button"
+	            android:textSize="15sp"
+	            />
+	        <TextView 
+	            android:id="@+id/tv_device_get_system_device_button"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.4"
+	            android:gravity="right|center"
+	            android:paddingRight="10dp"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_set_dev_electric_lock"
+	            android:textSize="15sp"/>
+	  
+	    </LinearLayout>
+	
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.01dp"
+	        android:background="#A7A7AA" />
+	    <!-- 设备开关 end -->
+	    
+	    <!-- 固件版本 -->
+
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@color/main_background">
+	        <TextView 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.6"
+	            android:paddingLeft="10dp"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:textColor="@color/main_textcolor"
+	            android:text="@string/activity_device_get_system_version"
+	            android:textSize="15sp"
+	            />
+	        <TextView 
+	            android:id="@+id/tv_device_get_system_version"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.4"
+	            android:gravity="right|center"
+	            android:paddingRight="10dp"
+	            android:textColor="@color/main_textcolor"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/activity_device_get_system_version"
+	            android:textSize="15sp"/>
+	
+	    </LinearLayout>
+	
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.01dp"
+	        android:background="#A7A7AA" />
+	    <!-- 设备开关 -->
+    </LinearLayout>
+    
+    <Button
+       android:id="@+id/bt_device_get_system_info"
+       android:layout_width="fill_parent"
+       android:layout_height="40dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/shape_btn_blue"
+       android:enabled="true"
+       android:paddingBottom="7dp"
+       android:paddingTop="7dp"
+       android:text="@string/activity_device_get_system_info_touch"
+       android:textColor="#FFFFFF"
+       android:textSize="12sp" />
+</LinearLayout>

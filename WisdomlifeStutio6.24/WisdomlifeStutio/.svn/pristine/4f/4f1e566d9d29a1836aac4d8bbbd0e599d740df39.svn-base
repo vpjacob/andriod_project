@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+	android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+    
+   	<include
+        android:id="@+id/device_manager_key_top" 
+        layout="@layout/inteligoo_main_top"/>
+    
+	<Button
+		android:id="@+id/bt_send_key"
+		android:layout_width="fill_parent"
+		android:layout_height="40dp"
+		android:layout_gravity="center"
+		android:layout_marginTop="15dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:background="@drawable/shape_btn_blue"
+		android:enabled="true"
+		android:padding="7dp"
+		android:text="@string/mn_ly_lock_send"
+		android:textColor="@android:color/white"
+		android:textSize="12sp" 
+		android:onClick="true"/>
+	<Button
+		android:id="@+id/bt_delete_key"
+		android:layout_width="fill_parent"
+		android:layout_height="40dp"
+		android:layout_gravity="center"
+		android:layout_marginTop="15dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:background="@drawable/shape_btn_red"
+		android:enabled="true"
+		android:padding="7dp"
+		android:text="@string/mn_ly_lock_delete"
+		android:textColor="@android:color/white"
+		android:textSize="12sp" 
+		android:onClick="true"/>
+</LinearLayout>

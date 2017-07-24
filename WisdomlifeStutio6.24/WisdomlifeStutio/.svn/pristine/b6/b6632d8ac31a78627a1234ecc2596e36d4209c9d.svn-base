@@ -1,0 +1,194 @@
+var urId;
+var page=1;
+apiready = function() {
+//	var header = $api.byId('header');
+//	if (api.systemType == 'ios') {
+//		var cc = $api.dom('.content');
+//		$api.css(header, 'margin-top:20px;');
+//		$api.css(cc, 'margin-top:20px;');
+//	} else {
+//		var tel = $api.byId('tel');
+//		$api.css(tel, 'padding-right:25px;');
+//	}
+//	FileUtils.readFile("info.json", function(info, err) {
+//				urId=info.userNo;
+//				
+//			});
+//	$('#tab1').click(function() {
+//			api.openWin({
+//			name : 'seller',
+//			url : '../busdetail/seller.html',
+//			animation : {
+//				type : "push", //动画类型（详见动画类型常量）
+//				subType : "from_right", //动画子类型（详见动画子类型常量）
+//				duration : 300 //动画过渡时间，默认300毫秒
+//			}
+//		});
+//	});
+//	$('#tab2').click(function() {
+//			api.openWin({
+//			name : 'seller',
+//			url : '../busdetail/seller.html',
+//			animation : {
+//				type : "push", //动画类型（详见动画类型常量）
+//				subType : "from_right", //动画子类型（详见动画子类型常量）
+//				duration : 300 //动画过渡时间，默认300毫秒
+//			}
+//		});
+//	});
+//	$('#tab3').click(function() {
+//			api.openWin({
+//			name : 'seller',
+//			url : '../busdetail/seller.html',
+//			animation : {
+//				type : "push", //动画类型（详见动画类型常量）
+//				subType : "from_right", //动画子类型（详见动画子类型常量）
+//				duration : 300 //动画过渡时间，默认300毫秒
+//			}
+//		});
+//	});
+	FileUtils.readFile("info.json", function(info, err) {
+			urId=info.userNo;
+			//total(urId);
+			//Ytotal(urId);
+			
+		});
+	
+	function list(){
+		AjaxUtil.exeScript({
+	      script:"mobile.business.business",
+	      needTrascation:true,
+	      funName:"findCompanyType",
+//	      form:{
+//	         userNo:urId
+//	      },
+	      success:function (data) {
+	      console.log($api.jsonToStr(data));
+	       if (data.formDataset.checked == 'true') {
+	       		var account = data.formDataset.companyType;
+	       		console.log('account为'+account);
+	       		var list=$api.strToJson(account);
+	       		console.log('list为'+list);
+	       		
+	       			for(var i=0;i<list.length;i++){
+	       				var nowli = '<div><span class="same" id=" '+list[i].typeflag+' ">'+list[i].typename+'</span></div>';	       				
+	       				$('#showTypeInfo').append(nowli);
+	       			}
+	         } else {
+	             alert(data.formDataset.errorMsg);
+	         }
+	       }
+	    });
+	}
+	//list();
+//金银蛋交易总额
+	function total(urId){
+		AjaxUtil.exeScript({
+	      script:"mobile.business.business",
+	      needTrascation:true,
+	      funName:"allEgg",
+	      form:{
+	         userNo:urId
+	      },
+	      
+	      success:function (data) {
+	      console.log($api.jsonToStr(data));
+	       if (data.formDataset.checked == 'true') {
+	       		var account = data.formDataset.recordList;
+//	       		console.log('account为'+account);
+	       		var list=$api.strToJson(account);
+//	       		console.log('list为'+list);
+	       		
+	       			for(var i=0;i<list.length;i++){
+	       				if(list[i].rebatetype=='1'){
+	       					$('#totalG').html(list[i].deal_amount);
+	       				}else if(list[i].rebatetype=='2'){
+	       					$('#totalS').html(list[i].deal_amount);
+	       				}
+	       			}
+	       			
+	         } else {
+	             alert(data.formDataset.errorMsg);
+	         }
+	       }
+	    });
+	}	
+	
+	//金银蛋昨夜交易总额
+	function Ytotal(){
+		AjaxUtil.exeScript({
+	      script:"mobile.business.business",
+	      needTrascation:true,
+	      funName:"queryYesterdayEgg",
+	      form:{
+	         userNo:urId
+	      },
+	      success:function (data) {
+	      console.log($api.jsonToStr(data));
+	       if (data.formDataset.checked == 'true') {
+	       		var account = data.formDataset.recordList;
+//	       		console.log('account为'+account);
+	       		var list=$api.strToJson(account);
+//	       		console.log('昨日list为'+list);
+	       		
+	       			for(var i=0;i<list.length;i++){
+	       			
+	       				if(list[i].rebatetype=='1'){
+	       					$('#ytotalG').html(list[i].deal_amount);
+//	       					alert(list[i].deal_amount);
+	       				}else if(list[i].rebatetype=='2'){
+	       					$('#ytotaly').html(list[i].deal_amount);
+	       				}
+	       			}
+	         } else {
+	             alert(data.formDataset.errorMsg);
+	         }
+	       }
+	    });
+	}
+	//;
+	
+//展示商家列表	
+function businessList(){
+		AjaxUtil.exeScript({
+	      script:"mobile.business.business",
+	      needTrascation:true,
+	      funName:"findBusinessList",
+	      form:{
+	         p:page,
+	         companytype:''
+	      },
+	      success:function (data) {
+	      console.log($api.jsonToStr(data));
+	       if (data.formDataset.checked == 'true') {
+	       		var account = data.formDataset.companyDataList;
+	       		var list=$api.strToJson(account);
+	       		for(var i=0;i<list.length;i++){
+	       			var nowli='<div class="box">'
+	       					+'<i class="icon iconfont icon-xiangyou1" style=" font-size:15px;color: #cccccc;float: right"></i>'
+	       					+'<div class="left">'
+	       					+'<img src="../image/tu.png" alt="" />'
+							+'</div>'
+							+'<div class="right">'
+							+'<span id="sjname">'+list[i].companyname+'</span>'
+							+'<div id="sjaddress">'+list[i].address+'</div>'
+							+'<ul style="margin-bottom: 2px">'
+							+'<li class="other">'+list[i].companytype+'</li>'
+							+'</ul>'
+							+'</div>'
+							+'</div>'
+						
+	       			$('#tab1').append(nowli);
+	       		
+	       		
+	       		}
+	       		
+	         } else {
+	             alert(data.formDataset.errorMsg);
+	         }
+	       }
+	    });
+	}
+	businessList()
+}
+

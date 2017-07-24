@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+    
+    <include
+        android:id="@+id/main_top" 
+        layout="@layout/inteligoo_main_top"/>
+    
+    <Button 
+        android:id="@+id/bt_serial_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sync start"
+        android:textColor="@color/main_textcolor"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="syncDataStart"/>
+    <TextView
+        android:id="@+id/tv_sync_state"
+        android:layout_width="match_parent"
+        android:textColor="@color/main_textcolor"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_horizontal"
+        android:text="0/100"
+        android:visibility="visible"/>
+    <ProgressBar
+        android:id="@+id/sync_proBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:progressDrawable="@drawable/progressbar"
+        android:layout_marginRight="10dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:visibility="visible"/>
+    
+    <ListView
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/main_background"
+        android:divider="#C7C7C8"
+        android:dividerHeight="0.01dp"
+        android:id="@+id/list_card_view" />
+</LinearLayout>

@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小客智慧生活</string>
+    
+    <!-- 
+    <string name="app_name">达管家</string>
+    <string name="app_name">叮叮开门</string>
+    <string name="app_name">云立方</string>
+    <string name="app_name">宝存科技</string>
+    <string name="app_name">宜居测试</string>
+    <string name="app_name">幸福管家</string>
+    <string name="app_name">绘生活</string>
+    <string name="app_name">Wisdomlife</string>
+    -->
+    
+    <string name="menu_community">智慧小区</string>
+    <string name="menu_keydoor">一键开门</string>
+    <string name="menu_intelligenthome">智慧家庭</string>
+
+	<string name="setup_forced_proxy">setup forced proxy</string>
+	<string name="accept">Accept</string>
+	<string name="delete">Delete</string>
+	<string name="retry">Retry</string>
+	<string name="decline">Decline</string>
+	<string name="add_video_dialog">Your correspondent would like to turn on the video</string>
+	<string name="no_current_call">No active call</string>
+	<string name="action_settings">Settings</string>
+	<string name="call_stats_audio">Audio</string>
+	<string name="call_stats_video">Video</string>
+	<string name="call_stats_codec">Codec:</string>
+	<string name="call_stats_upload">Upload bandwidth:</string>
+	<string name="call_stats_download">Download bandwidth:</string>
+	<string name="call_stats_ice">ICE connectivity:</string>
+	<string name="call_stats_video_resolution">Video size:</string>
+	<string name="pref_disable_account">Disable</string>
+	<string name="pref_tunnel">Tunnel</string>
+	<string name="pref_tunnel_host">Hostname</string>
+	<string name="pref_tunnel_port">Port</string>
+	<string name="pref_tunnel_mode">Mode</string>
+	<string name="call_paused_by_remote">Your correspondent paused the call</string>
+	<string name="incoming_call">incoming call</string>
+	<string name="content_description_toggle_micro">Toggle micro</string>
+	<string name="content_description_toggle_speaker">Toggle speaker</string>
+	<string name="content_description_decline">Decline</string>
+	<string name="content_description_hang_up">Hang up</string>
+	<string name="content_description_accept">Accept</string>
+	<string name="content_description_contact_picture">Contact picture</string>
+	<string name="content_description_pause">Pause</string>
+	<string name="content_description_switch_camera">Switch camera</string>
+	<!-- do not change order without changing corresponding entry_values in non_localizable_strings.xml -->
+	<string-array name="tunnel_mode_entries">
+		<item>disabled</item>
+		<item>3G only</item>
+		<item>always</item>
+		<item>auto</item>
+	</string-array>
+	<!-- Settings -->
+	<string-array name="video_preset_entries">
+		<item>default</item>
+		<item>high-fps</item>
+		<item>custom</item>
+	</string-array>
+	<!--compatibility-->
+	<string name="unread_messages">%i unread messages</string>
+	<!--LinphoneManager-->
+	<string name="unknown_incoming_call_name">Unknown</string>
+	<!--LinphoneServise-->
+	<string name="notification_started">started</string>
+	<string name="status_conf_call">conf</string>
+	<string name="status_active_call">active</string>
+	<string name="state_paused">paused</string>
+	<string name="state_paused_by_remote">paused by remote</string>
+	<string name="state_streams_running">流运行状态</string>
+	<string name="incall_notif_active">Audio call ongoing</string>
+	<string name="incall_notif_paused">Paused call ongoing</string>
+	<string name="incall_notif_video">Video capturing call ongoing</string>
+
+	<!-- <string name="conf_simple_no_current_call">No active call</string> -->
+	<string name="pref_audio_hacks_title">Audio hacks</string>
+	<string name="pref_audio_use_specific_mode_title">Use specific mode hack</string>
+	<string name="pref_audio_use_specific_mode_summary">0=MODE_NORMAL (default), 2=MODE_IN_CALL</string>
+	<string name="pref_audio_hacks_use_routing_api_title">Use routing API hack</string>
+	<string name="pref_audio_hacks_use_galaxys_hack_title">Use Galaxy S audio hack</string>
+	<string name="pref_audio_soft_volume_title">Use software volume</string>
+	<string name="pref_ipv6_title">Use ipv6 instead of ipv4</string>
+	<string name="pref_network_title">Network</string>
+	<string name="pref_transport">Transport</string>
+	<string name="pref_transport_udp">UDP</string>
+	<string name="pref_transport_tcp">TCP</string>
+	<string name="pref_transport_tls">TLS</string>
+	<string name="pref_transport_use_random_ports">Use random ports</string>
+	<string name="pref_sip_port_title">SIP port to use</string>
+	<string name="pref_add_account">Add account</string>
+	<string name="pref_delete_account">Delete this account</string>
+	<string name="pref_default_account">Use as default</string>
+	<string name="pref_echo_canceller_calibration">Echo canceller calibration</string>
+	<string name="pref_video_use_front_camera_title">Use front camera</string>
+	<string name="pref_video">Video</string>
+	<string name="pref_preferences">Preferences</string>
+	<string name="pref_video_codecs_title">Codecs</string>
+	<string name="pref_preferred_video_size">Preferred video size</string>
+	<string name="pref_video_settings_title">Video settings</string>
+	<string name="pref_video_automatically_share_my_video_title">Share my camera</string>
+	<string name="pref_video_automatically_accept_video_title">Accept incoming video requests</string>
+	<string name="pref_video_automatically_share_my_video">Automatically send my camera</string>
+	<string name="pref_video_automatically_accept_video">Always accept video requests</string>
+	<string name="pref_video_initiate_call_with_video_title">Initiate video calls</string>
+	<string name="pref_video_initiate_call_with_video">Always send video requests</string>
+	<string name="pref_video_enable_title">Enable Video</string>
+	<string name="pref_bandwidth_limit">Bandwidth limit in kbits/s</string>
+	<string name="pref_animation_enable_title">Enable Animations</string>
+	<string name="pref_escape_plus">Replace + by 00</string>
+	<string name="pref_ilbc_summary">iLBC might be unavailable depending on ARM processor and Android OS version.</string>
+	<string name="pref_echo_cancellation">Echo cancellation</string>
+	<string name="pref_autostart">Start at boot time</string>
+	<string name="pref_enable_outbound_proxy">Outbound proxy</string>
+	<string name="pref_codecs">Codecs</string>
+	<string name="pref_communication_expire_title">Communication timeout</string>
+	<string name="pref_incoming_expire_title">Incoming call timeout</string>
+	<string name="pref_video_port_title">Video port or port range</string>
+	<string name="pref_audio_port_title">Audio port or port range</string>
+	<string name="pref_video_port_description">Video port or port range (minport-maxport)</string>
+	<string name="pref_audio_port_description">Audio port or port range (minport-maxport)</string>
+	<string name="pref_incoming_call_timeout_title">Incoming call timeout (in seconds)</string>
+	<string name="pref_adaptive_rate_control">Adaptive rate control</string>
+	<string name="pref_adaptive_rate_algorithm">Adaptive rate algorithm</string>
+	<string name="pref_codec_bitrate_limit">Codec bitrate limit</string>
+
+	<string-array name="limit_bitrate_entries">
+		<item>10 kbits/s</item>
+		<item>15 kbits/s</item>
+		<item>20 kbits/s</item>
+		<item>36 kbits/s</item>
+		<item>64 kbits/s</item>
+		<item>128 kbits/s</item>
+	</string-array>
+	<string name="pref_debug">Debug</string>
+	<string name="pref_audio">Audio</string>
+	<string name="pref_prefix">Prefix</string>
+	<string name="pref_advanced">Advanced</string>
+	<string name="pref_proxy">Proxy</string>
+	<string name="pref_domain">Domain*</string>
+	<string name="pref_passwd">Password*</string>
+	<string name="pref_username">Username*</string>
+	<string name="pref_sipaccount">SIP Account</string>
+	<string name="pref_echo_cancellation_summary">Removes the echo heard by other end</string>
+	<string name="pref_stun_server">Stun server</string>
+	<string name="pref_ice_enable">Enable ICE</string>
+	<string name="pref_ice_enable_summary">A STUN server must be configured to use ICE</string>
+	<string name="pref_amr_summary">AMR codec might not be present on your phone</string>
+	<string name="pref_media_encryption">Media encryption</string>
+	<string name="pref_video_codec_h264_unavailable">Codec disabled, build the app from source code to enable it</string>
+	<string name="pref_video_codec_mpeg4_unavailable">Codec disabled, build the app from source code to enable it</string>
+	<string name="pref_sipaccounts">SIP Accounts</string>
+	<string name="pref_wifi_only">Use wifi only</string>
+	<string name="pref_push_notification">Enable push notifications</string>
+	<string name="pref_help_proxy">SIP proxy hostname or ip address (optional)</string>
+	<string name="pref_help_outbound_proxy">Route all calls through SIP proxy</string>
+	<string name="pref_help_username">Example: john if your account is john@sip.example.org</string>
+	<string name="pref_help_domain">sip.example.org if your account is john@sip.example.org</string>
+	<string name="pref_help_password">You have to re-enter your password if you edit your username and/or the domain</string>
+	<string name="pref_linphone_friend_title">Friends</string>
+	<string name="pref_image_sharing_server_title">Sharing server</string>
+	<string name="pref_remote_provisioning_title">Remote provisioning</string>
+	<string name="pref_auto_accept_friends_title">New friends</string>
+	<string name="pref_auto_accept_friends_desc">Automatically accept new friend requests</string>
+	<string name="pref_primary_account_title">Primary account</string>
+	<string name="pref_display_name_title">Display name</string>
+	<string name="pref_user_name_title">Username</string>
+	<string name="pref_expire_title">Expire</string>
+	<string name="pref_avpf">AVPF</string>
+	<string name="pref_avpf_rr_interval"> AVPF regular RTCP interval in seconds (between 1 and 5)</string>
+	<string name="pref_rfc2833_dtmf">Send RFC2833 DTMFs</string>
+	<string name="pref_sipinfo_dtmf">Send SIP INFO DTMFs</string>
+	<string name="pref_voice_mail">Voice mail uri</string>
+	<string name="pref_background_mode">Background mode</string>
+	<string name="pref_auth_userid">Auth userid</string>
+	<string name="pref_help_auth_userid">Enter authentication userid (optionnal)</string>
+	<string name="pref_display_name">Display name</string>
+	<string name="pref_help_display_name">Enter display name (optionnal)</string>
+	<string name="pref_upnp_enable">Enable UPNP</string>
+	<string name="pref_manage">Manage</string>
+    
+    <!-- 登录 -->
+    <string name="enter_account">请输入账号</string>
+    <string name="enter_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="register_account">注册账号</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_failure">登录失败，进入离线状态</string>
+    <string name="logining">正在登录中......</string>
+    <string name="login_failure_result">登录失败 </string>
+    <string name="voip_null">Voip账号为空</string>
+	<string name="account_pwd_empty">账号或密码不能为空</string>
+	
+	<!-- 注册 -->
+	<string name="enter_phone_number">请输入手机号码</string>
+	<string name="enter_nickname">请输入昵称</string>
+	<string name="enter_verification_code">请输入验证码</string>
+	<string name="obtain">获取</string>
+	<string name="register">注册</string>
+	<string name="enter_right_phone_number">请输入正确的手机号码</string>
+	<string name="enter_right_email_address">邮箱格式不正确</string>
+	<string name="verification_sent">验证码已发送，请注意查收</string>
+	<string name="phone_number_been_registered">该手机号码已注册</string>
+	<string name="register_succeed">注册成功，前往登录</string>
+	
+	<!-- 智慧小区 -->
+	<string name="authorize_visitor">访客授权</string>
+	<string name="community_message">小区公告</string>
+	<string name="contact_tenement">联系物业</string>
+	<string name="door_video">门口视频</string>
+	<string name="open_record">开门记录</string>
+	<string name="community_more">更多</string>
+	<string name="cancel">取消</string>
+	<string name="call">呼叫</string>
+	
+	
+	<!-- 一键开门 -->
+	<string name="guard_list">门禁列表</string>
+	<string name="without_authorize_device">没有授权设备</string>
+	<string name="without_scan_authorize_device">没有扫描到授权设备</string>
+	<string name="operationing">正在操作中,请稍后</string>
+	<string name="no_device_scaned">未扫描到设备</string>
+	<string name="open_succeed">开门成功</string>
+	<string name="open_fail">开门失败</string>
+	
+	<!-- 智慧家庭 -->
+	<string name="exit">安全退出</string>
+	
+	<!-- 呼叫列表 -->
+	<string name="call_list">门口机列表</string>
+	
+	<!-- 访客授权 -->
+	<string name="no_permission">没有授权的门禁设备</string>
+	<string name="no_dev_info">无法获取设备具体信息</string>
+	<string name="wait_a_moment">请稍等......</string>
+	<string name="loading">加载中......</string>
+	<string name="enter_phone_or_username">请输入访客的电话号码或账号</string>
+	<string name="authorize_end_time">选择权限终止时间</string>
+	<string name="authorize">授权</string>
+	<string name="send_succeed">发送成功</string>
+	<string name="send_wrong">发送临时密码出错了</string>
+	<string name="select_time_tips">请先选择授权结束时间</string>
+	<string name="null_receiver">接收者不能为空</string>
+	<string name="choose_time_less_than_current">选择的日期小于当前日期</string>
+	
+	<!-- 接听界面 -->
+	<string name="callin_wrong">接听时发生错误</string>
+	<string name="bad_internet">当前网络状态不佳，无法正常进行音视频</string>
+	
+	<!-- 门禁列表 -->
+	<string name="no_permission_dev">未获取到设备权限</string>
+
+	<!-- pickView -->
+	<string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+	
+    <!-- 返回值 -->
+    <string name="operation_success">操作成功</string>
+    <string name="verify_num_wrong">验证码错误</string>
+    <string name="failed_create_account">创建账户失败</string>
+    <string name="check_network_error">请检查网络连接</string>
+	<string name="access_token_null">账户验证失败:1039</string>
+	<string name="account_pwd_failed">账户或密码验证失败</string>
+	<string name="phone_no_verify">电话号码没有验证码</string>
+	<string name="verify_num_is_wrong">验证码错误</string>
+	<string name="verify_num_ex_valid">验证码已过期</string>
+	<string name="account_has_registered">账户已注册</string>
+	<string name="failed_to_create_account">创建账户失败</string>
+	<string name="failed_send_sms_verify_num">验证短信发送失败</string>
+	<string name="failed_to_modify_pwd">修改密码失败</string>
+	<string name="client_id_is_null">账户验证失败,请重新登录</string>
+	<string name="server_error">登录失败，服务器未响应</string>
+	<string name="password_failed">密码错误</string>
+	<string name="account_password_failed">帐号或密码错误</string>
+	<string name="client_id_message_id_no_match">验证未通过无法删除</string>
+	<string name="phone_does_not_exist">账户不存在</string>
+	<string name="phone_num_is_incorrect">账户号码不正确</string>
+	<string name="backup_key_does_not_exist">备份钥匙不存在</string>
+	<string name="time_format_error">时间格式错误</string>
+	<string name="access_token_no_exist">账户验证失败:1035</string>
+	<string name="this_feature_no_currently_support">该功能当前不支持</string>
+	<string name="user_or_device_without_authorization">用户和设备未授权</string>
+	<string name="other_manager_send_the_key">其他管理员已对该账户授权，不能重复授权</string>
+	<string name="rec_account_does_not_register">接收账户未注册</string>
+	<string name="can_not_send_the_key_to_self">不能发送钥匙给自己的账户</string>
+	<string name="device_can_not_support_the_feature">设备不支持该功能</string>
+	<string name="have_not_permission_to_the_feature">没有权限操作</string>
+	<string name="server_failed_to_process_info">服务器处理信息失败</string>
+	<string name="must_use_param">参数设置错误1501</string>
+	<string name="json_data_format_error">参数设置错误1502</string>
+	<string name="param_value_is_no_define">参数设置错误1503</string>
+	<string name="param_type_error">参数设置错误1504</string>
+	<string name="does_not_supprt_the_language">当前语言不支持</string>
+	<string name="param_is_null">参数设置错误1506</string>
+	<string name="param_value_must_be_number">参数设置错误1507</string>
+	<string name="server_not_response">服务器未反应</string>
+
+	<string name="forgot_pwd">忘记密码?</string>
+	<string name="phoneuser">手机用户</string>
+	<string name="mailuser">邮箱用户</string>
+	<string name="msg_enter_verify">请输入验证码</string>
+	<string name="msg_write_pwd">请输入密码</string>
+	<string name="msg_ensure_pwd">请确认密码</string>
+	<string name="macth_pwd">两次输入的密码不一致，请重新输入</string>
+	<string name="back">后退</string>
+	<string name="write_phone_number">请输入手机号码</string>
+	<string name="send_verifynum">获取验证码</string>
+	<string name="had_send_verifynum">验证码已发送</string>
+	<string name="msg_phone">包含验证码的短信已发送到您的手机</string>
+	<string name="msg_verify">短信验证码</string>
+	<string name="msg_pwd_info">请输入6位密码</string>
+	<string name="submit">提交</string>
+	<string name="check_network">请检查网络</string>
+	<string name="failed_to_send_verify">发送验证码失败</string>
+	<string name="server_not_react">服务器无法响应</string>
+	<string name="write_username_or_email">请输入手机号/邮箱</string>
+	<string name="write_email">请输入邮箱</string>
+	<string name="modify_pwd_success">修改密码成功</string>
+	<string name="modify_pwd_failed">修改密码失败</string>
+	<string name="mail_sent_successfully">邮件发送成功，请进入邮箱修改密码</string>
+
+	<string name="notice">公告事宜</string>
+	<string name="system_record">系统记录</string>
+	<string name="setting">设置</string>
+	<string name="device_list">设备列表</string>
+	<string name="visitor_pass">访客授权</string>
+	<string name="touch_life_more_than_you_want">触动生活 超乎所想</string>
+	<string name="email">电邮</string>
+	<string name="account">账号</string>
+	<string name="pasword">密码</string>
+	<string name="no_account">没有账号？</string>
+	<string name="enter_phone_or_email">请输入手机号或者邮箱</string>
+	<string name="enter_phone">请输入手机号</string>
+	<string name="enter_email">请输入邮箱</string>
+	<string name="mailbox_registration">邮箱注册</string>
+	<string name="phone_number_registration">手机号注册</string>
+	<string name="select_country">选择国家</string>
+	<string name="sex">性别</string>
+	<string name="male">男</string>
+	<string name="female">女</string>
+	<string name="birth_date">出生日期</string>
+	<string name="enter_birth_date">请选择出生日期</string>
+	<string name="password">密码</string>
+	<string name="confirm_password">确认密码</string>
+	<string name="confirm">确认</string>
+	<string name="is_the_registered">正在注册中…</string>
+	<string name="phone_number">手机号</string>
+	<string name="obtain_again">重新获取</string>
+	<string name="verification_code_obtain_failed">验证码获取失败</string>
+	<string name="nickname">昵称</string>
+	<string name="registration_failure">注册失败</string>
+	<string name="shake">摇一摇</string>
+	<string name="shake_to_open">摇动开锁</string>
+	<string name="shake_to_open_function">摇动开锁功能</string>
+	<string name="adjust_distance">调整距离</string>
+	<string name="near_to_open">近场开锁</string>
+	<string name="near_field_unlocking_function">靠近开门功能</string>
+	<string name="about">关于</string>
+	<string name="user">用户</string>
+	<string name="email_activate">请前往注册邮箱点击激活账号，未激活暂不可用。</string>
+	<string name="email_submit">点击返回登录界面</string>
+	<string name="account_had_registed">账户已注册，请勿重复注册 </string>
+	<string name="failed_register_unknow">注册失败,未知错误</string>
+
+	<string name="yoho_commit">确定</string>
+	<string name="automatic_door_opening">自动开门已开启</string>
+	<string name="modify_pwd">更改密码</string>
+	<string name="old_password">旧密码</string>
+	<string name="enter_old_password">请输入旧密码</string>
+	<string name="new_password">新密码</string>
+	<string name="enter_new_password">请输入新密码</string>
+	<string name="ensure_pwd">确认密码</string>
+	<string name="create_new_password">建立新密码</string>
+	<string name="failed_to_change_password">修改密码失败，密码错误！</string>
+	<string name="customer_service">客户服务</string>
+	<string name="yoho_phone">电话:+852 31881075</string>
+	<string name="yoho_fax">传真:+852 31881076</string>
+	<string name="yoho_website">网址:www.yohoit.com</string>
+	<string name="yoho_email">电邮:info@yohoit.com</string>
+	<string name="direct_download">直接下载产品</string>
+
+	<string name="visitor_name">访客名称</string>
+	<string name="explain">说明</string>
+	<string name="transit_times">可通行次数（默认没有限制）</string>
+	<string name="available_date">开始日期</string>
+	<string name="end_date">结束日期</string>
+	<string name="start_time">开始时间</string>
+	<string name="end_time">结束时间</string>
+	<string name="establish_pass">确定</string>
+	<string name="select_time">选择时间</string>
+	<string name="please_select_a_start_date">请选择可通行日期!</string>
+	<string name="please_select_a_end_date">请选择结束通行日期!</string>
+	<string name="please_select_a_start_time">请选择开始时间!</string>
+	<string name="please_select_a_end_time">请选择结束时间!</string>
+	<string name="please_enter_a_visitor_name">请输入访客姓名!</string>
+	<string name="no_authorized_device">没有可授权设备</string>
+	<string name="about_device">关于产品</string>
+
+	<string name="login_in_another_phone">帐号在其他地方登录</string>
+	<string name="failed_to_get_msg">获取服务器消息失败</string>
+	<string name="network_error">网络错误</string>
+	<string name="remind">提示</string>
+	<string name="device_type">装置类别</string>
+	<string name="serial_number">序列号</string>
+	<string name="name">名称</string>
+	<string name="effective_date">有效日期</string>
+	<string name="delete_device">删除装置</string>
+
+	<string name="entrance_guard_machine">门禁机</string>
+	<string name="visual_interphone">可视对讲机</string>
+	<string name="select_device">选择设备</string>
+	<string name="device_no_support">该设备无法发送临时密码!</string>
+	<string name="device_name">设备名称</string>
+	<string name="please_select_device">请选择设备</string>
+	<string name="find">发现设备</string>
+	<string name="device_is_found">设备在监测范围内</string>
+	<string name="device_not_found">设备不在监测范围内</string>
+	<string name="remove_the_device">点击确定，将删除设备，不可恢复</string>
+
+	<string name="delete_device_successful">删除设备成功</string>
+	<string name="delete_device_failed">删除设备失败</string>
+	<string name="device_cannot_be_deleted">该设备不能删除</string>
+
+	<!-- verify return -->
+	<string name="exceed_ten_one_min">同一手机号码一分钟内不能超过十条</string>
+	<string name="exceed_five_one_day">同一手机号码同一天不能超过五条</string>
+	<string name="exceed_five_request">同一手机号码验证码请求超过五条</string>
+
+	<string name="no_permitted">没有授权设备</string>
+	<string name="press_the_exit_procedure_again">再按一次退出程序</string>
+	<string name="bluetooth_is_not_open">蓝牙未开启</string>
+	<string name="shake_to_open_is_started">摇一摇开门已开启</string>
+	<string name="near_to_open_is_started">靠近开门已开启</string>
+
+	<!-- 设备信息界面 -->
+	<string name="frag_locklist_img">锁图片</string>
+	<string name="frag_lock_info">设备名称</string>
+	<string name="frag_img_lock_info">设备信息</string>
+
+	<string name="unreach_the_useful_time">未到使用时间，请稍后再试</string>
+	<string name="out_of_limit_date">该设备已过期，是否删除该设备？</string>
+	<string name="lock_info_input_ensure">确认</string>
+	<string name="lock_info_input_cancel">取消</string>
+
+	<string name="device_info">设备信息</string>
+	<string name="device_limit_date">设备有效期</string>
+	<string name="device_set_rssi">设置距离</string>
+	<string name="device_set_dev_wiegand">设置韦根格式</string>
+	<string name="device_sycn_dev_time">同步时间</string>
+	<string name="device_send_pswd">访客授权</string>
+	<string name="device_manage_card">卡片管理</string>
+	<string name="device_manager_key">电子钥匙管理</string>
+	<string name="current_device_delete">删除设备</string>
+	<string name="device_temporary_key">配置读卡扇区</string>
+	<string name="device_wifi">配置WiFi</string>
+	<string name="device_configure_openning">正在开启配置模式</string>
+	<string name="device_configure_closing">正在退出配置模式</string>
+	<string name="device_setting">设备设置</string>
+	<string name="device_remote_open">点击远程开门</string>
+	<string name="device_has_been_delete">设备已被删除</string>
+
+	<string name="activity_device_type_reader">D100门禁读头</string>
+	<string name="activity_device_type_reader_neutral">门禁读头</string>
+	<string name="activity_device_type_access_controller">M100门禁一体机</string>
+	<string name="activity_device_type_access_controller_neutral">门禁一体机</string>
+	<string name="activity_device_type_lift_controller">LC100梯控读头</string>
+	<string name="activity_device_type_lift_controller_neutral">梯控读头</string>
+	<string name="activity_device_type_door">BL100蓝牙锁</string>
+	<string name="activity_device_type_door_neutral">蓝牙锁</string>
+	<string name="activity_device_type_ble_controller">BC100蓝牙遥控模块</string>
+	<string name="activity_device_type_ble_controller_neutral">蓝牙遥控模块</string>
+	<string name="activity_device_type_controller">门禁控制器</string>
+	<string name="activity_device_type_controller_neutral">门禁控制器</string>
+	<string name="activity_device_type_touch_controller">T100触摸开关</string>
+	<string name="activity_device_type_touch_controller_neutral">触摸开关</string>
+	<string name="activity_device_type_video_intercom">可视对讲</string>
+	<string name="activity_device_type_qc_device">Q200二维码一体机</string>
+	<string name="activity_device_type_qc_device_neutral">二维码一体机</string>
+	<string name="activity_device_type_qr_device">QD100二维码读头</string>
+	<string name="activity_device_type_qr_device_neutral">二维码读头</string>
+	<string name="activity_device_type_dm_controller">M160门禁一体机</string>
+	<string name="activity_device_type_dm_controller_neutral">门禁一体机(写卡)</string>
+	<string name="activity_device_type_wifi_touch_controller">T200触摸门禁</string>
+	<string name="activity_device_type_wifi_touch_controller_neutral">WiFi触摸门禁</string>
+	<string name="activity_device_type_wifi_dm_controller">M260门禁一体机</string>
+	<string name="activity_device_type_wifi_dm_controller_neutral">WiFi门禁一体机(写卡)</string>
+	<string name="activity_device_type_wifi_access_controller">M200门禁一体机</string>
+	<string name="activity_device_type_wifi_access_controller_neutral">WiFi门禁一体机</string>
+
+	<string name="unknown_device">未知设备</string>
+	<string name="ensure">确定</string>
+	<string name="modify_device_name">修改设备名称</string>
+	<string name="msg">消息</string>
+
+	<string name="activity_device_set_modify_pwd">修改设备密码</string>
+	<string name="activity_device_set_dev">设置设备信息</string>
+	<string name="activity_device_set_dev_wiegand">设置韦根格式</string>
+	<string name="activity_config_tmpKey_success">配置临时密钥成功</string>
+	<string name="activity_device_modify_pwd">修改设备密码</string>
+	<string name="activity_device_remote_open">点击远程开门</string>
+	<string name="activity_device_set_dev_Wiegand">韦根</string>
+	<string name="activity_device_no_syncInfo">没有需要同步的信息</string>
+	<string name="activity_device_set_dev_Wiegand_26">韦根26</string>
+	<string name="activity_device_set_dev_Wiegand_34">韦根34</string>
+	<string name="activity_device_set_dev_open_delay">开门时长(1&#8211;254s)</string>
+	<string name="activity_device_set_dev_electric_lock">电锁控制</string>
+	<string name="activity_device_set_dev_electric_button">电气控制</string>
+	<string name="activity_device_delete_all_info">清空卡、用户信息</string>
+	<string name="activity_device_delete_all_info_ensure_alert">是否删除所有卡和所有用户信息（包括你自己）</string>
+	<string name="activity_device_delete_all_info_enusre">确认删除</string>
+	<string name="activity_device_get_system_info">获取系统信息</string>
+	<string name="activity_device_get_system_info_touch">获取设备信息</string>
+	<string name="activity_device_get_system_info_touch_again">重新获取设备信息</string>
+	<string name="activity_device_get_system_getting">正在获取设备系统信息&#8230;</string>
+	<string name="activity_device_get_system_wiegand">韦根协议</string>
+	<string name="activity_device_get_system_open_delay">开门时长</string>
+	<string name="activity_device_get_system_cards_numbers">卡登记数</string>
+	<string name="activity_device_get_system_phone_numbers">手机登记数</string>
+	<string name="activity_device_get_system_max_user_container">最大用户容量</string>
+	<string name="activity_device_get_system_version">设备版本信息</string>
+	<string name="activity_device_get_system_dev_button">设备开关控制信号</string>
+	<string name="activity_device_reset">恢复出厂设置</string>
+	<string name="activity_device_reset_ensure_alert">是否恢复出厂设置</string>
+	<string name="activity_device_setting">设备设置</string>
+	<string name="clear_empty_success">清空成功</string>
+	<string name="device_initialize_success">设备初始化成功</string>
+	<string name="clearring">清空数据中&#8230;</string>
+	<string name="device_initializing">初始化设备中&#8230;</string>
+	<string name="ble_not_supported">不支持蓝牙4.0</string>
+	<string name="ble_disable">请先开启蓝牙</string>
+	<string name="setting_current_pwd">当前密码</string>
+	<string name="setting_new_pwd">新密码</string>
+	<string name="setting_sure_new_pwd">确认新密码</string>
+	<string name="modify_device_password">修改设备密码成功</string>
+	<string name="error_format_device_password">新密码、确认密码格式不正确</string>
+	<string name="update_configure_success">更新配置成功</string>
+	<string name="update_configure_failed">更新配置失败</string>
+	<string name="error_open_delay_parament">开门时长错误</string>
+	<string name="activity_device_card_model_loading">正在连接设备&#8230;</string>
+	<string name="warning">警告</string>
+	<string name="whether_delete_device">您确定要删除设备吗？</string>
+	<string name="get_nothing_about_the_device">未获取到对应设备信息</string>
+	<string name="open_remote_device_failed">远程开门失败</string>
+	<string name="open_remote_device_success">远程开门成功</string>
+	<string name="success_sync">成功同步时间</string>
+	<string name="device_not_exist">设备不存在</string>
+	<string name="can_not_find_version_name">找不到版本号!</string>
+
+	<!-- 发送钥匙界面  -->
+	<string name="mn_tv_lock_send_title">发送电子钥匙</string>
+	<string name="mn_tv_lock_send_receiver">接收人</string>
+	<string name="mn_tv_lock_send_phone">请输入对方的手机号</string>
+	<string name="mn_tv_lock_send_remark">描述信息</string>
+	<string name="mn_tv_lock_send_admin">管理员</string>
+	<string name="mn_tv_lock_send_user">用户</string>
+	<string name="mn_tv_lock_send_forevertime">永久</string>
+	<string name="mn_tv_lock_send_limittime">限时</string>
+	<string name="mn_tv_lock_send_opencount">次数</string>
+	<string name="mn_tv_lock_send_start_date">开始日期</string>
+	<string name="mn_tv_lock_send_end_date">结束日期</string>
+	<string name="mn_tv_lock_send_start_time">开始时间</string>
+	<string name="mn_tv_lock_send_end_time">结束时间</string>
+	<string name="mn_ly_lock_send">发送钥匙</string>
+	<string name="mn_ly_lock_delete">删除钥匙</string>
+	<string name="mn_ly_card_register">登记卡</string>
+	<string name="mn_ly_card_delete">删除卡</string>
+	<string name="mn_ly_lock_delete_title">删除钥匙(长按删除)</string>
+	<string name="mn_tv_lock_visitor_pwd">访客密码</string>
+	<string name="mn_bt_lock_get_pwd">产生密码</string>
+	<string name="touch_to_share">点击分享：</string>
+	<string name="activity_device_manager_key">电子钥匙管理</string>
+	<string name="write_receiver_username">请输入接收方账号</string>
+
+	<string name="receiver_is_empty">接收人不能为空</string>
+	<string name="receiver_is_not_register">接收人未注册</string>
+	<string name="receiver_cannot_be_self">接收人不能为自己</string>
+	<string name="send_digital_key_success">发送成功</string>
+	<string name="send_digital_key_failed">发送失败</string>
+	<string name="check_user">用户未注册</string>
+	<string name="unauthorized_sendkey">用户已有更高的权限</string>
+	<string name="the_acount_has_send_key">其他管理员已发送给该用户该电子钥匙!</string>
+	<string name="download_send_key_record">正在获取发送电子钥匙列表&#8230;</string>
+	<!-- 设备信息界面 -->
+	<string name="frag_msg_img">短消息图片</string>
+	<string name="frag_msg_frd">好友</string>
+	<string name="frag_msg_info">简略消息</string>
+	<string name="frag_img_msg_content">消息内容</string>
+	<string name="frag_msg_time">时间</string>
+	<string name="frag_msg_share_tip">长按可分享二维码</string>
+	<string name="frag_search_img">search</string>
+
+	<string name="device_limit_forever">永久</string>
+	<string name="device_limit_limit">限时:</string>
+	<string name="remind_of_delete_send_key">确认删除该电子钥匙吗？</string>
+	<string name="delete_send_key_success">删除成功</string>
+	<string name="delete_send_key_failed">删除失败</string>
+	<!-- 卡管理 start-->
+	<string name="card_manage_swipe_add">刷卡添加</string>
+	<string name="card_manage_swipe_add_loss">刷卡挂失</string>
+	<string name="card_manage_swipe_del">刷卡删除</string>
+	<string name="card_manage_swipe_del_loss">刷卡解挂</string>
+	<string name="card_manage_batch_manage">批量管理</string>
+	<string name="card_manage_batch_add">批量增加</string>
+	<string name="card_manage_batch_add_loss">批量挂失</string>
+	<string name="card_manage_batch_del">批量删除</string>
+	<string name="card_manage_batch_del_loss">批量解挂</string>
+	<string name="card_manage_batch_sync_finished">同步完成</string>
+	<string name="card_manage_batch_synchronizing">正在同步中&#8230;</string>
+	<string name="card_manage_exist_swipe_model">退出刷卡模式</string>
+	<string name="card_manage_input_manage">输入卡号管理卡</string>
+	<string name="card_manage_input_manage_loss">输入卡号挂失卡</string>
+	<string name="activity_device_manage_card">卡片管理</string>
+
+	<string name="result_callback_error_crc">蓝牙通信失败,CRC检验错误</string>
+	<string name="result_callback_error_format">蓝牙通信失败，格式错误</string>
+	<string name="result_callback_error_passwd">蓝牙通信失败，密码不匹配</string>
+	<string name="result_callback_error_power">蓝牙通信失败</string>
+	<string name="result_callback_error_db">蓝牙通信失败，数据储存失败</string>
+	<string name="result_callback_error_use_not_reg">用户已被注销</string>
+	<string name="result_callback_error_rand_check">随机数错误</string>
+	<string name="result_callback_error_get_rand">开门未获取随机数</string>
+	<string name="result_callback_error_length">蓝牙通信失败，长度错误</string>
+	<string name="result_callback_error_mode">蓝牙通信失败，未开启配对模式</string>
+	<string name="result_callback_error_key_check">蓝牙通信失败，电子钥匙错误</string>
+	<string name="result_callback_error_unsupport">蓝牙通信失败，功能不支持</string>
+	<string name="result_callback_error_max_count">蓝牙通信失败，超出最大容量</string>
+
+	<string name="result_error_timer_out">连接超时</string>
+	<string name="result_error_bleservice">蓝牙通信失败,发现蓝牙服务失败</string>
+	<string name="result_error_data_len">数据长度错误</string>
+	<string name="result_error_rand_not_get">未获取随机数</string>
+
+	<string name="result_error_data_null">未获取到蓝牙返回数据</string>
+	<string name="result_error_l1_cmd">蓝牙通信失败,接收到未知命令</string>
+	<string name="result_error_para_cfg_cmd">蓝牙通信失败,接收到未知子命令</string>
+	<string name="result_error_data_manager_cmd">蓝牙通信失败,接收到未知操作命令</string>
+	<string name="ble_not_open">BLE未打开</string>
+	<string name="sn_not_exist">SN不存在</string>
+	<string name="ble_return_null">蓝牙通讯返回值为空</string>
+
+	<string name="device_not_reaction">设备未响应</string>
+	<string name="device_not_near">设备不在附近</string>
+	<string name="device_operationing">设备正在操作中</string>
+	<string name="time_unit_error">扫描时间单位错误</string>
+	<string name="scan_time_beyond">扫描时间超出范围</string>
+	<string name="super_admin_exist">超级管理员已存在</string>
+	<string name="device_mac_error">设备Mac地址错误</string>
+	<string name="cardno_null">卡号为空</string>
+	<string name="sn_null">SN 为空</string>
+	<string name="mac_null">MAC为空</string>
+	<string name="eKey_null">EKey为空</string>
+	<string name="type_null">设备类型为空</string>
+	<string name="privilege_null">设备权限为空</string>
+	<string name="open_way_error">开门方式值错误</string>
+	<string name="unknown_error">无响应:</string>
+
+	<string name="activity_device_enter_cardno">请输入卡号</string>
+	<string name="activity_device_enter_cardno_add">添加卡</string>
+	<string name="activity_device_enter_cardno_add_loss">挂失卡</string>
+	<string name="activity_device_enter_cardno_del">删除卡</string>
+	<string name="activity_device_enter_cardno_del_loss">卡解挂</string>
+	<string name="activity_device_synchronizeing">正在同步中&#8230;</string>
+
+	<!-- 配置读取卡扇区密钥 -->
+	<string name="input_dev_id">设备门编号（0~255）</string>
+	<string name="input_dev_sectorkey">请输入设备的扇区密钥（由12位十六进制数组成，例如 012389ABCDEF） </string>
+	<string name="set_read_sectorkey">设置</string>
+	<string name="config_read_sectorkey">配置读取卡扇区密钥</string>
+	<string name="write_dev_id">请输入设备编号</string>
+	<string name="write_dev_sectorkey">请输入扇区密钥</string>
+	<string name="input_sector_id">扇区地址（0~15）</string>
+	<string name="write_sector_id">请输入扇区编号</string>
+	<string name="config_id_pwd_empty">设备编号、扇区编号或扇区密钥不能为空</string>
+	<string name="parameter_wrong">参数格式有误，请到后台服务器设置正确参数</string>
+	<string name="no_read_sector_info">该设备没有读卡扇区配置信息</string>
+	<string name="device_settring_param_none">没有设备设置参数</string>
+
+	<!-- WiFi配置 -->
+	<string name="config_wifi">配置WiFi参数</string>
+	<string name="enter_ip_address">请输入IP地址</string>
+	<string name="enter_port">请输入端口号</string>
+	<string name="enter_wifi_name">请输入WiFi名称(暂时不支持中文)</string>
+	<string name="enter_wifi_pswd">请输入WiFi密码</string>
+	<string name="set_wifi">设置</string>
+	<string name="information_missing">信息填写不完整</string>
+	<string name="save_succeed">保存成功</string>
+	<string name="save_fail">保存失败</string>
+	<string name="config_wifi_succeed">配置WiFi成功</string>
+	<string name="config_wifi_fail">配置WiFi失败</string>
+	<string name="no_wifi_param">请先设置WiFi参数</string>
+
+	<string name="synchronizing">同步中…</string>
+	<string name="remote_door_opening">远程开门中…</string>
+	<string name="deleting">删除中…</string>
+
+	<string name="add_device">添加设备</string>
+	<string name="scan">扫描开门</string>
+	<string name="video">视频对讲</string>
+
+	<!-- 添加设备界面 -->
+	<string name="activity_scanning">扫描周边设备中…</string>
+	<string name="activity_scanning_again">重新扫描</string>
+	<string name="activity_scanning_stop">停止扫描</string>
+	<string name="activity_scan_dev_sn">设备序列号</string>
+	<string name="activity_add_dev_sucess">添加成功</string>
+	<string name="device_is_for_other_operation">设备正在进行其他操作</string>
+	<string name="video_list">视频列表</string>
+	<string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+	<string name="sending">发送中…</string>
+	<string name="distance_is_too_far_away">距离太远了，请靠近设备</string>
+	<string name="number_is_illegal">输入的通行次数不合法</string>
+	<string name="website">http://www.doormaster.me/</string>
+	<string name="Can_not_find_version_name">找不到版本号！</string>
+	<string name="version_name">版本号</string>
+	<string name="downloading">下载中…</string>
+
+    <string name="remind_of_delete_msg">确认删除这条信息吗？</string>
+    <string name="remind_of_delete_the_contact">确认删除该联系人吗？</string>
+	<string name="messages">消息</string>
+    <string name="system_messages">系统消息</string>
+	<string name="open_yet">暂未开放</string>
+	<string name="space_open1">同一设备</string>
+	<string name="space_open2">秒内不再开启</string>
+	<string name="waiting...">等待开放…</string>
+
+	<string name="configure_wifi">配置WiFi中</string>
+	<string name="activity_device_send_qrcode">二维码授权</string>
+	<string name="no_property_info">暂无物业信息</string>
+</resources>

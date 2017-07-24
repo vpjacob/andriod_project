@@ -1,0 +1,96 @@
+package com.doormaster.topkeeper.utils;
+
+import android.content.Context;
+
+import com.doormaster.topkeeper.activity.DMGetDeviceCountCallback;
+import com.doormaster.topkeeper.bean.AccessDevBean;
+import com.doormaster.vphone.inter.DMModelCallBack;
+import com.intelligoo.sdk.LibDevModel;
+
+/**
+ * Created by Liukebing on 2017/2/24.
+ */
+
+public class TopkeeperModel {
+
+    /**
+     * 初始化
+     * @param context 上下文
+     */
+    public static void initTopkeeper(Context context) {
+        TopkeeperManager.getInstance().init(context);
+    }
+
+    /**
+     * 一键开门
+     */
+    public static void keyDoor(int rssi, int scanSeconds, OpenModel model,DMModelCallBack.DMCallback callback) {
+        TopkeeperManager.getInstance().startScan(rssi,scanSeconds,model,callback);
+    }
+
+    /**
+     * 清空设备列表
+     */
+    public static void cleanCurDeviceList()
+    {
+        TopkeeperManager.getInstance().cleanCurDeviceList();
+    }
+
+    /**
+     * 获取设备信息
+     */
+    public static LibDevModel getLibDev(AccessDevBean device) {
+        return TopkeeperManager.getInstance().getLibDev(device);
+    }
+
+    /**
+     * 获取设备信息
+     */
+    public static void openDevice(AccessDevBean device, DMModelCallBack.DMCallback callback) {
+        TopkeeperManager.getInstance().openDevice(device,callback);
+    }
+
+    /**
+     * Get DevKey control list
+     */
+    public static void getDevKeyList(Context context,String clientId) {
+        TopkeeperManager.getInstance().getDevKeyList(context, clientId);
+    }
+
+    /**
+     * Get Access control list
+     */
+    public static void requestAccessDevList(Context context,String clientId) {
+        TopkeeperManager.getInstance().requestAccessDevList(context, clientId);
+    }
+
+    /**
+     * refesh ShakeOpen list
+     */
+    public static int refeshShakeList() {
+        return TopkeeperManager.getInstance().refeshShakeList();
+    }
+
+    /**
+     * refest AutoOpen list
+     */
+    public static int refeshAutoList() {
+        return TopkeeperManager.getInstance().refeshAutoList();
+    }
+
+    /**
+     * Auto open model :set the open space time
+     */
+    public static void enableAutoOpenSpaceTime(boolean isOpenSpaceEnable,int autoOpenSeconds) {
+        TopkeeperManager.getInstance().openSpaceTime(isOpenSpaceEnable,autoOpenSeconds);
+    }
+
+    public static void stopAutoScan() {
+        TopkeeperManager.getInstance().stopAutoScan();
+    }
+
+    public static void stopShakeOpen() {
+        TopkeeperManager.getInstance().stopShakeOpen();
+    }
+
+}

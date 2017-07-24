@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@android:color/black"
+    android:id="@+id/list_frame"
+    android:alpha="0.9"
+    >
+    <LinearLayout 
+        android:id="@+id/ll_pane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/mid_point"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/botm_frame"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            >
+            <ImageView 
+	            android:id="@+id/botm_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+            </ImageView>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</RelativeLayout>

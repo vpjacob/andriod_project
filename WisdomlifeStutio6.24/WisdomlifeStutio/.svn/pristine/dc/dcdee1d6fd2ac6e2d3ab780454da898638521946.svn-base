@@ -1,0 +1,9 @@
+apiready = function() {
+var header = $api.byId('header');
+	if (api.systemType == 'ios') {
+		$api.css(header, 'margin-top:20px;');
+	}
+	$("#back").on('click', function() {
+		api.closeWin();
+	});
+}

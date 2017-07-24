@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sdklibrary-release-">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/35a7010a927c5a65ae8f48e8fcf859c19d0c5196/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/35a7010a927c5a65ae8f48e8fcf859c19d0c5196/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

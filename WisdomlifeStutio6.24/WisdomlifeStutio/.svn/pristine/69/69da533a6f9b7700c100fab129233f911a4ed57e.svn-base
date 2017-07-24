@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:fitsSystemWindows="true"
+    android:background="@color/wifi_background"
+    android:orientation="vertical" >
+    
+    <!-- 配置WiFi头部 begin -->
+   	<RelativeLayout
+        android:id="@+id/config_wifi_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/main_topbackground" >
+        <ImageView
+            android:id="@+id/config_wifi_back_img"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/back"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/left_ac" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/config_wifi"
+            android:textColor="@color/main_textcolor"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    <View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#A7A7AA"
+	/>
+    <!-- 配置WiFi头部 end -->
+    
+    <!-- 输入ip地址 start -->
+    <EditText 
+        android:id="@+id/set_ip_address_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ."
+        android:layout_centerVertical="true"
+        android:hint="@string/enter_ip_address"
+        android:textColorHint="@color/input_hintcolor"
+        android:textColor="@color/input_textcolor"
+        android:background="@drawable/bg_edittext_normal"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"/>
+    <!-- 输入ip地址 end -->
+    
+    <!-- 输入端口号start -->
+    <EditText 
+        android:id="@+id/set_port_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_centerVertical="true"
+        android:hint="@string/enter_port"
+        android:textColorHint="@color/input_hintcolor"
+        android:textColor="@color/input_textcolor"
+        android:background="@drawable/bg_edittext_normal"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"/>
+    <!-- 输入端口号end -->
+    
+    <!-- 输入WiFi名称 start -->
+    <EditText 
+        android:id="@+id/set_wifi_name_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColorHint="@color/input_hintcolor"
+        android:hint="@string/enter_wifi_name"
+        android:textColor="@color/input_textcolor"
+        android:background="@drawable/bg_edittext_normal"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"/>
+    <!-- 输入WiFi名称 end -->
+    
+    <!-- 输入WiFi密码 start -->
+    <EditText 
+        android:id="@+id/set_wifi_pswd_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_centerVertical="true"
+        android:textColorHint="@color/input_hintcolor"
+        android:hint="@string/enter_wifi_pswd"
+        android:textColor="@color/input_textcolor"
+        android:background="@drawable/bg_edittext_normal"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"/>
+    <!-- 输入wifi密码 end -->
+	
+	<Button 
+	    android:id="@+id/set_wifi_btn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="30dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginLeft="20dp"
+	    android:text="@string/set_wifi"
+	    android:background="@drawable/shape_btn_blue"/>
+
+</LinearLayout>

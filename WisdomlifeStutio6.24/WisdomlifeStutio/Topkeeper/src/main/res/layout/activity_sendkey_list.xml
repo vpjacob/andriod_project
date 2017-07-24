@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_background"
+	android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    
+	<include
+        android:id="@+id/device_sender_key_top" 
+        layout="@layout/inteligoo_main_top"/>
+	
+	<ListView
+	    android:id="@+id/sendkey_list"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:cacheColorHint="@color/main_background"
+	    android:descendantFocusability="afterDescendants"
+	    android:fastScrollEnabled="false" />
+
+</LinearLayout>

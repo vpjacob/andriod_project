@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#EFEFF4" >
+    <TextView 
+	        android:id="@+id/tv_alert_activity_top"
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:gravity="center"
+	        android:background="#DFDFDF"
+	        android:textSize="18sp"
+	        android:text="@string/device_list"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA"
+       	/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        >
+
+	    <ImageView
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="0.25"
+	        android:contentDescription="@string/activity_device_delete_all_info"
+	        android:paddingBottom="10dp"
+	        android:paddingLeft="10dp"
+	        android:paddingTop="10dp"
+	        android:src="@android:drawable/ic_menu_info_details" />
+
+	    <TextView 
+	        android:id="@+id/tv_alert_activity_remind"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.75"
+	        android:gravity="left|center_vertical"
+	        android:paddingTop="30dp"
+	        android:paddingBottom="30dp"
+	        android:text="@string/activity_device_delete_all_info_ensure_alert"/>
+	</LinearLayout>
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA"
+    />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+
+	    <Button
+	        android:id="@+id/bt_alert_activity_ensure"
+	        android:layout_width="0dp"
+	        android:layout_height="40dp"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="2dp"
+	        android:layout_marginRight="5dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/shape_btn_red"
+	        android:enabled="true"
+	        android:paddingBottom="7dp"
+	        android:paddingTop="7dp"
+	        android:text="@string/activity_device_delete_all_info_enusre"
+	        android:textColor="#FFFFFF"
+	        android:textSize="12sp" />
+
+	    <Button
+            android:id="@+id/bt_alert_activity_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/shape_btn_dark_gray"
+            android:enabled="true"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:text="@string/cancel"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+	</LinearLayout>
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA"
+    />
+</LinearLayout>

@@ -1,0 +1,156 @@
+var tabTop = "6";
+//默认
+var page1 = true;
+var page2 = true;
+var page3 = true;
+var pageNum1 = 1;
+var pageNum2 = 1;
+var pageNum3 = 1;
+//var nowli = '<li class="delete"><div class="detailone"><span class="detailLeft">消费日期：</span><span class="detailRight">\"[lastDay]\"</span>' 
+//+ '</div><span><i class="iconfont icon-meidou"></i></span><span class="detailnumber">\"[tax]\"</span></li>' 
+//+ '<li class="litwo delete"><div class="detailtwo"><span class="detailLeft">消费日期：</span><span class="detailRight">\"[reachtime]\"</span>' 
+//+ '</div><span><i class="iconfont icon-aixin3"></i></span><span class="detailnumber">\"[lovenumber]\"</span></li>';
+
+//var nowli = '<li class="delete"><div class="detailone"><span class="detailLeft">消费日期：</span><span class="detailRight">\"[lastDay]\"</span></div>'
+// + '<span><i class="iconfont icon-moneybag"></i></span><span class="detailnumber">\"[tax]\"</span></li><li class="delete"><div class="detailone">'
+// + '<span class="detailLeft">爱心产生日期：</span><span class="detailRight">\"[reachtime]\"</span></div><span><i class="iconfont icon-aixin3"></i> </span>'
+// + '<span class="detailnumber">\"[totalnumber]\"</span></li><li class="delete"><div class="detailone"><span class="detailLeft">激励中的爱心</span>'
+// + '<span class="detailRight"></span></div><span><i class="iconfont icon-aixin3"></i> </span><span class="detailnumber">\"[lovenumber]\"</span></li>'
+// + '<li class="delete"><div class="detailone"><span class="detailLeft">激励完成的爱心</span><span class="detailRight"></span></div>'
+// + '<span><i class="iconfont icon-aixin3"></i> </span><span class="detailnumber">\"[endnumber]\"</span></li><li class="delete"><div class="detailone">'
+// + '<span class="detailLeft">已激励信使豆</span><span class="detailRight"></span></div><span><i class="iconfont icon-meidou"></i> </span>'
+// + '<span class="detailnumber">+0.00</span></li><li class="delete bottomLi"><div class="detailone"><span class="detailLeft">平台管理费</span><span class="detailRight"></span>'
+// + '</div><span><i class="iconfont icon-meidou"></i> </span><span class="detailnumber">\"[totalnumber2]\"</span></li>';
+var winHeight;
+var offsetTop;
+var urId
+//控制刷新方法的触发
+var isRefresh = true;
+apiready = function() {
+	var header = $api.byId('header');
+	if (api.systemType == 'ios') {
+		var content = $api.dom('.content');
+		$api.css(header, 'margin-top:20px;');
+		$api.css(content, 'margin-top:20px;');
+	}
+
+	winHeight = api.winHeight;
+	offsetTop = $("#back_tab1").offset().top;
+//	上来就执行我的订单的查询
+	FileUtils.readFile("info.json", function(info, err) {
+			urId=info.userNo;
+			queryOrders(urId);
+			setTimeout(function(){queryDealRecord(urId);},1000);
+		});
+
+	
+	
+	
+	$("#choose").on('click', function() {
+		var top = $(this).children().hasClass('icon-top');
+		if (top) {
+			$(".secondul").show();
+			$(this).children().removeClass('icon-top').addClass('icon-down');
+		} else {
+			$(".secondul").hide();
+			$(this).children().removeClass('icon-down').addClass('icon-top');
+		}
+	});
+
+	$("#back").bind("click", function() {
+		api.closeWin();
+	});
+//	getInfos(tabTop, "5", "1");
+	$("#a_tab1").on('click', function() {
+//		$('li.delete').remove();
+//		tabTop = "6";
+//		page1 = true;
+//		isRefresh = true;
+//		pageNum1 = 1;
+//		queryOrders();
+		$('.infinite-scroll-preloader').eq(0).show();
+//		getInfos(tabTop, "5", "1");
+	});
+	$("#a_tab2").on('click', function() {
+//		$('li.delete').remove();
+//		tabTop = "12";
+//		page2 = true;
+//		isRefresh = true;
+//		pageNum2 = 1;
+//		queryDealRecord();
+		$('.infinite-scroll-preloader').eq(1).show();
+//		getInfos(tabTop, "5", "1");
+	});
+//	我的订单方法
+function queryOrders(urId){
+	AjaxUtil.exeScript({
+      script:"mobile.myegg.myegg",
+      needTrascation:true,
+      funName:"queryOrders",
+      form:{
+        userNo:urId
+      },
+      success:function (data) {
+      	var listInfo = data.formDataset.orderList;
+		var list=eval(listInfo);
+		console.log('listInfo为'+list);
+       if (data.formDataset.checked == 'true') {
+//     		$('#ul_tab1 ').empty();
+			if(list.length==0){
+				api.toast({
+					msg : "亲，您暂时没有订单记录！"
+				});
+			}else{
+	       		for(var i=0;i<list.length;i++){
+	       			var nowli = '<div class="same"><li class="delete"><div class="detailone"><span class="detailLeft">商品名称：</span></div><span class="detailnumber">'+list[i].good_name+'</span></li>'
+								+ '<li class="delete"><div class="detailone"><span class="detailLeft">商品单价 ：</span></div><span class="detailnumber">'+list[i].price+'</span></li>'
+	 							+ '<li class="delete"><div class="detailone"><span class="detailLeft">购买数量：</span></div><span class="detailnumber">'+list[i].amount+'</span></li>'
+	 							+ '<li class="delete"><div class="detailone"><span class="detailLeft">总价：</span></div><span class="detailnumber">'+list[i].total+'</span></li>'
+	 							+ '<li class="delete"><div class="detailone"><span class="detailLeft">消费时间：</span></div><span class="detailnumber">'+list[i].create_datetime+'</span></li></div>';
+	       			$('#ul_tab1').append(nowli);
+	       			
+	       		}
+       		}
+         } else {
+             alert(data.formDataset.errorMsg);
+         }
+       }
+    });
+}
+//交易记录
+function queryDealRecord(){
+	AjaxUtil.exeScript({
+      script:"mobile.myegg.myegg",
+      needTrascation:true,
+      funName:"queryDealRecord",
+      form:{
+        userNo:urId
+      },
+      success:function (data) {
+      	console.log(eval(data));
+      	var listInfo = data.formDataset.recordList;
+		var list=eval(listInfo);
+		console.log('交易记录'+listInfo);
+       if (data.formDataset.checked == 'true') {
+//     		$('#ul_tab1 ').empty();
+			if(list.length==0){
+				api.toast({
+					msg : "亲，您暂时没有交易记录！"
+				});
+			}else{
+	       		for(var i=0;i<list.length;i++){
+	       			var nowli = '<div class="same"><li class="delete"><div class="detailone"><span class="detailLeft">商家名字：</span></div><span class="detailnumber">'+list[i].merchant_name+'</span></li>'
+								+ '<li class="delete"><div class="detailone"><span class="detailLeft">交易总额 ：</span></div><span class="detailnumber">'+list[i].deal_amount+'</span></li>'
+	 							+ '<li class="delete"><div class="detailone"><span class="detailLeft">交易时间：</span></div><span class="detailnumber">'+list[i].deal_date+'</span></li></div>';
+	       			$('#ul_tab2').append(nowli);
+	       			
+	       		}
+       		}
+         } else {
+             alert(data.formDataset.errorMsg);
+         }
+       }
+    });
+}
+
+}

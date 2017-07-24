@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+	android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+    <include
+        android:id="@+id/device_setting_top" 
+        layout="@layout/inteligoo_main_top"/>
+    
+    <!-- 修改管理员密码 -->
+    <LinearLayout
+        android:id="@+id/ly_modify_device_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.01dp"
+            android:layout_marginTop="20dp"
+            android:background="#A7A7AA" />
+
+        <LinearLayout
+            android:id="@+id/ly_device_modify_admin_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_select"
+            android:clickable="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/activity_device_set_modify_pwd"
+                android:textColor="@color/main_textcolor"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.1"
+                android:background="@drawable/item_select"
+                android:contentDescription="@string/activity_device_set_modify_pwd"
+                android:padding="5dp"
+                android:src="@drawable/right_ac"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.01dp"
+            android:background="#A7A7AA" />
+    </LinearLayout>
+    
+    <!-- 修改管理员密码 -->
+    
+    <!-- 设置设备信息 -->
+    <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA" 
+        android:layout_marginTop="5dp" /> -->
+    
+    <LinearLayout 
+        android:id="@+id/ly_device_set_dev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/item_select"
+        android:visibility="gone"
+        >
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:paddingLeft="10dp"
+            android:textColor="@color/main_textcolor"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/activity_device_set_dev"
+            android:textSize="15sp"
+            />
+        <ImageView
+     	    android:layout_width="0dp"
+     	    android:layout_weight="0.1"
+     	    android:layout_height="fill_parent"
+     	    android:background="@drawable/item_select"
+     	    android:contentDescription="@string/activity_device_set_dev"
+     	    android:padding="5dp"
+     	    android:src="@drawable/right_ac" 
+     	    android:visibility="visible"
+     	    />
+    </LinearLayout>
+    <View
+		    android:layout_width="match_parent"
+		    android:layout_height="0.01dp"
+		    android:background="#A7A7AA" />
+    
+    
+    <!-- 设置设备信息 -->
+    
+    <!-- 删除所有卡片，所有用户信息 -->
+    <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA" 
+        android:layout_marginTop="5dp" /> -->
+    
+    <LinearLayout 
+        android:id="@+id/ly_device_delete_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/item_select"
+        android:visibility="gone"
+        >
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:paddingLeft="10dp"
+            android:textColor="@color/main_textcolor"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/activity_device_delete_all_info"
+            android:textSize="15sp"
+            />
+        <ImageView
+     	    android:layout_width="0dp"
+     	    android:layout_weight="0.1"
+     	    android:layout_height="fill_parent"
+     	    android:background="@drawable/item_select"
+     	    android:contentDescription="@string/activity_device_delete_all_info"
+     	    android:padding="5dp"
+     	    android:src="@drawable/right_ac" 
+     	    android:visibility="visible"
+     	    />
+
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA" />
+    <!-- 删除所有卡片、所有用户信息 -->
+    
+    <!-- 获取系统信息信息 -->
+    <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA" 
+        android:layout_marginTop="5dp" /> -->
+    
+    <LinearLayout 
+        android:id="@+id/ly_device_get_system_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/item_select"
+        >
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:paddingLeft="10dp"
+            android:textColor="@color/main_textcolor"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/activity_device_get_system_info"
+            android:textSize="15sp"
+            />
+        <ImageView
+     	    android:layout_width="0dp"
+     	    android:layout_weight="0.1"
+     	    android:layout_height="fill_parent"
+     	    android:background="@drawable/item_select"
+     	    android:contentDescription="@string/activity_device_get_system_info"
+     	    android:padding="5dp"
+     	    android:src="@drawable/right_ac" 
+     	    android:visibility="visible"
+     	    />
+
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA" />
+    <!-- 获取系统信息 -->
+    
+    
+    <!-- 恢复出厂设置信息 -->
+    <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA" 
+        android:layout_marginTop="5dp" /> -->
+    
+    <LinearLayout 
+        android:id="@+id/ly_device_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/item_select"
+        android:visibility="gone"
+        >
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/main_textcolor"
+            android:paddingBottom="10dp"
+            android:text="@string/activity_device_reset"
+            android:textSize="15sp"
+            />
+        <ImageView
+     	    android:layout_width="0dp"
+     	    android:layout_weight="0.1"
+     	    android:layout_height="fill_parent"
+     	    android:background="@drawable/item_select"
+     	    android:contentDescription="@string/activity_device_reset"
+     	    android:padding="5dp"
+     	    android:src="@drawable/right_ac" 
+     	    android:visibility="visible"
+     	    />
+
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA" />
+    <!-- 恢复出厂设置信息 -->
+</LinearLayout>

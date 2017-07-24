@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/main_background"
+    android:id="@+id/item_single_contact"
+    android:clickable="true"
+    android:layout_marginBottom="15dp">
+            
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:layout_marginTop="5dp"
+	    android:background="@color/main_background"
+	/>
+   	<LinearLayout
+   	    android:id="@+id/item_contact_badgeview"
+       	android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+    	android:orientation="horizontal" 
+    	android:background="@drawable/item_select"
+    	android:clickable="true"
+    	android:divider="@color/main_background"
+    	android:showDividers="end" >
+    	
+	    <ImageView
+	        android:id="@+id/frag_img_msg"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:padding="5dp"
+	        android:layout_weight="0.1"
+	        android:background="@drawable/item_select"
+	        android:contentDescription="@string/frag_msg_img"
+	        android:src="@mipmap/service_woman" />
+	    
+		<LinearLayout 
+		    android:layout_width="0dp"
+	    	android:layout_height="50dp"
+	    	android:layout_weight="0.5"
+	    	android:orientation="vertical" 
+	    	android:background="@drawable/item_select"
+	    	android:padding="5dp"
+	    	android:paddingLeft="10dp">
+	    	
+		    <TextView
+		        android:id="@+id/frag_msg_name"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:background="@drawable/item_select"
+		        android:textColor="@color/main_textcolor"
+		        android:text="@string/frag_msg_frd"
+		        android:textSize="12sp" />
+
+		    <TextView
+		        android:id="@+id/frag_msg_info"
+		        android:text="@string/frag_msg_info"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:singleLine="true"
+		        android:textColor="@color/main_textcolor"
+		        android:ellipsize="end"
+		        android:background="@drawable/item_select"
+		        android:textSize="12sp" />
+		    
+	    </LinearLayout>
+	    
+	     <TextView
+	        android:id="@+id/frag_msg_time"
+	        android:text="@string/frag_msg_time"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="0.16"
+	        android:contentDescription="@string/frag_msg_time"
+	        android:background="@drawable/item_select"
+	        android:textColor="@color/main_textcolor"
+	        android:paddingBottom="0.5dp"
+		    android:textSize="12sp"
+		    android:singleLine="false"/>
+	</LinearLayout>	 
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C7C7C8" 
+	/>
+</LinearLayout>

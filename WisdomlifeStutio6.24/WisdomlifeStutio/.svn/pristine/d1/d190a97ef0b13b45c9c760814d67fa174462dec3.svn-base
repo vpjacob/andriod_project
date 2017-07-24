@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_topbackground"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ib_device_info_back"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:background="#00000000"
+            android:clickable="true"
+            android:contentDescription="@string/back"
+            android:focusable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/left_ac" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:background="@color/main_topbackground"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/device_info"
+            android:textColor="@color/main_textcolor"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:enabled="false"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/device_info"
+        android:textColor="@color/main_textcolor"
+        android:visibility="gone" />
+
+    
+    <!--
+         <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA"
+        android:layout_marginTop="10dp"
+       	/>
+    -->
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+           	<!-- 设备类型 start -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_background"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/device_type"
+                    android:textColor="@color/main_textcolor"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/activity_device_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:gravity="right|center"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/device_type"
+                    android:textColor="@color/main_textcolor"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:background="#A7A7AA" />
+            
+            
+            <!-- 设备序列号 start -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_background"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/serial_number"
+                    android:textColor="@color/main_textcolor"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/activity_device_sn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:gravity="right|center"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/serial_number"
+                    android:textColor="@color/main_textcolor"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:background="#A7A7AA" />
+            <!-- 设备序列号 end -->
+            
+            
+			<!-- 设备名称 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_background"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/device_name"
+                    android:textColor="@color/main_textcolor"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/activity_device_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="right|center"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/device_name"
+                    android:textColor="@color/main_textcolor"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:background="#A7A7AA" />
+            <!-- 设备名称 end -->
+
+
+            <!-- 设备有效期 start -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_background"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/device_limit_date"
+                    android:textColor="@color/main_textcolor"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/activity_device_limit_date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="right|center"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/device_limit_date"
+                    android:textColor="@color/main_textcolor"
+                    android:textSize="15sp" />
+            </LinearLayout>
+	         <View
+		        android:layout_width="match_parent"
+		        android:layout_height="0.01dp"
+		        android:background="#A7A7AA" />
+
+            <!-- 设备有效期 end -->
+
+
+            <!-- 设置距离 start -->
+            <!--
+		   	<View
+		        android:layout_width="match_parent"
+		        android:layout_height="0.01dp"
+		        android:background="#A7A7AA" 
+		        android:layout_marginTop="5dp"/> 
+		    -->
+            <LinearLayout
+                android:id="@+id/ly_device_set_dev_rssi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/item_select"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/device_set_rssi"
+                    android:textColor="@color/main_textcolor"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/item_select"
+                    android:contentDescription="@string/device_set_dev_wiegand"
+                    android:padding="5dp"
+                    android:src="@drawable/right_ac"
+                    android:visibility="visible" />
+            </LinearLayout>
+            <!--
+		    <View
+		        android:layout_width="match_parent"
+		        android:layout_height="0.01dp"
+		        android:background="#A7A7AA" /> 
+            -->
+            <!-- 设置距离 start -->
+
+
+            <!-- 设置韦根2634 -->
+            <LinearLayout
+                android:id="@+id/ly_device_wiegand_reader_set"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#A7A7AA" />
+
+                <LinearLayout
+                    android:id="@+id/ly_device_set_dev_wiegand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_select"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/device_set_dev_wiegand"
+                        android:textColor="@color/main_textcolor"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1"
+                        android:background="@drawable/item_select"
+                        android:contentDescription="@string/device_set_dev_wiegand"
+                        android:padding="5dp"
+                        android:src="@drawable/right_ac"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#A7A7AA" />
+            </LinearLayout>
+            <!-- 设置韦根26/34 end -->
+
+
+            <!-- 同步设备时间start -->
+            <LinearLayout
+                android:id="@+id/ly_device_function_sync_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#A7A7AA"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ly_device_sycn_dev_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_select"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:visibility="visible" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/device_sycn_dev_time"
+                        android:textColor="@color/main_textcolor"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1"
+                        android:background="@drawable/item_select"
+                        android:contentDescription="@string/device_sycn_dev_time"
+                        android:padding="5dp"
+                        android:src="@drawable/right_ac"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#A7A7AA"
+                    android:visibility="visible" />
+            </LinearLayout>
+            <!-- 同步时间 start -->
+
+
+            <!-- 访客授权start -->
+            <LinearLayout
+                android:id="@+id/ly_device_function_visitor_authorize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/ly_device_temp_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_select"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:visibility="visible" >
+
+                    <TextView
+                        android:id="@+id/tv_activity_device_send_pswd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/device_send_pswd"
+                        android:textColor="@color/main_textcolor"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1"
+                        android:background="@drawable/item_select"
+                        android:contentDescription="@string/device_send_pswd"
+                        android:padding="5dp"
+                        android:src="@drawable/right_ac"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#A7A7AA" />
+            </LinearLayout>
+            <!-- 访客授权结束 -->
+
+
+            <!-- 卡管理  -->
+            <LinearLayout
+                android:id="@+id/ly_device_cardmanage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/ly_device_manage_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_select"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/card_loss_or_manager_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/device_manage_card"
+                        android:textColor="@color/main_textcolor"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1"
+                        android:background="@drawable/item_select"
+                        android:contentDescription="@string/device_manage_card"
+                        android:padding="5dp"
+                        android:src="@drawable/right_ac"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#A7A7AA" />
+			</LinearLayout>
+            <!-- 卡管理  end -->
+
+
+            <!-- 电子钥匙管理 start -->
+			<LinearLayout
+                android:id="@+id/ly_device_ekeymanage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+                <LinearLayout
+                    android:id="@+id/ly_device_digital_key"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_select"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/device_manager_key"
+                        android:textColor="@color/main_textcolor"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1"
+                        android:background="@drawable/item_select"
+                        android:clickable="false"
+                        android:contentDescription="@string/device_manager_key"
+                        android:padding="5dp"
+                        android:src="@drawable/right_ac"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#A7A7AA" />
+			</LinearLayout>
+			 <!-- 发送电子钥匙 end -->
+			 
+			
+			 <!-- 配置扇区密码 start -->
+			<LinearLayout
+                android:id="@+id/ly_device_tmpKey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+                <LinearLayout
+                    android:id="@+id/ly_device_digital_tmpKey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_select"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/device_temporary_key"
+                        android:textColor="@color/main_textcolor"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1"
+                        android:background="@drawable/item_select"
+                        android:clickable="false"
+                        android:contentDescription="@string/device_manager_key"
+                        android:padding="5dp"
+                        android:src="@drawable/right_ac"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#A7A7AA" />
+			</LinearLayout>
+			 <!-- 配置扇区密码 end -->
+			 
+			 <!-- 配置Wifi start -->
+			<LinearLayout
+                android:id="@+id/ly_device_wifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+                <LinearLayout
+                    android:id="@+id/ly_device_config_wifi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_select"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/device_wifi"
+                        android:textColor="@color/main_textcolor"
+                        android:textSize="15sp" />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1"
+                        android:background="@drawable/item_select"
+                        android:clickable="false"
+                        android:contentDescription="@string/device_setting"
+                        android:padding="5dp"
+                        android:src="@drawable/right_ac"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#A7A7AA" />
+			</LinearLayout>
+			 <!-- 配置Wifi end -->
+			 
+			<!-- 远程开门 start -->
+           <LinearLayout
+                android:id="@+id/ly_device_function_remote_open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/ly_device_remote_open"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_select"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/device_remote_open"
+                        android:textColor="@color/main_textcolor"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#A7A7AA" />
+            </LinearLayout>
+            <!-- 远程开门 end -->
+
+
+            <!-- 设备设置-super admin-->
+            <LinearLayout
+                android:id="@+id/ly_device_privilege_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                 >
+
+                <LinearLayout
+                    android:id="@+id/ly_device_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_select"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/device_setting"
+                        android:textColor="@color/main_textcolor"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1"
+                        android:background="@drawable/item_select"
+                        android:clickable="false"
+                        android:contentDescription="@string/device_setting"
+                        android:padding="5dp"
+                        android:src="@drawable/right_ac"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#A7A7AA" />
+            </LinearLayout>
+            <!-- 设置信息 -->
+
+            <!-- 删除设备按钮 -->
+
+            <Button
+                android:id="@+id/bt_device_info_delete_dev"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape_btn_red"
+                android:enabled="true"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                android:text="@string/current_device_delete"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:visibility="visible" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

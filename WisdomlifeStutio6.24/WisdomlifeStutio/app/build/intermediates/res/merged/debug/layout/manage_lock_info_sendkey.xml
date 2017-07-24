@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_background"
+	android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+    <include 
+        android:id="@+id/top_sendkey"
+        layout="@layout/inteligoo_main_top"/>
+	
+	<TextView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/mn_tv_lock_send_receiver"
+		android:singleLine="true"
+		android:textColor="@color/main_textcolor"
+		android:textSize="12sp" 
+		android:layout_marginTop="12dp"
+		android:layout_marginBottom="3dp"
+		android:layout_marginLeft="10dp"/>
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8"
+	/>
+	<!-- 输入手机号 -->
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_background" >
+
+          <EditText
+              android:id="@+id/mn_et_lock_send_phone"
+              android:hint="@string/write_receiver_username"
+              android:inputType="text"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_centerVertical="true"
+              android:textColor="@color/main_textcolor"
+              android:background="@null"
+              android:singleLine="true"
+              android:textColorHint="#BBBBBB"
+              android:textSize="12sp"
+		   android:padding="12dp"/>
+    </RelativeLayout>
+    <View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8"
+	    android:layout_marginLeft="0dp"
+	/>
+    <!-- 描述 -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_background" >
+
+          <EditText
+              android:id="@+id/mn_et_lock_send_remark"
+              android:hint="@string/mn_tv_lock_send_remark"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_centerVertical="true"
+              android:background="@null"
+              android:singleLine="true"
+              android:textColorHint="#BBBBBB"
+              android:textColor="@color/main_textcolor"
+              android:textSize="12sp"
+		   android:padding="12dp"/>
+    </RelativeLayout>
+    
+   	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8"
+	/>
+    <LinearLayout 
+        android:id="@+id/ly_device_info_auth_visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+	  	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8"
+	    android:layout_marginTop="10dp"
+		/>
+		<RadioGroup
+		    android:id="@+id/mn_radio_group_privilige"
+		    android:layout_width="match_parent"
+		   	android:layout_height="wrap_content"
+		   	android:orientation="vertical" 
+		   	android:background="@color/main_background" >
+
+			<RadioButton
+			    android:id="@+id/mn_rb_admin"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:textColor="@color/main_textcolor"
+			    android:padding="10dp"
+			    android:text="@string/mn_tv_lock_send_admin"
+			    android:textSize="12sp"
+			/>
+		    <View
+			    android:layout_width="match_parent"
+			    android:layout_height="0.01dp"
+			    android:background="#C8C8C8"
+			    android:layout_marginLeft="0dp"
+			/>
+		    
+			<RadioButton
+			    android:id="@+id/mn_rb_user"
+			    android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+				android:padding="10dp"
+				android:textColor="@color/main_textcolor"
+				android:checked="true"
+		        android:text="@string/mn_tv_lock_send_user"
+		        android:textSize="12sp"
+			 />
+			
+			
+		</RadioGroup>
+		  	
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_height="0.01dp"
+		    android:background="#C8C8C8"
+		/>
+	</LinearLayout>
+	
+   	<!-- 永久、限时 -->
+   	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8"
+	    android:layout_marginTop="10dp"
+	/>
+
+	<RadioGroup
+	    android:id="@+id/mn_radio_group"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" 
+    	android:background="@color/main_background" >
+
+		<RadioButton
+		    android:id="@+id/mn_rb_forevertime"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textColor="@color/main_textcolor"
+		    android:padding="10dp"
+			android:checked="true"
+		    android:text="@string/mn_tv_lock_send_forevertime"
+		    android:textSize="12sp"
+		/>
+       	
+	
+	    <View
+		    android:layout_width="match_parent"
+		    android:layout_height="0.01dp"
+		    android:background="#C8C8C8"
+		    android:layout_marginLeft="0dp"
+		/>
+	    
+		<RadioButton
+		    android:id="@+id/mn_rb_limittime"
+		    android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/main_textcolor"
+			android:padding="10dp"
+	        android:text="@string/mn_tv_lock_send_limittime"
+	        android:textSize="12sp"
+		 />
+		
+	</RadioGroup>
+	
+   	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8"
+	/>
+   	
+   	<!-- 开始、结束 -->
+	<RelativeLayout
+		android:id="@+id/mn_rl_limit_time"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:visibility="gone">
+
+		<View
+			android:id="@+id/limit_view1"
+			android:layout_width="match_parent"
+			android:layout_height="0.01dp"
+			android:background="#C8C8C8"
+			android:layout_alignParentTop="true"
+			/>
+		<LinearLayout
+			android:id="@+id/mn_ly_start"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:background="@drawable/item_select"
+			android:layout_below="@id/limit_view1">
+
+			<TextView
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:padding="12dp"
+				android:textColor="@color/main_textcolor"
+				android:layout_weight="0.5"
+				android:gravity="center_vertical"
+				android:text="@string/mn_tv_lock_send_start_date"
+				android:textSize="14sp" />
+
+			<TextView
+				android:id="@+id/mn_tv_lock_start_date"
+				android:layout_width="0dp"
+				android:textColor="@color/main_textcolor"
+				android:layout_height="wrap_content"
+				android:padding="12dp"
+				android:layout_weight="0.5"
+				android:gravity="right|center_vertical"
+				android:textSize="14sp" />
+
+		</LinearLayout>
+
+		<View
+			android:id="@+id/limit_view3"
+			android:layout_width="match_parent"
+			android:layout_height="0.01dp"
+			android:background="#C8C8C8"
+			android:layout_below="@id/mn_ly_start"
+			/>
+		<LinearLayout
+			android:id="@+id/mn_ly_start_time"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:background="@drawable/item_select"
+			android:layout_below="@id/limit_view3">
+
+			<TextView
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:padding="12dp"
+				android:textColor="@color/main_textcolor"
+				android:layout_weight="0.5"
+				android:gravity="center_vertical"
+				android:text="@string/mn_tv_lock_send_start_time"
+				android:textSize="14sp" />
+
+			<TextView
+				android:id="@+id/mn_tv_lock_start_time"
+				android:layout_width="0dp"
+				android:textColor="@color/main_textcolor"
+				android:layout_height="wrap_content"
+				android:padding="12dp"
+				android:layout_weight="0.5"
+				android:gravity="right|center_vertical"
+				android:textSize="14sp" />
+
+		</LinearLayout>
+
+		<View
+			android:id="@+id/limit_view2"
+			android:layout_width="match_parent"
+			android:layout_height="0.01dp"
+			android:layout_alignBottom="@id/mn_ly_start_time"
+			android:background="#C8C8C8"
+			/>
+
+
+		<LinearLayout
+			android:id="@+id/mn_ly_end"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:background="@drawable/item_select"
+			android:layout_below="@id/limit_view2">
+
+			<TextView
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:padding="12dp"
+				android:layout_weight="0.5"
+				android:textColor="@color/main_textcolor"
+				android:gravity="center_vertical"
+				android:text="@string/mn_tv_lock_send_end_date"
+				android:textSize="14sp" />
+
+			<TextView
+				android:id="@+id/mn_tv_lock_end_date"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:padding="12dp"
+				android:textColor="@color/main_textcolor"
+				android:layout_weight="0.5"
+				android:gravity="right|center_vertical"
+				android:textSize="14sp" />
+		</LinearLayout>
+
+		<View
+			android:id="@+id/limit_view4"
+			android:layout_width="match_parent"
+			android:layout_height="0.01dp"
+			android:layout_alignBottom="@id/mn_ly_end"
+			android:background="#C8C8C8"
+			/>
+
+
+		<LinearLayout
+			android:id="@+id/mn_ly_end_time"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:background="@drawable/item_select"
+			android:layout_below="@id/limit_view4">
+
+			<TextView
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:padding="12dp"
+				android:layout_weight="0.5"
+				android:textColor="@color/main_textcolor"
+				android:gravity="center_vertical"
+				android:text="@string/mn_tv_lock_send_end_time"
+				android:textSize="14sp" />
+
+			<TextView
+				android:id="@+id/mn_tv_lock_end_time"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:padding="12dp"
+				android:textColor="@color/main_textcolor"
+				android:layout_weight="0.5"
+				android:gravity="right|center_vertical"
+				android:textSize="14sp" />
+		</LinearLayout>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="0.01dp"
+			android:layout_alignBottom="@id/mn_ly_end"
+			android:background="#C8C8C8"
+			/>
+
+	</RelativeLayout>
+   	<!-- 权限界面隐藏 -->
+
+   	
+   	
+   	<!-- 开门次数 -->
+   	<!-- 
+   	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8"
+	    android:layout_marginTop="10dp"
+	/>
+   	<CheckBox
+   	    android:id="@+id/mn_cb_count"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:padding="10dp"
+   	    android:background="#FFFFFF"
+   	    android:text="@string/mn_tv_lock_send_opencount"
+   	    android:textSize="12sp"/>
+   	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8"
+	/>
+	 -->
+   	
+   	<!-- 设置开门次数 -->
+   	<!-- 
+   	<RelativeLayout
+   	    android:id="@+id/mn_rl_opencount"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginTop="10dp"
+		android:visibility="gone">
+
+	   	<View
+	   	    android:id="@+id/count_view1"
+		    android:layout_width="match_parent"
+		    android:layout_height="1dp"
+		    android:background="#C8C8C8"
+		    android:layout_alignParentTop="true"
+		/>
+	   	
+		<LinearLayout
+		    android:id="@+id/mn_ly_opencount"
+		    android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal" 
+	    	android:background="#FFFFFF"
+	    	android:layout_below="@id/count_view1">
+	    	
+		    <TextView
+		        android:layout_width="0dp"
+		        android:layout_height="fill_parent"
+		        android:padding="12dp"
+		        android:layout_weight="0.4"
+		        android:gravity="center_vertical"
+		        android:text="@string/mn_tv_lock_send_opencount"
+		        android:textSize="14sp" />
+
+			<TextView
+			    android:id="@+id/mn_tv_lock_opencount"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:padding="12dp"
+		        android:layout_weight="0.8"
+		        android:gravity="right|center_vertical"
+		        android:textSize="14sp" />
+
+		</LinearLayout>
+		
+		<View
+		    android:layout_width="match_parent"
+		    android:layout_height="1dp"
+		    android:layout_alignBottom="@id/mn_ly_opencount"
+		    android:background="#C8C8C8"
+		/>
+	</RelativeLayout>
+	 -->
+   	
+   	<!-- 发送钥匙按钮 -->
+    <Button
+        android:id="@+id/mn_bt_send_key"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:enabled="true"
+        android:background="@drawable/shape_btn_blue"
+        android:text="@string/mn_ly_lock_send"
+        android:textSize="14sp" 
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

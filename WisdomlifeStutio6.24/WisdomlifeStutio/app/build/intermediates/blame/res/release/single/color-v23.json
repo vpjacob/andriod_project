@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/color-v23/abc_btn_colored_text_material.xml"
+    }
+]

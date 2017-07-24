@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget id="A6921550712789" version="0.0.1"> 
+  <name>WisdomLife</name>  
+  <description>Example For APICloud.</description>  
+  <author email="developer@apicloud.com" href="http://www.apicloud.com">Developer</author>  
+  <content src="index.html"/>  
+  <preference name="pageBounce" value="false"/>  
+  <preference name="appBackground" value="rgba(0,0,0,0.0)"/>  
+  <preference name="windowBackground" value="rgba(0,0,0,0.0)"/>  
+  <preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>  
+  <preference name="hScrollBarEnabled" value="true"/>  
+  <preference name="vScrollBarEnabled" value="true"/>  
+  <preference name="autoLaunch" value="true"/>  
+  <preference name="fullScreen" value="true"/>  
+  <preference name="autoUpdate" value="true"/>  
+  <preference name="smartUpdate" value="true"/>  
+  <preference name="debug" value="true"/>  
+  <preference name="statusBarAppearance"/>  
+  <permission name="readPhoneState"/>  
+  <permission name="camera"/>  
+  <permission name="record"/>  
+  <permission name="location"/>  
+  <permission name="fileSystem"/>  
+  <permission name="internet"/>  
+  <permission name="bootCompleted"/>  
+  <permission name="hardware"/>  
+  <access origin="*"/>  
+  <feature name="bMap"> 
+    <param name="android_api_key" value="ZZ83HNgElMgi8KcV9aRuy7BWVvzSAZUB"/>  
+    <param name="ios_api_key" value="aKBvMBAtTsrTgCs7GfFz14CuWtOZsU6g"/> 
+  </feature>  
+  <feature name="ajpush"> 
+    <param name="app_key" value="b0bcf2cfdfec066d95f70d75"/>  
+    <param name="channel" value="developer-apicloud"/> 
+  </feature>  
+  <feature name="qq"> 
+    <param name="urlScheme" value="tencent1105800320"/>  
+    <param name="apiKey" value="1105800320"/> 
+  </feature>  
+  <feature name="wx"> 
+    <param name="urlScheme" value="wxd03339e60be7068e"/>  
+    <param name="apiKey" value="wxd03339e60be7068e"/>  
+    <param name="apiSecret" value="f0f556a022c7493b1284704d3605a32e"/> 
+  </feature>  
+  <feature name="weibo"> 
+    <param name="urlScheme" value="wb82f1c431f56269defa3c4fa43a76f136"/>  
+    <param name="apiKey" value="3335529635"/> 
+  </feature> 
+</widget>

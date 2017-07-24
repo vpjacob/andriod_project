@@ -1,0 +1,263 @@
+apiready = function() {
+//	var header = $api.byId('title');
+//	if (api.systemType == 'ios') {
+//		var cc = $api.dom('.content');
+//		$api.css(header, 'margin-top:20px;');
+//		$api.css(cc, 'margin-top:20px;');
+//	} else {
+//		var tel = $api.byId('tel');
+//		$api.css(tel, 'padding-right:25px;');
+//	}
+
+//	$(function(){
+	
+//	$('#gj').click(function(){
+//		
+//		$('#left0').attr('src', '../../image/icon_m.png');
+//		$('#left1').attr('src', '../../image/icon_x.png');
+//		$('#right0').attr('src', '../../image/icon_z.png');
+//		$('#left3').attr('src', '../../image/icon_n.png');
+//		
+//	});
+//  $('#sj').click(function(){
+//		$('#left0').attr('src', '../../image/icon_v.png');
+//		$('#left1').attr('src', '../../image/icon_q.png');
+//		$('#right0').attr('src', '../../image/icon_z.png');
+//		$('#left3').attr('src', '../../image/icon_n.png');
+//	});
+//	$('#my').click(function(){
+//		$('#left0').attr('src', '../../image/icon_v.png');
+//		$('#left1').attr('src', '../../image/icon_x.png');
+//		$('#right0').attr('src', '../../image/icon_r.png');
+//		$('#left3').attr('src', '../../image/icon_n.png');
+//	});
+//	$('#ll').click(function(){
+//		$('#left0').attr('src', '../../image/icon_v.png');
+//		$('#left1').attr('src', '../../image/icon_x.png');
+//		$('#right0').attr('src', '../../image/icon_z.png');
+//		$('#left3').attr('src', '../../image/icon_t.png');
+//	});
+
+//	返回上一个页面
+//	$('#back').click(function(){
+//		api.openFrame({
+//		name : 'aroundWin',
+//		url : '../../../index.html',
+//		bounces : false,
+//		});
+//	})
+	
+//代码为钥匙包生效的情况下进行释放
+//	$('#gj').click(function(){
+//		$('#left').attr('src', '../../image/xiaoqu.png');
+//		$('#right').attr('src', '../../image/key1.png');
+//	});
+//	$('#ll').click(function(){
+//		$('#left').attr('src', '../../image/xiaoqu1.png');
+//		$('#right').attr('src', '../../image/key.png');
+//	});
+	
+	
+	$('footer div').click(function(){
+		$(this).addClass("special").siblings().removeClass("special");
+	})
+	
+//	点击公告进行跳转
+	$('#gonggao').click(function() {
+		api.openWin({
+			name : 'gonggao',
+			url : 'gonggao/gonggao.html',
+			slidBackEnabled : true,
+			animation : {
+				type : "push", //动画类型（详见动画类型常量）
+				subType : "from_right", //动画子类型（详见动画子类型常量）
+				duration : 300 //动画过渡时间，默认300毫秒
+			}
+		});
+	});
+//	生活缴费
+		$('#jiaofei').click(function() {
+		api.openWin({
+			name : 'jiaofei',
+			url : 'shenghuojiaofei/shenghuojiaofei.html',
+			slidBackEnabled : true,
+			animation : {
+				type : "push", //动画类型（详见动画类型常量）
+				subType : "from_right", //动画子类型（详见动画子类型常量）
+				duration : 300 //动画过渡时间，默认300毫秒
+			}
+		});
+	});
+//维修
+	$('#weixiu').click(function() {
+		api.openWin({
+			name : 'wywx',
+			url : 'wywx/wywx.html',
+			slidBackEnabled : true,
+			animation : {
+				type : "push", //动画类型（详见动画类型常量）
+				subType : "from_right", //动画子类型（详见动画子类型常量）
+				duration : 300 //动画过渡时间，默认300毫秒
+			}
+		});
+	});
+//访客
+	$('#fangke').click(function() {
+                       
+                       //访客授权
+                       api.accessNative({
+                                        name: 'VisitorPass',
+                                        extra: {
+                                        
+                                        }
+                                        }, function(ret, err) {
+                                        if (ret) {
+                                        //                                    alert(JSON.stringify(ret));
+                                        } else {
+                                        //                                    alert(JSON.stringify(err));
+                                        }
+                                        });
+                       
+                       
+                       
+//		api.openWin({
+//			name : 'wywx',
+//			url : 'fangke/fangke.html',
+//			slidBackEnabled : true,
+//			animation : {
+//				type : "push", //动画类型（详见动画类型常量）
+//				subType : "from_right", //动画子类型（详见动画子类型常量）
+//				duration : 300 //动画过渡时间，默认300毫秒
+//			}
+//		});
+	});
+	
+//	房屋
+	$('#fangwu').click(function() {
+		api.openWin({
+			name : 'fangwu',
+			url : 'fangwu/addfangwu.html',
+			slidBackEnabled : true,
+			animation : {
+				type : "push", //动画类型（详见动画类型常量）
+				subType : "from_right", //动画子类型（详见动画子类型常量）
+				duration : 300 //动画过渡时间，默认300毫秒
+			}
+		});
+	});	
+//	点击门口视频跳转
+	$('#shipin').click(function() {
+                       
+                       
+                       //进入设备列表
+                       api.accessNative({
+                                        name: 'DoorVideoList',
+                                        extra: {
+                                        
+                                        }
+                                        }, function(ret, err) {
+                                        if (ret) {
+                                        //                                    alert(JSON.stringify(ret));
+                                        } else {
+                                        //                                    alert(JSON.stringify(err));
+                                        }
+                       });
+                       
+                       
+//		api.openWin({
+//			name : 'menkoutv',
+//			url : 'menkoutv/menkoutv.html',
+//			slidBackEnabled : true,
+//			animation : {
+//				type : "push", //动画类型（详见动画类型常量）
+//				subType : "from_right", //动画子类型（详见动画子类型常量）
+//				duration : 300 //动画过渡时间，默认300毫秒
+//			}
+//		});
+	});
+    //	点击门禁钥匙跳转
+    $('#yaoshi').click(function() {
+                       
+                       //进入设备列表
+                       api.accessNative({
+                                        name: 'DeviceList',
+                                        extra: {
+                                        
+                                        }
+                                        }, function(ret, err) {
+                                        if (ret) {
+                                        //                                    alert(JSON.stringify(ret));
+                                        } else {
+                                        //                                    alert(JSON.stringify(err));
+                                        }
+                                        });
+                       });
+    //	点击历史记录跳转
+	$('#jilu').click(function() {
+                     
+                     //进入开门记录列表
+                     api.accessNative({
+                                      name: 'OpenRecord',
+                                      extra: {
+                                      
+                                      }
+                                      }, function(ret, err) {
+                                      if (ret) {
+                                      //                                    alert(JSON.stringify(ret));
+                                      } else {
+                                      //                                    alert(JSON.stringify(err));
+                                      }
+                                      });
+                     
+//		api.openWin({
+//			name : 'history',
+//			url : 'history/history.html',
+//			slidBackEnabled : true,
+//			animation : {
+//				type : "push", //动画类型（详见动画类型常量）
+//				subType : "from_right", //动画子类型（详见动画子类型常量）
+//				duration : 300 //动画过渡时间，默认300毫秒
+//			}
+//		});
+	});
+
+//})
+    
+    //	一键开门
+    $('#onceopen').click(function() {
+                       
+                       //一键开门
+                       api.accessNative({
+                                        name: 'Onceopen',
+                                        extra: {
+                                        
+                                        }
+                                        }, function(ret, err) {
+                                        if (ret) {
+                                        //                                    alert(JSON.stringify(ret));
+                                        } else {
+                                        //                                    alert(JSON.stringify(err));
+                                        }
+                                        });
+                       });
+    
+    
+    //	进入设置界面
+    $('#setting').click(function() {
+                       
+                       //进入设置界面
+                       api.accessNative({
+                                        name: 'Setting',
+                                        extra: {
+                                        
+                                        }
+                                        }, function(ret, err) {
+                                        if (ret) {
+                                        //                                    alert(JSON.stringify(ret));
+                                        } else {
+                                        //                                    alert(JSON.stringify(err));
+                                        }
+                                        });
+                       });
+    
+}

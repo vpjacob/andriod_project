@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">小客智慧生活</string>
+
+    <!-- 
+    <string name="app_name">TopKeeper</string> 
+    <string name="app_name">DingDing</string>
+    <string name="app_name">C.cube</string>
+    <string name="app_name">Shannon Systems</string>
+    <string name="app_name">Happy housekeeper</string>
+    <string name="app_name">Uhome</string>
+    <string name="app_name">Wisdomlife</string>
+    -->
+
+    <string name="menu_community">Home</string>
+    <string name="menu_keydoor">Key</string>
+    <string name="menu_intelligenthome">Mine</string>
+
+    <!-- pickView -->
+    <string name="pickerview_cancel">Cancel</string>
+    <string name="pickerview_submit">Ensure</string>
+    <string name="pickerview_year">Year</string>
+    <string name="pickerview_month">Month</string>
+    <string name="pickerview_day">Day</string>
+    <string name="pickerview_hours">Hour</string>
+    <string name="pickerview_minutes">Minute</string>
+    <string name="pickerview_seconds">Second</string>
+
+
+    <string name="accept">Accept</string>
+    <string name="delete">Delete</string>
+    <string name="retry">Retry</string>
+    <string name="decline">Decline</string>
+    <string name="add_video_dialog">Your correspondent would like to turn on the video</string>
+    <string name="no_current_call">No active call</string>
+    <string name="action_settings">Settings</string>
+    <string name="call_stats_audio">Audio</string>
+    <string name="call_stats_video">Video</string>
+    <string name="call_stats_codec">Codec:</string>
+    <string name="call_stats_upload">Upload bandwidth:</string>
+    <string name="call_stats_download">Download bandwidth:</string>
+    <string name="call_stats_ice">ICE connectivity:</string>
+    <string name="call_stats_video_resolution">Video size:</string>
+    <string name="pref_disable_account">Disable</string>
+    <string name="pref_tunnel">Tunnel</string>
+    <string name="pref_tunnel_host">Hostname</string>
+    <string name="pref_tunnel_port">Port</string>
+    <string name="pref_tunnel_mode">Mode</string>
+    <string name="call_paused_by_remote">Your correspondent paused the call</string>
+    <string name="incoming_call">incoming call</string>
+    <string name="content_description_toggle_micro">Toggle micro</string>
+    <string name="content_description_toggle_speaker">Toggle speaker</string>
+    <string name="content_description_decline">Decline</string>
+    <string name="content_description_hang_up">Hang up</string>
+    <string name="content_description_accept">Accept</string>
+    <string name="content_description_contact_picture">Contact picture</string>
+    <string name="content_description_pause">Pause</string>
+    <string name="content_description_switch_camera">Switch camera</string>
+    <!-- do not change order without changing corresponding entry_values in non_localizable_strings.xml -->
+    <string-array name="tunnel_mode_entries">
+        <item>disabled</item>
+        <item>3G only</item>
+        <item>always</item>
+        <item>auto</item>
+    </string-array>
+    <!-- Settings -->
+    <string-array name="video_preset_entries">
+        <item>default</item>
+        <item>high-fps</item>
+        <item>custom</item>
+    </string-array>
+    <!--compatibility-->
+    <string name="unread_messages">%i unread messages</string>
+    <!--LinphoneManager-->
+    <string name="unknown_incoming_call_name">Unknown</string>
+    <!--LinphoneServise-->
+    <string name="notification_started">started</string>
+    <string name="status_conf_call">conf</string>
+    <string name="status_active_call">active</string>
+    <string name="state_paused">paused</string>
+    <string name="state_paused_by_remote">paused by remote</string>
+    <string name="state_streams_running">state streams running</string>
+    <string name="incall_notif_active">Audio call ongoing</string>
+    <string name="incall_notif_paused">Paused call ongoing</string>
+    <string name="incall_notif_video">Video capturing call ongoing</string>
+
+    <!-- <string name="conf_simple_no_current_call">No active call</string> -->
+    <string name="pref_audio_hacks_title">Audio hacks</string>
+    <string name="pref_audio_use_specific_mode_title">Use specific mode hack</string>
+    <string name="pref_audio_use_specific_mode_summary">0=MODE_NORMAL (default), 2=MODE_IN_CALL</string>
+    <string name="pref_audio_hacks_use_routing_api_title">Use routing API hack</string>
+    <string name="pref_audio_hacks_use_galaxys_hack_title">Use Galaxy S audio hack</string>
+    <string name="pref_audio_soft_volume_title">Use software volume</string>
+    <string name="pref_ipv6_title">Use ipv6 instead of ipv4</string>
+    <string name="pref_network_title">Network</string>
+    <string name="pref_transport">Transport</string>
+    <string name="pref_transport_udp">UDP</string>
+    <string name="pref_transport_tcp">TCP</string>
+    <string name="pref_transport_tls">TLS</string>
+    <string name="pref_transport_use_random_ports">Use random ports</string>
+    <string name="pref_sip_port_title">SIP port to use</string>
+    <string name="pref_add_account">Add account</string>
+    <string name="pref_delete_account">Delete this account</string>
+    <string name="pref_default_account">Use as default</string>
+    <string name="pref_echo_canceller_calibration">Echo canceller calibration</string>
+    <string name="pref_video_use_front_camera_title">Use front camera</string>
+    <string name="pref_video">Video</string>
+    <string name="pref_preferences">Preferences</string>
+    <string name="pref_video_codecs_title">Codecs</string>
+    <string name="pref_preferred_video_size">Preferred video size</string>
+    <string name="pref_video_settings_title">Video settings</string>
+    <string name="pref_video_automatically_share_my_video_title">Share my camera</string>
+    <string name="pref_video_automatically_accept_video_title">Accept incoming video requests</string>
+    <string name="pref_video_automatically_share_my_video">Automatically send my camera</string>
+    <string name="pref_video_automatically_accept_video">Always accept video requests</string>
+    <string name="pref_video_initiate_call_with_video_title">Initiate video calls</string>
+    <string name="pref_video_initiate_call_with_video">Always send video requests</string>
+    <string name="pref_video_enable_title">Enable Video</string>
+    <string name="pref_bandwidth_limit">Bandwidth limit in kbits/s</string>
+    <string name="pref_animation_enable_title">Enable Animations</string>
+    <string name="pref_escape_plus">Replace + by 00</string>
+    <string name="pref_ilbc_summary">iLBC might be unavailable depending on ARM processor and Android OS version.</string>
+    <string name="pref_echo_cancellation">Echo cancellation</string>
+    <string name="pref_autostart">Start at boot time</string>
+    <string name="pref_enable_outbound_proxy">Outbound proxy</string>
+    <string name="pref_codecs">Codecs</string>
+    <string name="pref_communication_expire_title">Communication timeout</string>
+    <string name="pref_incoming_expire_title">Incoming call timeout</string>
+    <string name="pref_video_port_title">Video port or port range</string>
+    <string name="pref_audio_port_title">Audio port or port range</string>
+    <string name="pref_video_port_description">Video port or port range (minport-maxport)</string>
+    <string name="pref_audio_port_description">Audio port or port range (minport-maxport)</string>
+    <string name="pref_incoming_call_timeout_title">Incoming call timeout (in seconds)</string>
+    <string name="pref_adaptive_rate_control">Adaptive rate control</string>
+    <string name="pref_adaptive_rate_algorithm">Adaptive rate algorithm</string>
+    <string name="pref_codec_bitrate_limit">Codec bitrate limit</string>
+
+    <string-array name="limit_bitrate_entries">
+        <item>10 kbits/s</item>
+        <item>15 kbits/s</item>
+        <item>20 kbits/s</item>
+        <item>36 kbits/s</item>
+        <item>64 kbits/s</item>
+        <item>128 kbits/s</item>
+    </string-array>
+    <string name="pref_debug">Debug</string>
+    <string name="pref_audio">Audio</string>
+    <string name="pref_prefix">Prefix</string>
+    <string name="pref_advanced">Advanced</string>
+    <string name="pref_proxy">Proxy</string>
+    <string name="pref_domain">Domain*</string>
+    <string name="pref_passwd">Password*</string>
+    <string name="pref_username">Username*</string>
+    <string name="pref_sipaccount">SIP Account</string>
+    <string name="pref_echo_cancellation_summary">Removes the echo heard by other end</string>
+    <string name="pref_stun_server">Stun server</string>
+    <string name="pref_ice_enable">Enable ICE</string>
+    <string name="pref_ice_enable_summary">A STUN server must be configured to use ICE</string>
+    <string name="pref_amr_summary">AMR codec might not be present on your phone</string>
+    <string name="pref_media_encryption">Media encryption</string>
+    <string name="pref_video_codec_h264_unavailable">Codec disabled, build the app from source code to enable it</string>
+    <string name="pref_video_codec_mpeg4_unavailable">Codec disabled, build the app from source code to enable it</string>
+    <string name="pref_sipaccounts">SIP Accounts</string>
+    <string name="pref_wifi_only">Use wifi only</string>
+    <string name="pref_push_notification">Enable push notifications</string>
+    <string name="pref_help_proxy">SIP proxy hostname or ip address (optional)</string>
+    <string name="pref_help_outbound_proxy">Route all calls through SIP proxy</string>
+    <string name="pref_help_username">Example: john if your account is john@sip.example.org</string>
+    <string name="pref_help_domain">sip.example.org if your account is john@sip.example.org</string>
+    <string name="pref_help_password">You have to re-enter your password if you edit your username and/or the domain</string>
+    <string name="pref_linphone_friend_title">Friends</string>
+    <string name="pref_image_sharing_server_title">Sharing server</string>
+    <string name="pref_remote_provisioning_title">Remote provisioning</string>
+    <string name="pref_auto_accept_friends_title">New friends</string>
+    <string name="pref_auto_accept_friends_desc">Automatically accept new friend requests</string>
+    <string name="pref_primary_account_title">Primary account</string>
+    <string name="pref_display_name_title">Display name</string>
+    <string name="pref_user_name_title">Username</string>
+    <string name="pref_expire_title">Expire</string>
+    <string name="pref_avpf">AVPF</string>
+    <string name="pref_avpf_rr_interval"> AVPF regular RTCP interval in seconds (between 1 and 5)</string>
+    <string name="pref_rfc2833_dtmf">Send RFC2833 DTMFs</string>
+    <string name="pref_sipinfo_dtmf">Send SIP INFO DTMFs</string>
+    <string name="pref_voice_mail">Voice mail uri</string>
+    <string name="pref_background_mode">Background mode</string>
+    <string name="pref_auth_userid">Auth userid</string>
+    <string name="pref_help_auth_userid">Enter authentication userid (optionnal)</string>
+    <string name="pref_display_name">Display name</string>
+    <string name="pref_help_display_name">Enter display name (optionnal)</string>
+    <string name="pref_upnp_enable">Enable UPNP</string>
+    <string name="pref_manage">Manage</string>
+    <string name="setup_forced_proxy"></string>
+
+
+    <!-- 登陆 -->
+    <string name="enter_account">Please Enter Account</string>
+    <string name="enter_password">Please Enter Password</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="register_account">Register Account</string>
+    <string name="login_success">Login Success</string>
+    <string name="login_failure">Login Failure, Enter The State Of Offline</string>
+    <string name="logining">Login…</string>
+    <string name="login_failure_result">Login Failure </string>
+    <string name="voip_null">Voip Account Is Null</string>
+    <string name="account_pwd_empty">Account Or Password Cannot Be Empty</string>
+
+    <!-- 注册 -->
+    <string name="enter_phone_number">Please Enter Phone Number</string>
+    <string name="enter_nickname">Please Enter Nickname</string>
+    <string name="enter_verification_code">Please Enter Verification Code</string>
+    <string name="obtain">Obtain</string>
+    <string name="register">Register</string>
+    <string name="enter_right_phone_number">Please Enter Correct Phone Number</string>
+    <string name="enter_right_email_address">Please Enter Correct Email Address</string>
+    <string name="verification_sent">Verification Code Has Been Sent, Please Pay Attention To Receive</string>
+    <string name="phone_number_been_registered">The Phone Number Has Been Registered</string>
+    <string name="register_succeed">Register Succeed And Go To Login</string>
+
+    <!-- 智慧小区 -->
+    <string name="authorize_visitor">Guest</string>
+    <string name="community_message">Message</string>
+    <string name="contact_tenement">Tenement</string>
+    <string name="door_video">Door Video</string>
+    <string name="open_record">Open Record</string>
+    <string name="community_more">More</string>
+    <string name="cancel">Cancel</string>
+    <string name="call">Call</string>
+
+    <!-- 一键开门 -->
+    <string name="guard_list">Guard List</string>
+    <string name="without_authorize_device">Without Authorization Device</string>
+    <string name="without_scan_authorize_device">No authorization to scan</string>
+    <string name="operationing">Wait For Operation</string>
+    <string name="no_device_scaned">No Device Is Scaned</string>
+    <string name="open_succeed">Open Succeed</string>
+    <string name="open_fail">Open Fail</string>
+    <string name="exit">Safety Exit</string>
+
+    <!-- 呼叫列表 -->
+    <string name="call_list">Door List</string>
+
+    <!-- 访客授权 -->
+    <string name="no_permission">No Device Can Be Authorized</string>
+    <string name="no_dev_info">There Is No Information From The Device</string>
+    <string name="wait_a_moment">Wait A Moment......</string>
+    <string name="loading">Loading......</string>
+    <string name="enter_phone_or_username">Please Enter The Phone Number Or Username Of Guest</string>
+    <string name="authorize_end_time">Please Choose The End Time Of Authorization</string>
+    <string name="authorize">Authorize</string>
+    <string name="send_succeed">Send Successful</string>
+    <string name="send_wrong">The Sending Was Wrong</string>
+    <string name="select_time_tips">Please Choose The End Time Of Authorization First</string>
+    <string name="null_receiver">Receiver Can Not Be Null</string>
+    <string name="choose_time_less_than_current">Less than the current date</string>
+
+    <!-- 接听界面 -->
+    <string name="callin_wrong">Something Wrong When Answer</string>
+    <string name="bad_internet">The Current Network Is So Bad That Can Not Be Used To Audio And Video Communication</string>
+
+    <!-- 门禁列表 -->
+    <string name="no_permission_dev">You Have No Permission Of The Device</string>
+
+    <!-- 返回值 -->
+    <string name="verify_num_wrong">Verify number is wrong</string>
+    <string name="failed_create_account">Failed to create the account</string>
+    <string name="check_network_error">Please check network state</string>
+    <string name="operation_success">operation success</string>
+    <string name="access_token_null">Account validation failed:1039</string>
+    <string name="account_pwd_failed">Account or password authentication failed</string>
+    <string name="phone_no_verify">The phone is not verified</string>
+    <string name="verify_num_is_wrong">Verify number is wrong</string>
+    <string name="verify_num_ex_valid">Verify number is valid</string>
+    <string name="account_has_registered">Account registered</string>
+    <string name="failed_to_create_account">Create account wrong</string>
+    <string name="failed_send_sms_verify_num">Failed send SMS verify number</string>
+    <string name="failed_to_modify_pwd">Failed to modify password</string>
+    <string name="client_id_is_null">>Account validation failed,Please login again</string>
+    <string name="server_error">Login failed, server error</string>
+    <string name="password_failed">Password error</string>
+    <string name="account_password_failed">Account or Password error</string>
+    <string name="client_id_message_id_no_match">Can not delete, verify number is wrong</string>
+    <string name="phone_does_not_exist">The account does not exist</string>
+    <string name="phone_num_is_incorrect">The account is wrong</string>
+    <string name="backup_key_does_not_exist">Back-up Key does not exist</string>
+    <string name="time_format_error">Time format error</string>
+    <string name="access_token_no_exist">Account validation failed:1035</string>
+    <string name="this_feature_no_currently_support">Do not support the function</string>
+    <string name="user_or_device_without_authorization">Unauthorized account or device</string>
+    <string name="other_manager_send_the_key">Other manager had authorized the key</string>
+    <string name="rec_account_does_not_register">The account does not registered</string>
+    <string name="can_not_send_the_key_to_self">Should not send the key to self</string>
+    <string name="device_can_not_support_the_feature">Device does not support the function</string>
+    <string name="have_not_permission_to_the_feature">No Permission to operate</string>
+    <string name="server_failed_to_process_info">Server failed to process info</string>
+    <string name="must_use_param">Error param:1501</string>
+    <string name="json_data_format_error">Error param:1502</string>
+    <string name="param_value_is_no_define">Error param:1503</string>
+    <string name="param_type_error">Error param:1504</string>
+    <string name="does_not_supprt_the_language">does not support the language</string>
+    <string name="param_is_null">Error param:1506</string>
+    <string name="param_value_must_be_number">Error param:1507</string>
+    <string name="server_not_response">Server does not response</string>
+
+    <string name="forgot_pwd">Forgot?</string>
+    <string name="phoneuser">Mobile phone user</string>
+    <string name="mailuser">Email user</string>
+    <string name="msg_enter_verify">Please enter verify number</string>
+    <string name="msg_write_pwd">Pealse enter your password</string>
+    <string name="msg_ensure_pwd">Please  ensure your password</string>
+    <string name="macth_pwd">Two input password does not match, please input again</string>
+    <string name="back">Back</string>
+    <string name="write_phone_number">Please enter phone number</string>
+    <string name="send_verifynum">Get Verify Number</string>
+    <string name="had_send_verifynum">Number had send</string>
+    <string name="msg_phone">The number had send to your phone</string>
+    <string name="msg_verify">SMS verify number</string>
+    <string name="msg_pwd_info">Please set up 6 letter password</string>
+    <string name="submit">Submit</string>
+    <string name="check_network">Please Check NetWork</string>
+    <string name="failed_to_send_verify">failed to send verify number</string>
+    <string name="server_not_react">Server not react</string>
+    <string name="write_username_or_email">Please enter phone/email number</string>
+    <string name="write_email">Please enter email</string>
+    <string name="modify_pwd_success">modify password successful</string>
+    <string name="modify_pwd_failed">failed to modify password</string>
+    <string name="mail_sent_successfully">Mail sent successfully, please amend the password to E-mail</string>
+
+    <string name="notice">Announcements</string>
+    <string name="system_record">System record</string>
+    <string name="setting">Setting</string>
+    <string name="device_list">Device list</string>
+    <string name="visitor_pass">Visitor pass</string>
+    <string name="touch_life_more_than_you_want">Touch life more than you want</string>
+    <string name="email">email</string>
+    <string name="account">account</string>
+    <string name="pasword">pasword</string>
+    <string name="no_account">No account？</string>
+    <string name="enter_phone_or_email">Please enter your phone number or email address</string>
+    <string name="enter_phone">Please enter your phone number</string>
+    <string name="enter_email">Please enter your email address</string>
+    <string name="mailbox_registration">Mailbox registration</string>
+    <string name="phone_number_registration">Phone number registration</string>
+    <string name="select_country">select</string>
+    <string name="sex">sex</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="birth_date">birth day</string>
+    <string name="enter_birth_date">Please enter yout birthday</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="confirm">confirm</string>
+    <string name="is_the_registered">Is registering…</string>
+    <string name="phone_number">phone number</string>
+    <string name="obtain_again">obtain again</string>
+    <string name="verification_code_obtain_failed">Failed to get the verification code</string>
+    <string name="nickname">nickname</string>
+    <string name="registration_failure">Registration failure</string>
+    <string name="shake">Shake Shake</string>
+    <string name="shake_to_open">Shake to open</string>
+    <string name="shake_to_open_function">Shake to unlock function</string>
+    <string name="adjust_distance">Adjust distance</string>
+    <string name="near_to_open">To close to open</string>
+    <string name="near_field_unlocking_function">Close door function</string>
+    <string name="about">Aboout</string>
+    <string name="user">User</string>
+    <string name="email_activate">For registered mail, please click on the activate account, inactive temporarily unavailable.</string>
+    <string name="email_submit">Return to the login interface</string>
+    <string name="account_had_registed">The account had registered</string>
+    <string name="failed_register_unknow">Failed to register</string>
+
+    <string name="yoho_commit">Commit</string>
+    <string name="automatic_door_opening">Automatic door opening</string>
+    <string name="modify_pwd">Modify password</string>
+    <string name="old_password">Old password</string>
+    <string name="enter_old_password">Please enter old password</string>
+    <string name="new_password">New password</string>
+    <string name="enter_new_password">Please enter new password</string>
+    <string name="ensure_pwd">Confirm password</string>
+    <string name="create_new_password">Create new password</string>
+    <string name="failed_to_change_password">Failed to change password,password is wrong!</string>
+    <string name="customer_service">Customer service</string>
+    <string name="yoho_phone">Phone:+852 31881075</string>
+    <string name="yoho_fax">Fax:+852 31881076</string>
+    <string name="yoho_website">Website:www.yohoit.com</string>
+    <string name="yoho_email">Email:info@yohoit.com</string>
+    <string name="direct_download">Direct download</string>
+
+    <string name="visitor_name">Visitor Name</string>
+    <string name="explain">Description</string>
+    <string name="transit_times">No.if Access（0= No Restriction）</string>
+    <string name="available_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="establish_pass">Create Visitor Pass</string>
+    <string name="select_time">Select Time</string>
+    <string name="please_select_a_start_date">Please Select a start date!</string>
+    <string name="please_select_a_end_date">Please select end date!</string>
+    <string name="please_select_a_start_time">Please select a start time!</string>
+    <string name="please_select_a_end_time">Please select a end time!</string>
+    <string name="please_enter_a_visitor_name">Please enter a visitor name!</string>
+    <string name="no_authorized_device">No authorized device!</string>
+    <string name="about_device">Product Information</string>
+
+    <string name="login_in_another_phone">Your account is logged in to other devices.</string>
+    <string name="failed_to_get_msg">Failed to get msg</string>
+    <string name="network_error">Network error</string>
+    <string name="remind">Remind</string>
+    <string name="device_type">Device Type</string>
+    <string name="serial_number">Serial number</string>
+    <string name="name">Name</string>
+    <string name="effective_date">Effective Date</string>
+    <string name="delete_device">Remove Device</string>
+
+    <string name="entrance_guard_machine">Entrance Guard Device</string>
+    <string name="visual_interphone">Visual interphone</string>
+    <string name="select_device">Select device</string>
+    <string name="device_no_support">Device can not support the feature!</string>
+    <string name="device_name">Device Name</string>
+    <string name="please_select_device">Please select device!</string>
+    <string name="find">Find Device</string>
+    <string name="device_is_found">Device is found</string>
+    <string name="device_not_found">Device not found</string>
+    <string name="remove_the_device">Click OK to remove the device and cannot be restored</string>
+
+    <string name="delete_device_successful">delete device successful</string>
+    <string name="delete_device_failed">delete device failed</string>
+    <string name="device_cannot_be_deleted">This device cannot be deleted</string>
+
+    <!-- verify return -->
+    <string name="exceed_ten_one_min">The same phone number can not  exceed ten in a minute</string>
+    <string name="exceed_five_one_day">Same phone number can not requset msg exceed five times in one day</string>
+    <string name="exceed_five_request">Same phone number requested exceed five messages</string>
+
+    <string name="no_permitted">No permission device</string>
+    <string name="press_the_exit_procedure_again">Press the exit procedure again</string>
+    <string name="bluetooth_is_not_open">Bluetooth is not open</string>
+    <string name="shake_to_open_is_started">The function of Shaking to open is started!</string>
+    <string name="near_to_open_is_started">The function of near to open is started!</string>
+
+    <!-- device info -->
+    <string name="frag_locklist_img">Lock Image</string>
+    <string name="frag_lock_info">Device name</string>
+    <string name="frag_img_lock_info">Device Info</string>
+
+    <string name="unreach_the_useful_time">Not to use time, please try again later</string>
+    <string name="out_of_limit_date">The device has expired, whether to delete the device?</string>
+    <string name="lock_info_input_ensure">Ensure</string>
+    <string name="lock_info_input_cancel">Cancel</string>
+
+    <string name="device_info">Device Info</string>
+    <string name="device_limit_date">Device Validity</string>
+    <string name="device_set_rssi">Setting Distance</string>
+    <string name="device_set_dev_wiegand">Set Wiegand</string>
+    <string name="device_sycn_dev_time">Synchronization time</string>
+    <string name="device_send_pswd">Visitor authorization</string>
+    <string name="device_manage_card">Card Manages</string>
+    <string name="device_manager_key">Manager key</string>
+    <string name="current_device_delete">Delete Device</string>
+    <string name="device_temporary_key">Configure Read Sector Key</string>
+    <string name="device_wifi">Configure WiFi</string>
+    <string name="device_configure_openning">Open Configure Model</string>
+    <string name="device_configure_closing">Exit Configure Model</string>
+    <string name="device_setting">Device Setting</string>
+    <string name="device_remote_open">Open Remote Device</string>
+    <string name="device_has_been_delete">device has been delete</string>
+
+    <string name="activity_device_type_reader">M100 Access Reader</string>
+    <string name="activity_device_type_reader_neutral">Access Reader</string>
+    <string name="activity_device_type_access_controller">M100 Access Machine</string>
+    <string name="activity_device_type_access_controller_neutral">Access Machine</string>
+    <string name="activity_device_type_lift_controller">LC100 Elevator Reader</string>
+    <string name="activity_device_type_lift_controller_neutral">Elevator Reader</string>
+    <string name="activity_device_type_door">BL100 BLE Lock</string>
+    <string name="activity_device_type_door_neutral">BLE Lock</string>
+    <string name="activity_device_type_ble_controller">BC100 BLE Controller</string>
+    <string name="activity_device_type_ble_controller_neutral">BLE Controller</string>
+    <string name="activity_device_type_controller">Controller</string>
+    <string name="activity_device_type_controller_neutral">Controller</string>
+    <string name="activity_device_type_touch_controller">T100 Touch Controller</string>
+    <string name="activity_device_type_touch_controller_neutral">Touch Controller</string>
+    <string name="activity_device_type_video_intercom">Video Intercom</string>
+    <string name="activity_device_type_qc_device">Q200 Qrcode Access Machine</string>
+    <string name="activity_device_type_qc_device_neutral">Qrcode Access Machine</string>
+    <string name="activity_device_type_qr_device">QD100 Qrcode Access Reader</string>
+    <string name="activity_device_type_qr_device_neutral">Qrcode Access Reader</string>
+    <string name="activity_device_type_dm_controller">M160 Access Machine</string>
+    <string name="activity_device_type_dm_controller_neutral">Access Machine(Write Card)</string>
+    <string name="activity_device_type_wifi_touch_controller">T200 Touch Controller</string>
+    <string name="activity_device_type_wifi_touch_controller_neutral">WiFi Touch Controller</string>
+    <string name="activity_device_type_wifi_dm_controller">M260 Access Machine</string>
+    <string name="activity_device_type_wifi_dm_controller_neutral">WiFi Access Machine(Write Card)</string>
+    <string name="activity_device_type_wifi_access_controller">M200 Access Machine</string>
+    <string name="activity_device_type_wifi_access_controller_neutral">WiFi Access Machine</string>
+
+    <string name="unknown_device">unknow device</string>
+    <string name="ensure">Ensure</string>
+    <string name="modify_device_name">modify device name</string>
+    <string name="msg">Message</string>
+
+    <string name="activity_device_set_modify_pwd">Modify Admin Password</string>
+    <string name="activity_device_set_dev">Set Device Info</string>
+    <string name="activity_device_set_dev_wiegand">Set Wiegand</string>
+    <string name="activity_config_tmpKey_success">Configure Temporary Key Successful</string>
+    <string name="activity_device_modify_pwd">Modify Device Password</string>
+    <string name="activity_device_remote_open">Open Remote Device</string>
+    <string name="activity_device_set_dev_Wiegand">Wiegand</string>
+    <string name="activity_device_no_syncInfo">No information need to be synchronized</string>
+    <string name="activity_device_set_dev_Wiegand_26">Wirgand 26</string>
+    <string name="activity_device_set_dev_Wiegand_34">Wiegand 34</string>
+    <string name="activity_device_set_dev_open_delay">Open Delay(1&#8211;254s)</string>
+    <string name="activity_device_set_dev_electric_lock">Lock Control</string>
+    <string name="activity_device_set_dev_electric_button">Electric Control</string>
+    <string name="activity_device_delete_all_info">Clear all cards and phone</string>
+    <string name="activity_device_delete_all_info_ensure_alert">Ensure to delete all info(include yourself)?</string>
+    <string name="activity_device_delete_all_info_enusre">Ensure</string>
+    <string name="activity_device_get_system_info">Gain System Info</string>
+    <string name="activity_device_get_system_info_touch">Gain Device Info</string>
+    <string name="activity_device_get_system_info_touch_again">Gain Device Info Again</string>
+    <string name="activity_device_get_system_getting">Gainning Deivce info&#8230;</string>
+    <string name="activity_device_get_system_wiegand">Wiegand Protocol</string>
+    <string name="activity_device_get_system_open_delay">Open delay</string>
+    <string name="activity_device_get_system_cards_numbers">Counts of Cards</string>
+    <string name="activity_device_get_system_phone_numbers">Counts of Phone</string>
+    <string name="activity_device_get_system_max_user_container">Max Container</string>
+    <string name="activity_device_get_system_version">Device Version</string>
+    <string name="activity_device_get_system_dev_button">Device Controller Button</string>
+    <string name="activity_device_reset">Device Reset</string>
+    <string name="activity_device_reset_ensure_alert">Reset?</string>
+    <string name="activity_device_setting">Device Setting</string>
+    <string name="clear_empty_success">Clear Successful</string>
+    <string name="device_initialize_success">Device initialize successful</string>
+    <string name="clearring">Clearing&#8230;</string>
+    <string name="device_initializing">Device Initializing&#8230;</string>
+    <string name="ble_not_supported">Don\'t support ble 4.0</string>
+    <string name="ble_disable">Please open bluetooth</string>
+    <string name="setting_current_pwd">Current password</string>
+    <string name="setting_new_pwd">New password</string>
+    <string name="setting_sure_new_pwd">Ensure password</string>
+    <string name="modify_device_password">success to modify device password</string>
+    <string name="error_format_device_password">error format of new password or ensure password</string>
+    <string name="update_configure_success">update configure success</string>
+    <string name="update_configure_failed">update configure success</string>
+    <string name="error_open_delay_parament">error_open_delay_parament</string>
+    <string name="activity_device_card_model_loading">Device Connecting&#8230;</string>
+    <string name="warning">Warning</string>
+    <string name="whether_delete_device">Are you sure to delete the device?</string>
+    <string name="get_nothing_about_the_device">get nothing about the device</string>
+    <string name="open_remote_device_failed">remote open success</string>
+    <string name="open_remote_device_success">remote open failed</string>
+    <string name="success_sync">Success sync</string>
+    <string name="device_not_exist">Device not exist</string>
+    <string name="can_not_find_version_name">Can not find version name!</string>
+
+    <!-- send key  -->
+    <string name="mn_tv_lock_send_title">Send digital key</string>
+    <string name="mn_tv_lock_send_receiver">Receiver</string>
+    <string name="mn_tv_lock_send_phone">Please enter receiver telephone</string>
+    <string name="mn_tv_lock_send_remark">Remark</string>
+    <string name="mn_tv_lock_send_admin">Manager</string>
+    <string name="mn_tv_lock_send_user">User</string>
+    <string name="mn_tv_lock_send_forevertime">Forever</string>
+    <string name="mn_tv_lock_send_limittime">Limit</string>
+    <string name="mn_tv_lock_send_opencount">Counts</string>
+    <string name="mn_tv_lock_send_start_date">Begin Date</string>
+    <string name="mn_tv_lock_send_end_date">End Date</string>
+    <string name="mn_tv_lock_send_start_time">Begin Time</string>
+    <string name="mn_tv_lock_send_end_time">End Time</string>
+    <string name="mn_ly_lock_send">Send Key</string>
+    <string name="mn_ly_lock_delete">Delete Key</string>
+    <string name="mn_ly_card_register">register card</string>
+    <string name="mn_ly_card_delete">delete card</string>
+    <string name="mn_ly_lock_delete_title">Delete Key(Long Click to Del.)</string>
+    <string name="mn_tv_lock_visitor_pwd">Visitor password</string>
+    <string name="mn_bt_lock_get_pwd">Generate visitor password</string>
+    <string name="touch_to_share">Touch to share:</string>
+    <string name="activity_device_manager_key">Manager key</string>
+    <string name="write_receiver_username">Please enter receiver account</string>
+
+    <string name="receiver_is_empty">The receiver phone can not be empty</string>
+    <string name="receiver_is_not_register">The Receiver is not register</string>
+    <string name="receiver_cannot_be_self">The receiver can\'t be self</string>
+    <string name="send_digital_key_success">send success</string>
+    <string name="send_digital_key_failed">send failed</string>
+    <string name="check_user"> Receiver is not registered</string>
+    <string name="unauthorized_sendkey">The user has a higher privilege</string>
+    <string name="the_acount_has_send_key">Other manager had send the key to the user!</string>
+    <string name="download_send_key_record">download send key record&#8230;</string>
+
+    <string name="frag_msg_img">SMS image</string>
+    <string name="frag_msg_frd">message</string>
+    <string name="frag_msg_info">Detail message</string>
+    <string name="frag_img_msg_content">Content of message</string>
+    <string name="frag_msg_time">Time</string>
+    <string name="frag_msg_share_tip">Long press to share qrcode</string>
+    <string name="frag_search_img">Search</string>
+
+    <string name="device_limit_forever">forever</string>
+    <string name="device_limit_limit">limit:</string>
+    <string name="remind_of_delete_send_key">Confirm to delete this key？</string>
+    <string name="delete_send_key_success">delete success</string>
+    <string name="delete_send_key_failed">delete failed</string>
+
+    <string name="card_manage_swipe_add">Swipe add</string>
+    <string name="card_manage_swipe_add_loss">Swipe to report yout loss of card</string>
+    <string name="card_manage_swipe_del">Swipe delete</string>
+    <string name="card_manage_swipe_del_loss">Swipe to cancel the report the loss of card</string>
+    <string name="card_manage_batch_manage">Batch manager</string>
+    <string name="card_manage_batch_add">Batch add</string>
+    <string name="card_manage_batch_add_loss">Batch report the loss of cards</string>
+    <string name="card_manage_batch_del">Batch delete</string>
+    <string name="card_manage_batch_del_loss">Batch cancel report the loss of cards</string>
+    <string name="card_manage_batch_sync_finished">finished</string>
+    <string name="card_manage_batch_synchronizing">Batch synchronizing&#8230;</string>
+    <string name="card_manage_exist_swipe_model">Exist swipe model</string>
+    <string name="card_manage_input_manage">Input card manager</string>
+    <string name="card_manage_input_manage_loss">Input report the loss of card number</string>
+    <string name="activity_device_manage_card">Card Manages</string>
+
+    <string name="result_callback_error_crc">Ble Communicate failed,error CRC </string>
+    <string name="result_callback_error_format">Ble Communicate failed,error format</string>
+    <string name="result_callback_error_passwd">Ble Communicate failed,error password</string>
+    <string name="result_callback_error_power">Ble Communicate failed</string>
+    <string name="result_callback_error_db">Ble Communicate failed,error Datebase</string>
+    <string name="result_callback_error_use_not_reg">user has been delete</string>
+    <string name="result_callback_error_rand_check">error random</string>
+    <string name="result_callback_error_get_rand">error get random</string>
+    <string name="result_callback_error_length">Ble Communicate failed,Error length</string>
+    <string name="result_callback_error_mode">Ble Communicate failed,configure model close</string>
+    <string name="result_callback_error_key_check">Ble Communicate failed, error key_string</string>
+    <string name="result_callback_error_unsupport">Ble Communicate failed, don\'t support the function</string>
+    <string name="result_callback_error_max_count">Ble Communicate failed, overflow capacity</string>
+
+    <string name="result_error_timer_out">timer out</string>
+    <string name="result_error_bleservice">Ble Communicate failed, Ble Service can\'t discovery</string>
+    <string name="result_error_data_len">error data length</string>
+    <string name="result_error_rand_not_get">not get random</string>
+
+    <string name="result_error_data_null">get null from ble callback</string>
+    <string name="result_error_l1_cmd">Ble Communicate failed, unknown cmd</string>
+    <string name="result_error_para_cfg_cmd">Ble Communicate failed, error cfg cmd</string>
+    <string name="result_error_data_manager_cmd">Ble Communicate failed, error manager cmd</string>
+    <string name="ble_not_open">BLE not open</string>
+    <string name="sn_not_exist">SN not exist</string>
+    <string name="ble_return_null">Bluetooth communication return null</string>
+
+    <string name="device_not_reaction">Device not reaction</string>
+    <string name="device_not_near">Device is not in the near</string>
+    <string name="device_operationing">Device is operationing</string>
+    <string name="time_unit_error">Scan time unit error</string>
+    <string name="scan_time_beyond">Scan time beyond the scope</string>
+    <string name="super_admin_exist">Super admin has been in existence</string>
+    <string name="device_mac_error">The mac address of device is wrong</string>
+    <string name="cardno_null">The card number is null</string>
+    <string name="sn_null">SN is null</string>
+    <string name="mac_null">MAC is null</string>
+    <string name="eKey_null">EKey is null</string>
+    <string name="type_null">The type of device is null</string>
+    <string name="privilege_null">Privilege is null</string>
+    <string name="open_way_error">The value of open way is wrong</string>
+    <string name="unknown_error">No response&#8230;</string>
+
+    <string name="activity_device_enter_cardno">Input card number</string>
+    <string name="activity_device_enter_cardno_add">Add the card</string>
+    <string name="activity_device_enter_cardno_add_loss">Report the loss of card</string>
+    <string name="activity_device_enter_cardno_del">Delete the card</string>
+    <string name="activity_device_enter_cardno_del_loss">Cancel the card reported lossing</string>
+    <string name="activity_device_synchronizeing">Synchronizeing&#8230;</string>
+
+    <!-- configure device read sector key -->
+    <string name="input_dev_id">Serial number(0~255) of the device</string>
+    <string name="input_dev_sectorkey">Please enter sector key(Made up of 12 hexadecimal number, such as 012389ABCDEF) of the device </string>
+    <string name="set_read_sectorkey">Setting</string>
+    <string name="config_read_sectorkey">Configure Read Sector Key</string>
+    <string name="write_sector_id">Please Enter Sector Code</string>
+    <string name="input_sector_id">Sector Address（0~15）</string>
+    <string name="write_dev_id">Please enter serial number of the device</string>
+    <string name="write_dev_sectorkey">Please enter sector key</string>
+    <string name="config_id_pwd_empty">Serial Number 、 Sector Code or Sector Key Can Not Be Empty</string>
+    <string name="parameter_wrong">Parameter Format Is Wrong, Please Set Correct Parameters On The Server</string>
+    <string name="no_read_sector_info">There Is No Read Card And Sector Information For The Device</string>
+    <string name="device_settring_param_none">Device Setting Parameter Is Null</string>
+
+    <!-- WiFi配置 -->
+    <string name="config_wifi">Configure WiFi paramete</string>
+    <string name="enter_ip_address">Please enter ip address</string>
+    <string name="enter_port">Please enter port</string>
+    <string name="enter_wifi_name">Please enter route name(Do not support chinese temporarily)</string>
+    <string name="enter_wifi_pswd">Please enter route password</string>
+    <string name="set_wifi">Configure</string>
+    <string name="information_missing">Please enter information completely</string>
+    <string name="save_succeed">Save success</string>
+    <string name="save_fail">Save failed</string>
+    <string name="config_wifi_succeed">Configure WiFi successful</string>
+    <string name="config_wifi_fail">Configure WiFi failure</string>
+    <string name="no_wifi_param">Please complete WiFi parameter setting</string>
+
+    <string name="synchronizing">Synchronizing…</string>
+    <string name="remote_door_opening">Remote door opening…</string>
+    <string name="deleting">Deleting…</string>
+
+    <string name="add_device">Add device</string>
+    <string name="scan">Scan open</string>
+    <string name="video">Video_Dev</string>
+
+    <!-- add device -->
+    <string name="activity_scanning">Scanning…</string>
+    <string name="activity_scanning_again">Scan Again</string>
+    <string name="activity_scanning_stop">Stop Scan</string>
+    <string name="activity_scan_dev_sn">Device Sn</string>
+    <string name="activity_add_dev_sucess">Add Device Successful</string>
+    <string name="device_is_for_other_operation">device is conducting other operation</string>
+    <string name="video_list">Video List</string>
+    <string name="scan_text">It will automatically scan when the qrcode is put into the scan box</string>
+
+    <string name="sending">Sending…</string>
+    <string name="distance_is_too_far_away">The distance is too far, please approach the equipment!</string>
+    <string name="number_is_illegal">The number of passes is illegal</string>
+    <string name="website">http://www.doormaster.me/</string>
+    <string name="Can_not_find_version_name">Can not find version name！</string>
+    <string name="version_name">version name</string>
+    <string name="downloading">downloading…</string>
+
+    <string name="remind_of_delete_msg">Confirm to delete this information？</string>
+    <string name="remind_of_delete_the_contact">Confirm to delete this contact？</string>
+    <string name="messages">Messages</string>
+    <string name="system_messages">System Messages</string>
+    <string name="open_yet">Open yet</string>
+    <string name="space_open1">Same device within</string>
+    <string name="space_open2">seconds no longer open</string>
+    <string name="waiting...">waiting…</string>
+
+    <string name="configure_wifi">Configure WiFi</string>
+    <string name="activity_device_send_qrcode">QRcode authorization</string>
+    <string name="no_property_info">No property information</string>
+</resources>

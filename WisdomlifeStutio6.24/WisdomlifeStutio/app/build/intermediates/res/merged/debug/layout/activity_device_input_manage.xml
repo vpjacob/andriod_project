@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:background="@color/main_topbackground"
+	android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+    
+    <include
+        android:id="@+id/main_top" 
+        layout="@layout/inteligoo_main_top"/>
+    
+    <EditText
+        
+        android:id="@+id/et_cardno"
+        android:inputType="number"
+        android:hint="@string/activity_device_enter_cardno"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/input_textcolor"
+        android:background="@drawable/bg_edittext_normal"
+        android:textColorHint="@color/input_hintcolor"
+        android:padding="12dp"
+        android:textSize="12sp" />
+   	<LinearLayout
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:orientation="horizontal">
+		<Button
+		    android:id="@+id/bt_input_add"
+		    android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/activity_device_enter_cardno_add"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:background="@drawable/shape_btn_blue"
+		    android:onClick="inputAdd"/>
+		<Button
+		    android:id="@+id/bt_input_del"
+		    android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/activity_device_enter_cardno_del"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:background="@drawable/shape_btn_red"
+		    android:onClick="inputDel"/>
+	
+	</LinearLayout>
+	
+</LinearLayout>

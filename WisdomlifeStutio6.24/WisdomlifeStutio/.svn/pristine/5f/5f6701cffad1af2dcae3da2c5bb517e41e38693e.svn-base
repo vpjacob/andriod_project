@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, initial-scale=1.0, width=device-width"/>
+		<meta name="format-detection" content="telephone=no, email=no, date=no, address=no">
+		<title>砸蛋规则</title>
+		<link rel="stylesheet" type="text/css" href="../../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/sm.min.css">
+		<link rel="stylesheet" href="../../css/sm-extend.min.css">
+		<!--<link rel="stylesheet" type="text/css" href="../../css/all.css">-->
+		<link rel="stylesheet" type="text/css" href="../../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../../css/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="../../css/person/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="zadange.css">
+		
+	</head>
+	<body>
+		<header class="bar bar-nav " id="header">
+			<a class="icon pull-left" id="back"><i  class="iconfont icon-xiangzuo1" style="font-size: 28px;color: #999 "></i></a>
+			<h1 class="title" id="title">砸金蛋规则</h1>	
+		</header>
+		<div class="same">
+			<div class="top">
+				<span>1.金蛋是怎么来的？</span>
+			</div>
+			<div class="bottom">
+				<span>
+				用户在合作商家消费满500元或满500元并打赏相应金额（商家处会有提示）给平台，就会获得金蛋一枚。
+				</span>
+			</div>
+		</div>
+		<div class="same">
+			<div class="top">
+				<span>2.金蛋有什么用处？</span>
+			</div>
+			<div class="bottom">
+				<span>
+				只要平台当天的交易额大于0，用户就有一次砸金蛋抢金币的机会，累计砸出500枚金币，金蛋即刻失效。
+				</span>
+			</div>
+		</div>
+		<div class="same">
+			<div class="top">
+				<span>3.金币有什么用？</span>
+			</div>
+			<div class="bottom">
+				<span>
+				一金币等于一元人民币，用金币可以冲抵现金再次消费 ，也可以平台回购变现。
+				</span>
+			</div>
+		</div>
+		<div class="same">
+			<div class="top">
+				<span>4.每天砸出的金币数是固定的吗？</span>
+			</div>
+			<div class="bottom">
+				<span>
+				不是固定的，根据消费频率、累计消费额度、推荐新用户等，每天砸出的金币数可能都不一样。
+				</span>
+			</div>
+		</div>
+		<div class="same">
+			<div class="top">
+				<span>5.每天可以砸多少枚金蛋？</span>
+			</div>
+			<div class="bottom">
+				<span>
+				如果您有多枚金蛋每天砸出的金币数是多枚金蛋的总和，所以砸一次是砸所有有效的金蛋，累计砸出500金币就会失效一枚金蛋。
+				</span>
+			</div>
+		</div>
+		<div class="same">
+			<div class="top">
+				<span>6.金蛋里砸出的金币是怎么来的？</span>
+			</div>
+			<div class="bottom">
+				<span>
+				商家在小客智慧生活服务平台上销售商品给用户，平台按成交额收取商家的服务费，平台拿出一部份服务费放在金蛋里，按系统规则来鼓励消费频次高消费金额多的用户，所以只要平台当天的交易额大于0元，金蛋都可以砸。
+				</span>
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript" src="../../script/api.js"></script>
+	<script type="text/javascript" src="../../script/common.js"></script>
+	<script type='text/javascript' src='../../script/zepto.min.js' charset='utf-8'></script>
+	<script type="text/javascript" src="../../script/jquery.js"></script>
+	<script src="zadange.js"></script>
+</html>

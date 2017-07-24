@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+     android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <com.doormaster.topkeeper.view.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <include layout="@layout/line" />
+
+    <ListView
+        android:id="@+id/dm_access_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="@color/white"
+        android:divider="#B7B7B7"
+        android:dividerHeight="1px"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

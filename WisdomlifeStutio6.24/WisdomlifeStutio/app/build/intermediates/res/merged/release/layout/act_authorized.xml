@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <com.doormaster.topkeeper.view.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <include layout="@layout/line" />
+
+    <EditText
+        android:id="@+id/dm_input_guest_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:hint="@string/enter_phone_or_username"
+        android:background="@drawable/dm_whilte_corner_small" />
+	
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/authorize_end_time"
+        android:padding="5dp"
+        android:textSize="12sp" />
+    
+    
+    <TextView
+        android:id="@+id/tv_time_selector"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/authorize_end_time"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" 
+        android:background="@drawable/dm_whilte_corner_small"/>
+    
+    <Button
+        android:id="@+id/dm_request_guest_authorize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/authorize"
+        android:background="@drawable/dm_blue_corner_small"/>
+
+    <ImageView
+        android:id="@+id/dm_qrcode_img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="msg_img"
+        android:layout_gravity="center"
+        android:src="@drawable/dm_lock"
+        android:background="@drawable/dm_gray_frame_corner_small"
+        android:visibility="gone" />
+
+</LinearLayout>

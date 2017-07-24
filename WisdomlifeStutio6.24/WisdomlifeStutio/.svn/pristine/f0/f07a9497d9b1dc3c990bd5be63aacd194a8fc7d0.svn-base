@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="uzQQ">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/uzQQ.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

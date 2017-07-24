@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="galaxy_lite">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Topkeeper/libs/galaxy_lite.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

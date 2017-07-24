@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_act__announcement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/black"
+    tools:context="com.doormaster.topkeeper.activity.Act_Notice">
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/rv_tb_ann"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="28%"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/yoho_bg_ann">
+
+        <com.doormaster.topkeeper.view.TitleBar
+            android:id="@+id/setting_title_bar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_widthPercent="100%"
+            app:layout_heightPercent="21.5%"
+            android:layout_gravity="left|top"
+            android:gravity="center"
+            android:layout_alignParentTop="true"/>
+    </android.support.percent.PercentRelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="72%"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/rv_tb_ann"
+        android:background="@color/white"/>
+</android.support.percent.PercentRelativeLayout>

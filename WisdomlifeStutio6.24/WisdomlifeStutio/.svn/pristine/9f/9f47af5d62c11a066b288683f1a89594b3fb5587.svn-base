@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:viewpager="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/state_coclor" >
+
+        <TextView
+            android:text="@string/menu_community"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            style="@style/toobar"/>
+
+      
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.doormaster.topkeeper.view.ViewPagerBarnner
+                android:id="@+id/vpb"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                viewpager:containerHeight="15dp"
+                viewpager:indicatorBackgroud="@drawable/head_sbox"
+                viewpager:indicatorDrawable="@drawable/indicator_backgroud"
+                viewpager:indicatorInterval="10dp"
+                viewpager:indicatorMarginBottom="0dp"
+                viewpager:indicatorSize="8dp" />
+
+            <com.doormaster.topkeeper.view.MyGridView
+                android:id="@+id/gv_main"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="0.0dip"
+                android:listSelector="@null"
+                android:numColumns="4"
+                android:scrollbars="none"
+                android:background="#ffffff"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="0.0dip" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/banner2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/banner3" />
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:visibility="gone"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/et_callsip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/bg_edittxt_login"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textSize="16sp" >
+                </EditText>
+
+                <Button
+                    android:id="@+id/bt_callout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/select_bottomlogin"
+                    android:padding="10dp"
+                    android:text="呼叫"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </LinearLayout> 
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

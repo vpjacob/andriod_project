@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.doormaster.topkeeper">
+
+    <!-- com.doormaster.topkeeper -->
+    <!-- com.doormaster.shannon -->
+    <!-- com.clkj.ddkm -->
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <application
+        android:name="com.doormaster.topkeeper.activity.BaseApplication">
+        <!--<activity-->
+            <!--android:name="com.doormaster.topkeeper.activity.Act_Welcome"-->
+            <!--android:label="@string/app_name">-->
+            <!--&lt;!&ndash;<intent-filter>&ndash;&gt;-->
+                <!--&lt;!&ndash;<action android:name="android.intent.action.MAIN" />&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<category android:name="android.intent.category.LAUNCHER" />&ndash;&gt;-->
+            <!--&lt;!&ndash;</intent-filter>&ndash;&gt;-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.CALL" />-->
+                <!--<action android:name="android.intent.action.CALL_PRIVILEGED" />-->
+
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+
+                <!--<data android:scheme="tel" />-->
+                <!--<data android:scheme="sip" />-->
+            <!--</intent-filter>-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.SENDTO" />-->
+
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+
+                <!--<data android:scheme="sip" />-->
+                <!--<data android:scheme="imto" />-->
+            <!--</intent-filter>-->
+            <!--<intent-filter>-->
+                <!--<data android:mimeType="vnd.android.cursor.item/org.linphone.profile" />-->
+
+                <!--<action android:name="android.intent.action.VIEW" />-->
+
+                <!--<category android:name="android.intent.category.BROWSABLE" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name="com.doormaster.topkeeper.activity.Act_Main"-->
+            <!--android:launchMode="singleTask"/>-->
+        <!--<activity-->
+            <!--android:name="com.doormaster.topkeeper.activity.Act_Login"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:screenOrientation="portrait" />-->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Regist"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Regist_Email"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Email_Activate"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Regist_Phone"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_DoorList"
+            android:theme="@style/NoTitle"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_AccessDevList"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_OpenRecord"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <!-- 访客授权列表 -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Forget_Password"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Forget_Phone_Pwd"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Forgive_Email_Pwd"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_VisitorPass"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_VisitorPassDevice"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Device_Details"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.Act_Device_Info"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Notice"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_NoticeDetail"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Setting"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Shake"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Near_Open"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_About"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Userinfo"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_Modify_Psd"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+
+        <!-- 设备删除信息、恢复出厂设置提示 -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.DeviceAlertDialog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" />
+
+        <!-- 修改管理员密码 -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.Act_ModifyDevicePwd"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+
+        <!-- 设备信息设置 -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.Act_SetDevice"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+
+        <!-- 获取设备信息 -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.Act_GetDeviceSystemInfo"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <!-- 发送临时密码 -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.Act_ManageKey"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+
+        <!-- 电子钥匙管理界面 -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.Act_SendKey"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+
+        <!-- 删除电子钥匙 -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.Act_DeleteKey"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <!-- 卡管理界面 -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.Act_CardManage"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+
+        <!-- 输入登记卡 -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.InputManageCard"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+
+        <!--  -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.SerialCardManageActivity"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+
+        <!-- 配置设备读取卡扇区密钥 -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.SetReadSectorKeyActivity"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+
+        <!-- 配置WiFi -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.ConfigWiFiActivity"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <!-- 配置WiFi -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.device_manager.Act_DeviceSetting"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_AddList"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_VideoList"
+            android:theme="@style/NoTitle"
+            android:screenOrientation="portrait" />
+
+        <!-- 扫描相关activity -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.MipcaActivityCapture"
+            android:theme="@style/NoTitle"
+            android:label="@string/app_name" />
+        <!-- select shake open device -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_SelectShakeDevice"
+            android:theme="@style/NoTitle"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <!-- select auto open device -->
+        <activity
+            android:name="com.doormaster.topkeeper.activity.Act_SelectAutoDevice"
+            android:theme="@style/NoTitle"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <!--<activity-->
+            <!--android:name="com.doormaster.vphone.activity.Act_Call"-->
+            <!--android:launchMode="singleTop"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name="com.doormaster.vphone.activity.Act_CallIncoming"-->
+            <!--android:launchMode="singleTop"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name="com.doormaster.vphone.activity.Act_CallOutgoing"-->
+            <!--android:launchMode="singleTop"-->
+            <!--android:screenOrientation="portrait"  />-->
+        <activity android:name="com.doormaster.topkeeper.activity.ContactsActivity"
+            android:theme="@style/NoTitle"
+            android:launchMode="singleTop"/>
+        <activity android:name="com.doormaster.topkeeper.fragment.MsgActivity"
+            android:theme="@style/NoTitle"
+            android:launchMode="singleTop"/>
+
+        <service
+            android:name="com.doormaster.topkeeper.service.ShakeOpenService"
+            android:theme="@style/NoTitle"
+            android:enabled="true" />
+        <service
+            android:name="com.doormaster.topkeeper.service.AutoOpenService"
+            android:theme="@style/NoTitle"
+            android:enabled="true" />
+        <!--<service-->
+            <!--android:name="com.intelligoo.sdk.BluetoothLeService"-->
+            <!--android:enabled="true" />-->
+
+        <receiver android:name="com.doormaster.topkeeper.receiver.TimerMsgReceiver" />
+
+
+        <!--<service-->
+            <!--android:name="cn.jpush.android.service.PushService"-->
+            <!--android:enabled="true"-->
+            <!--android:exported="false">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="cn.jpush.android.intent.REGISTER" />-->
+                <!--<action android:name="cn.jpush.android.intent.REPORT" />-->
+                <!--<action android:name="cn.jpush.android.intent.PushService" />-->
+                <!--<action android:name="cn.jpush.android.intent.PUSH_TIME" />-->
+            <!--</intent-filter>-->
+        <!--</service>-->
+        <!--<service-->
+            <!--android:name="cn.jpush.android.service.DaemonService"-->
+            <!--android:enabled="true"-->
+            <!--android:exported="true">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="cn.jpush.android.intent.DaemonService" />-->
+
+                <!--<category android:name="com.doormaster.topkeeper" /> &lt;!&ndash; Change package ! &ndash;&gt;-->
+            <!--</intent-filter>-->
+        <!--</service>-->
+
+
+        <!-- Rich push 核心功能 since 2.0.6 -->
+        <!--<activity-->
+            <!--android:name="cn.jpush.android.ui.PopWinActivity"-->
+            <!--android:exported="false"-->
+            <!--android:theme="@style/MyDialogStyle" />-->
+
+
+
+
+
+
+
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--微信分享回调 -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

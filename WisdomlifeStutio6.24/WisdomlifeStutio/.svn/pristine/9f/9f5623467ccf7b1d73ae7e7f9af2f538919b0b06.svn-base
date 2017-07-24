@@ -1,0 +1,82 @@
+apiready = function() {
+	var header = $api.byId('title');
+	if (api.systemType == 'ios') {
+		$api.css(header, 'margin-top:20px;');
+	}
+
+	$(function() {
+		$(".Personal_centent").hide().first().show();
+		$(".step").hide().first().show();
+		$(".span1").click(function() {
+			$("#apply").hide();
+		})
+		$(".span0").click(function() {
+			$("#apply").show();
+		})
+		$(".Personal_title span").click(function() {
+			$(this).addClass("special").siblings().removeClass("special");
+			$(".Personal_centent").hide().eq($(this).index()).show();
+		});
+		$("#dwx").click(function() {
+			$(".black_box").show();
+			$(".tankuang_box").show();
+		});
+		$("#wx").click(function() {
+			$(".black_box").show();
+			$(".tankuang_box").show();
+		})
+		$("#close").click(function() {
+			$(".black_box").hide();
+			$(".tankuang_box").hide();
+		});
+
+		$("#apply").click(function() {
+			var telephone = $("#telphone").val();
+			var maintain_remark = $("#maintain_remark").val();
+			var maintain_linkperson = "zhangsan";
+
+			var name = $("#name").val();
+			if (name == null || name == "") {
+				alert("联系人不能为空");
+				return false;
+			}// else if (telephone == null || telephone == "") {
+			//alert("联系电话不能为空");
+			//return false;
+			//} else if (!mobileReg.test(telephone)) {
+			//alert("联系电话格式有误");
+			//return false;
+			//}
+			else {
+				AjaxUtil.exeScript({
+					script : "managers.maintain.maintain",
+					needTrascation : false,
+					funName : "addMaintain",
+					form : {
+						maintain_type : "0",
+						maintain_remark : maintain_remark,
+						maintain_linkperson : maintain_linkperson,
+						maintain_state : "0",
+						maintain_createtime : new Date()
+					},
+					success : function(data) {
+						if (data == "true") {
+							alert("提交成功");
+						} else {
+							alert("服务器出现错误，请联系系统管理员");
+						}
+					}
+				});
+
+			}
+		});
+
+	})
+	//}
+	// 回退
+	function goBack() {
+		api.closeWin({
+		});
+	}
+
+}
+

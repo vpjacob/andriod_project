@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="demoOfTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+    <style name="aaaTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+
+    <style name="popwin_leftward_anim_style">
+        <item name="android:windowEnterAnimation">@anim/leftward_show_anim</item>
+        <item name="android:windowExitAnimation">@anim/leftward_hide_anim</item>
+    </style>
+    
+    
+    <style name="popwin_rightward_anim_style">
+        <item name="android:windowEnterAnimation">@anim/rightward_show_anim</item>
+        <item name="android:windowExitAnimation">@anim/rightward_hide_anim</item>
+    </style>
+    
+    <style name="popwin_downward_anim_style">
+        <item name="android:windowEnterAnimation">@anim/downward_show_anim</item>
+        <item name="android:windowExitAnimation">@anim/downward_hide_anim</item>
+    </style>
+
+    <style name="popwin_upward_anim_style">
+        <item name="android:windowEnterAnimation">@anim/upward_show_anim</item>
+        <item name="android:windowExitAnimation">@anim/upward_hide_anim</item>
+    </style>
+
+
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+    <style name="ActionSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tabBarMenu">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/tabBarMenu.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

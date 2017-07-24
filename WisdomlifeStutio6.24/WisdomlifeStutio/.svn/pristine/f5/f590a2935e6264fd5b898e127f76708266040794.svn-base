@@ -1,0 +1,132 @@
+package com.doormaster.topkeeper.constant;
+
+public class Constants {
+	//服务器基础地址
+	public static final String URL_BASE ="https://www.doormaster.me:9099";
+//	public static final String URL_BASE ="http://door2.sywg.org:8099";
+	//平台的access_token
+//	public static final String access_token="a83d47f73bd161d393fa1c2fde8236d8dd847f4L155d080e8ad83356";
+	//数据库名称
+	public static final String DB_NAME ="edoormaster.db";
+	//数据库名称
+	public static final int DB_VISION = 8;
+	//请求验证码接口get
+	public static final String URL_REGISTCODE = URL_BASE +"/doormaster/app/verifynums";
+	//检查用户是否注册接口get
+	public static final String URL_IS_USERREGIST= URL_BASE +"/doormaster/app/users";
+	//手机注册接口
+	public static final String URL_PHONEREGIST = URL_BASE +"/doormaster/app/users?method=phone";
+	//邮箱注册接口
+	public static final String URL_EMAILREGIST = URL_BASE +"/doormaster/app/users?method=email";
+	//登录接口
+	public static final String URL_LOGIN = URL_BASE +"/doormaster/app/connection";
+	//获取门禁类别接口
+	public static final String URL_GETACCESSDEVLIST = URL_BASE + "/doormaster/app/users/userinfo/rid";
+	//获取视频设备列表，房间列表
+	public static final String URL_COMMUNITY_PERMISS = URL_BASE + "/doormaster/server/user_community_permiss";
+	//获取广告内容
+	public static final String URL_GET_ADVERTISEMENT_LIST = URL_BASE + "/doormaster/app/advertisement";
+	//获取公告内容
+	public static final String URL_GET_ANNOUNCEMENT_LIST = URL_BASE + "/doormaster/app/announcement";
+	//获取系统记录，临时密码
+	public static final String URL_POST_COMMANDS = URL_BASE + "/doormaster/app/commands";
+	//请求控制权限、远程操作设备
+	public static final String CONTROL_URL = URL_BASE + "/doormaster/app/access/control";
+
+	//获取实时数据
+	public static final String MSG_URL = "/doormaster/app/rtdatas";
+	//更新实时数据状态
+	public static final String UPDATE_URL = "/doormaster/app/rtdatas/result";
+
+	//同步时间
+	public static final String SYNC_SERVER_URL = URL_BASE + "/doormaster/app/servertime";
+	//sip服务器地址
+	public static final String DOMAIN ="114.55.106.95";
+	//sip服务器端口
+	public static final String PORT ="55060";
+//	//用户的sip服务器账号
+//	public static final String VOIP_ACCOUNT ="voip_account";
+//	//用户的sip服务器账号密码
+//	public static final String VOIP_PWD ="voip_pwd";
+	public static final String TOKEN_PWD ="token_pwd";
+	//用户昵称
+	public static final String NICKNAME ="nickname";
+	//用户本服务器账号
+	public static final String USERNAME ="username";
+	//用户本服务账号密码
+	public static final String PSW ="psw";
+	//用户卡号
+	public static final String CARDNO ="cardno";
+	//用户PIN
+	public static final String PIN ="pin";
+	//用户客户端ID
+	public static final String CLIENT_ID ="client_id";
+	//是否自动登录
+	public static final String IS_AUTOLOGIN ="is_autologin";
+
+	//请求短信验证码
+//	public static final String VERIFYNUMS_URL = "/doormaster/app/verifynums";
+	//修改密码
+	public static final String MODIFYPWD_URL = URL_BASE+"/doormaster/app/users/userinfo/password?method=modify";
+	//忘记密码
+	public static final String FORGOTPWD_URL = "/doormaster/app/users/userinfo/password?method=forgot";
+
+	public static final int NETWORD_SHUTDOWN = -1;
+
+	//注册邮箱
+	public static final String EMAIL = "email";
+	public static final String PHONE = "phone";
+
+	//摇一摇
+//	public static final String IS_SHAKE = "isshake";
+//	public static final String DISTANCE_SHAKE = "distance_shake";
+	public static final int SHAKE_MAX_PROGRESS = 70;
+	public static final int SHAKE_DEFAUT_PROGRESS = 60;
+	//靠近开门
+//	public static final String AUTO_OPEN = "auto_open";
+//	public static final String DISTANCE_AUTO_OPEN = "distance_auto_open";
+//	public static final String ENABLE_AUTO_OPEN_SPACE = "enable_auto_open_space";
+//	public static final String AUTO_OPEN_SPACE_SECONDS = "auto_open_space_seconds";
+	public static final int AUTO_OPEN_SPACE_SECONDS_DEFAUT = 30;
+	public static final int AUTO_MAX_PROGRESS = 50;
+	public static final int AUTO_DEFAUT_PROGRESS = 30;
+
+	//设置登录状态
+	public static String SHARED_COMPLETE_LOGIN = "shared_complete_login";
+
+	public static final int SHAKE_SCAN_SECONDS = 1;
+	public static final int AUTO_SCAN_SECONDS = 2;
+
+	//返回值参数
+	public static final int RET_SUCCESS= 0;
+	public static final int ACCESS_NULL = 1009;
+	public static final int ACCOUNT_PWD_FAILED = 1020;
+	public static final int PHONE_NO_VERIFY = 1021;
+	public static final int VERIFY_NUM_WRONG = 1022;
+    public static final int VERIFY_NUMBER_EXPIRED_VALIDITY = 1023;
+	public static final int ACCOUNT_REGISETERED = 1024;
+	public static final int FAILED_CRERATE_COUNT = 1025;
+	public static final int FAILED_SEND_SMS_VERIFY = 1026;
+	public static final int CHANGE_PWD_FAILED = 1027;
+	public static final int CLIENT_ID_NO_EXIST = 1028;
+	public static final int PASSWORD_FAILED = 1029;
+	public static final int CLIENT_MSG_NOT_MATCH = 1030;
+	public static final int ACCOUNT_NO_EXIST = 1031;
+	public static final int	ACCOUNT_INCORRECT = 1032;
+	public static final int BACK_UP_NO_EXIT = 1033;
+	public static final int ACCOUNT_DOES_NOT_EXIST = 1038;
+	public static final int THE_ACOUNT_HAS_SEND_KEY = 1039;
+	public static final int RECEIVER_IS_NOT_EXIST = 1040;
+	public static final int RECEIVE_MORE_PRIVILEGE = 1046;//用户已有更高的权限
+	public static final int SERVER_FAILED_PROC = 1500;
+
+	//验证码获取提示
+	public static final int VERIFY_ONE_MININUTES =408;
+	public static final int VERIFY_OUT_TWO_ONESEC = 4080;
+	public static final int VERIFY_OUT_TWO_ONEMIN = 4081;
+	public static final int VERIFY_OUT_FIVE_ONEDAY = 4082;
+	public static final int VERIFY_ONE_ONEMIN_ONE = 4083;
+	public static final int VERIFY_FIVE_ONEDAY = 4084;
+	public static final int VERIFY_OUT_FIVE_PHONE = 4085;
+	public static final int VERIFY_OUT_FREQUENT = 4086;
+}

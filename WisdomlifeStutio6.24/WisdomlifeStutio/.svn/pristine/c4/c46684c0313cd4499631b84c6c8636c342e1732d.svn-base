@@ -1,0 +1,122 @@
+apiready = function() {
+var header = $api.byId('title');
+	if (api.systemType == 'ios') {
+		$api.css(header, 'margin-top:20px;');
+	}
+//查看详情
+	$('#tv').click(function() {
+		api.openWin({
+			name : 'menkouship',
+			url : 'menkouship.html',
+			slidBackEnabled : true,
+			animation : {
+				type : "push", //动画类型（详见动画类型常量）
+				subType : "from_right", //动画子类型（详见动画子类型常量）
+				duration : 300 //动画过渡时间，默认300毫秒
+			}
+		});
+                   
+	});
+    
+    $('#login').click(function() {
+                      //登录示例：
+                      api.accessNative({
+                                       name: 'loginDMVPhoneSDK',
+                                       extra: {
+                                       account: '13485321039',
+                                       password:'ea0deed56f5f0c8f8684215184497156ce78c96a',
+                                       accountType:'1'
+                                       }
+                                       }, function(ret, err) {
+                                       if (ret) {
+                                       alert(JSON.stringify(ret));
+                                       } else {
+                                       alert(JSON.stringify(err));
+                                       }
+                                       });
+                   
+	});
+    
+    $('#call').click(function() {
+                      //呼叫示例：
+                      api.accessNative({
+                                       name: 'call',
+                                       extra: {
+                                       account: '442c05e68a8b',
+                                       accountType:'2'
+                                       }
+                                       }, function(ret, err) {
+                                       if (ret) {
+                                       //                                    alert(JSON.stringify(ret));
+                                       } else {
+                                       //                                    alert(JSON.stringify(err));
+                                       }
+                                       });
+                      
+    });
+    
+    $('#exit').click(function() {
+                     //退出示例：
+                     api.accessNative({
+                                      name: 'exitDMVPhoneSDK',
+                                      extra: {
+                                      
+                                      }
+                                      }, function(ret, err) {
+                                      if (ret) {
+                                      //                                    alert(JSON.stringify(ret));
+                                      } else {
+                                      //                                    alert(JSON.stringify(err));
+                                      }
+                                      });
+                     
+    });
+    
+    $('#openDoor').click(function() {
+                     //开门示例：
+                     api.accessNative({
+                                      name: 'openDoor',
+                                      extra: {
+                                      devSn:'0350395568',
+                                      devMac:'33:34:14:e2:9c:b0',
+                                      devType:'1',
+                                      cardno:'12345678',
+                                      eKey:'480e2eae8fc8ce067d128a11331cb170000000000000000000000000000000001000'
+                                      }
+                                      }, function(ret, err) {
+                                      if (ret) {                        alert(JSON.stringify(ret));
+                                      } else {                         alert(JSON.stringify(err));
+                                      }
+                                      });
+                     
+    });
+    
+    $('#scanDevice').click(function() {
+                         //扫描示例：
+                         api.accessNative({
+                                          name: 'scanDevice',
+                                          extra: {
+                                          scanTime:'500'
+                                          }
+                                          }, function(ret, err) {
+                                          if (ret) {                        alert(JSON.stringify(ret));
+                                          } else {                         alert(JSON.stringify(err));
+                                          }
+                                          });
+                         
+    });
+    
+    
+	$('#close').click(function() {
+		$(this).addClass("animated rubberBand");
+		setTimeout(function(){
+			$("#close").removeClass("animated rubberBand");
+			goBack();
+		}, 1000)
+	});
+
+}
+function goBack() {
+	api.closeWin({
+	});
+}

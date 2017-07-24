@@ -1,0 +1,23 @@
+.clearfix {
+	content:'';
+	clear:both;
+	display:block;
+	width: 0;
+	height: 0;
+	visibility:hidden;
+	overflow: auto;	
+}
+.bar{
+	position: relative;
+}
+.same{
+	width:96%;
+	margin:5px auto;
+	
+}
+.same .top span{
+	color:#f0821b;
+}
+.same .bottom span{
+	font-size:14px;
+}

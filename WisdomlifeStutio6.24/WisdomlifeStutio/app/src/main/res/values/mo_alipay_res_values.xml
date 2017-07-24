@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="TextColorBlack">#FF000000</color>
+    <color name="TextColorWhite">#FFFFFFFF</color>
+    <color name="TextColorGray">#FF505050</color>
+    <color name="ToastBgColor">#FF424242</color>
+    <color name="btnColor">#FFFFFF</color>
+    <color name="textColorforItemTitle">#FF666666</color>
+    <color name="secondbtntextColor">#FF496ea3</color>
+    <color name="textColorforCheckBox">#FF333333</color>
+    <color name="bgColor">#FFF2F2F2</color>
+    <color name="downLoadTextNomal">#FF3366CC</color>
+    <color name="downLoadTextPressed">#FFFFFFFF</color>
+    <color name="downLoadBackNomal">#FFFFFFFF</color>
+    <color name="downLoadBackFocus">#FF6698E7</color>
+    <color name="downLoadBackPressed">#FF3366CC</color>
+    <color name="dialog_tiltle_blue">#2277BB</color>
+
+	<string name="mo_alipay_confirm_title">提示</string>
+    <string name="mo_alipay_ensure">确定</string>
+    <string name="mo_alipay_cancel">取消</string>
+    <string name="mo_alipay_content_description_icon">icon</string>
+    <string name="mo_alipay_refresh">刷新</string>
+    <string name="mo_alipay_processing">加载中</string>
+    <string name="mo_alipay_download">下载</string>
+    <string name="mo_alipay_download_fail">下载安装包失败</string>
+    <string name="mo_alipay_cancel_install_msp">你已取消安装移动快捷支付服务</string>
+    <string name="mo_alipay_cancel_install_alipay">你已取消安装支付宝钱包</string>
+    <string name="mo_alipay_redo">重试</string>
+    <string name="mo_alipay_install_msp">你尚未安装支付宝移动快捷支付服务，请立即安装</string>
+    <string name="mo_alipay_install_alipay">你尚未安装支付宝钱包，请立即安装</string>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+    <style name="mo_alipay_AlertDialog" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/mo_alipay_popup_bg</item>
+    </style>
+
+</resources>

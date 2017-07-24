@@ -1,0 +1,84 @@
+var urId
+apiready = function() {
+	var header = $api.byId('header');
+	if (api.systemType == 'ios') {
+		$api.css(header, 'margin-top:20px;');
+	}
+
+	FileUtils.readFile("info.json", function(info, err) {
+			urId=info.userNo;
+			
+		});
+
+    //返回刷新
+	api.addEventListener({
+		name : 'keyback'
+	}, function(ret, err) {
+		
+			api.closeWin();
+	});
+	
+	function refresh() {
+		location.reload();
+
+	}
+	
+	$('#goback').click(function(){
+			api.closeWin({
+	        });
+	         
+		});
+		
+	
+			
+	$('#sub').click(function(){
+		addBank(urId);
+		
+	})	
+	
+	function addBank(urId){
+		var master=$('#master').val();
+		var bank=$('#bank').html();
+		var card_no=$('#card_no').val();
+		var reg = /^(\d{16}|\d{19})$/;
+		if( !card_no){
+          api.alert({
+			   msg : '请输入银行卡号'
+		   })
+		   return false;
+		}else if(!reg.test(card_no)){
+			api.alert({
+			   msg : '请输入正确银行卡号'
+		   })
+		   return false;
+		}
+		AjaxUtil.exeScript({
+	      script:"mobile.buyback.buyback",
+	      needTrascation:true,
+	      funName:"addBankInfo",
+	      form:{
+	        userNo:urId,
+	        master:master,
+	        bank:bank,
+	        card_no:card_no,
+	        identity_card:''
+	      },
+	      success:function (data) {
+		      	api.toast({
+				msg : "亲，您提交成功！"
+				});
+				setTimeout(function(){
+					api.closeWin();
+					api.execScript({//刷新银行卡列表页面
+					name : 'buyback-list',
+					//frameName : 'buyback-list',
+					script : 'refresh();'
+			});
+				},1000)
+				
+				
+	       }
+	    });
+	}
+	
+}

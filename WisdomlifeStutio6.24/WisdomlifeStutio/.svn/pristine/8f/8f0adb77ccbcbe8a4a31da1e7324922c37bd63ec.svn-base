@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:background="@color/main_topbackground">
+
+	    <ImageButton
+	        android:id="@+id/ib_scan_back"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="0.1"
+	        android:background="#00000000"
+	        android:clickable="true"
+	        android:contentDescription="@string/back"
+	        android:focusable="true"
+	        android:scaleType="centerInside"
+	        android:src="@drawable/left_ac" />
+
+		<TextView
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.8"
+		    android:background="@color/main_topbackground"
+		    android:gravity="center"
+		    android:paddingTop="15dp"
+		    android:paddingBottom="15dp"
+		    android:text="@string/find"
+		    android:textColor="@color/main_textcolor"
+		    android:textSize="15sp" />
+		<Button 
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="0.1"
+		    android:visibility="invisible"
+		    android:enabled="false"/>
+	</LinearLayout>
+	
+
+	
+    <View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#A7A7AA"
+	/>
+    
+    <TextView
+            android:id="@+id/activity_scan_tv_mark"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:background="#FFFFFF"
+            android:text="@string/activity_scanning"
+            android:visibility="visible" />
+    
+	<LinearLayout 
+  	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/main_background"
+        android:orientation="vertical" >
+
+
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/rv_scan_list"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="2"/>
+
+       	<LinearLayout 
+         	android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+	       	<Button
+			android:id="@+id/activity_scan_cancel"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/yoho_grey"
+			android:text="@string/activity_scanning_again"
+			android:textSize="15sp"
+			android:visibility="visible" />
+        </LinearLayout>
+        <!-- android:background="@drawable/shape_btn_gray" -->
+    </LinearLayout>
+
+</LinearLayout>
