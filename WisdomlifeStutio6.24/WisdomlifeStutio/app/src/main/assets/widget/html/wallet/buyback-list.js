@@ -2,7 +2,6 @@ var urId;
 apiready = function() {
 	FileUtils.readFile("info.json", function(info, err) {
 			urId=info.userNo;
-			console.log('userNo为'+urId);
 			bankList(urId);
 		});
 	var header = $api.byId('title');
@@ -57,22 +56,26 @@ apiready = function() {
 	        userNo:urId
 	      },
 	      success:function (data) {
-	      console.log($api.jsonToStr(data));
 	       if (data.formDataset.checked == 'true') {
 	       		var account = data.formDataset.bankList;
 	       		var list=$api.strToJson(account);
 //	       		var list=eval(account);
-	       		console.log(list)
 	       		//$api.jsonToStr(data)
 				if(list.length==0){
 					api.toast({
 						msg : "您还没有添加银行卡！"
 					});
 				}else{
+				var imgUlr='';
 		       		for(var i=0;i<list.length;i++){
+		       			if(list[i].open_bank=="中信银行"){
+		       				imgUlr='<img src="../../image/bank1.png"/>'
+		       			}else if(list[i].open_bank=="工商银行"){
+		       				imgUlr='<img src="../../image/bank2.png"/>'
+		       			}
 		       			var nowli='<div class="jia" >'
 		       					+'<div class="left">'
-		       					+'<img src="../../image/bank1.png"/>'
+		       					+''+imgUlr+''
 		       					+'</div>'
 		       					+'<div class="middle">'
 		       					+'<div><span>'+list[i].open_bank+'</span></div>'
@@ -158,7 +161,6 @@ apiready = function() {
 				    key: 'chooseId',
 				    value: arr[0].id
 				});
-			    	console.log(arr[0].id);
 			    	
 			    	api.closeWin({
         				});

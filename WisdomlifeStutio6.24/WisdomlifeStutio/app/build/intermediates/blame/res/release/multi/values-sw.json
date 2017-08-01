@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw/values-sw.xml",
+        "outputFile": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw/values-sw.xml",
         "map": [
             {
                 "to": {
@@ -372,7 +372,7 @@
                     "endOffset": 2073
                 },
                 "from": {
-                    "file": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/values-sw/rc_notification_string.xml",
+                    "file": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/values-sw/rc_notification_string.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -391,7 +391,7 @@
                     "endOffset": 2167
                 },
                 "from": {
-                    "file": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/values-sw/rc_notification_string.xml",
+                    "file": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/values-sw/rc_notification_string.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -410,7 +410,7 @@
                     "endOffset": 2244
                 },
                 "from": {
-                    "file": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/values-sw/rc_notification_string.xml",
+                    "file": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/values-sw/rc_notification_string.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

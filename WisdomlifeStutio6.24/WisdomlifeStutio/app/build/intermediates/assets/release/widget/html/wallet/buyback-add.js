@@ -45,7 +45,6 @@ function queryUserInfoUserNo(urId){
 				userNo : urId
 			},
 			success : function(data) {
-				console.log($api.jsonToStr(data));
 				if (data.formDataset.checked == 'true') {
 					var account = data.formDataset.userInfo;
 					var list = $api.strToJson(account);
@@ -110,6 +109,12 @@ function queryUserInfoUserNo(urId){
 		   })
 		   return false;
 		};
+		if($('#bank option:selected').val()=='请选择'){
+			api.alert({
+			   msg : '请选择要转入的银行'
+		   })
+		   return false;
+		};
 		
 		if( !card_no){
           api.alert({
@@ -130,7 +135,7 @@ function queryUserInfoUserNo(urId){
 	      form:{
 	        userNo:urId,
 	        master:master,
-	        bank:bank,
+	        bank:$('#bank option:selected').val(),
 	        card_no:card_no,
 	        province:$('#province option:selected').val(),
 	        city:$('#city option:selected').val(),
@@ -138,7 +143,6 @@ function queryUserInfoUserNo(urId){
 	      },
 	     
 			success:function (data) {
-				console.log($api.jsonToStr(data));
 				if (data.formDataset.checked == 'true') {
 					api.toast({
 						msg : "亲，您提交成功！"

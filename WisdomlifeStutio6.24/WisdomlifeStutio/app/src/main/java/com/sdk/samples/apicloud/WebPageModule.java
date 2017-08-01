@@ -402,6 +402,8 @@ public class WebPageModule extends ExternalActivity {
 			}
 			moduleContext.success(jsonObject, true);
 
+		}else if (name.equals("ConnetToWiFi")){
+
 		}
 		else {
 			ToastUtils.showMessage(mContext,name);

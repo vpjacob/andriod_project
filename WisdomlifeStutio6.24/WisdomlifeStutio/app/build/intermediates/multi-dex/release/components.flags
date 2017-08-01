@@ -1,5 +1,5 @@
--injars /Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/jarMerging/release/jars/1/1f/combined.jar
--outjars /Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/multi-dex/release/componentClasses.jar
+-injars /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/jarMerging/release/jars/1/1f/combined.jar
+-outjars /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/multi-dex/release/componentClasses.jar
 
 -libraryjars /Users/liuyi/Library/Android/sdk/build-tools/25.0.2/lib/shrinkedAndroid.jar
 
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **
 -dontwarn **
--printconfiguration /Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/multi-dex/release/components.flags
+-printconfiguration /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/multi-dex/release/components.flags
 
 
 # view AndroidManifest.xml #generated:441

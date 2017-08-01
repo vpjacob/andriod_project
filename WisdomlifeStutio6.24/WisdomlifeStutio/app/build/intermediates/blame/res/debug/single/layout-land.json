@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout-land/act__main.xml",
-        "source": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/layout-land/act__main.xml"
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout-land/mo_fnscanner_main.xml",
+        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/layout-land/mo_fnscanner_main.xml"
     },
     {
-        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout-land/item_gridview_main.xml",
-        "source": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/layout-land/item_gridview_main.xml"
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout-land/frag_community.xml",
+        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/layout-land/frag_community.xml"
     },
     {
-        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout-land/mo_fnscanner_main.xml",
-        "source": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/layout-land/mo_fnscanner_main.xml"
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout-land/item_gridview_main.xml",
+        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/layout-land/item_gridview_main.xml"
     },
     {
-        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout-land/act_visitor_pass.xml",
-        "source": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/layout-land/act_visitor_pass.xml"
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout-land/act__main.xml",
+        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/layout-land/act__main.xml"
     },
     {
-        "merged": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout-land/frag_community.xml",
-        "source": "/Users/liuyi/Desktop/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/layout-land/frag_community.xml"
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout-land/act_visitor_pass.xml",
+        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/layout-land/act_visitor_pass.xml"
     }
 ]

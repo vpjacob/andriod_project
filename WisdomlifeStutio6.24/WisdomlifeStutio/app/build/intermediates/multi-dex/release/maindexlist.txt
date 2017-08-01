@@ -383,8 +383,8 @@ android/support/v4/view/ViewCompatKitKat.class
 android/support/annotation/BoolRes.class
 android/support/v4/media/MediaMetadataCompat.class
 com/alibaba/fastjson/serializer/JSONSerializer.class
-android/support/v4/view/PagerTitleStrip.class
 cn/jpush/android/api/JPushInterface.class
+android/support/v4/view/PagerTitleStrip.class
 io/rong/message/PublicServiceCommandMessage.class
 android/support/v4/media/RatingCompat$1.class
 android/support/v4/view/ViewCompat$JBViewCompatImpl.class
