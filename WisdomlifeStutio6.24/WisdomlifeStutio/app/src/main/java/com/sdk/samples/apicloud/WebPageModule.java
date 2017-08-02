@@ -18,7 +18,7 @@ import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 import android.view.WindowManager;
 import android.widget.TextView;
-
+import android.provider.Settings;
 import com.doormaster.topkeeper.activity.Act_AccessDevList;
 import com.doormaster.topkeeper.activity.Act_DoorList;
 import com.doormaster.topkeeper.activity.Act_OpenRecord;
@@ -403,7 +403,8 @@ public class WebPageModule extends ExternalActivity {
 			moduleContext.success(jsonObject, true);
 
 		}else if (name.equals("ConnetToWiFi")){
-
+			Intent wifiSettingsIntent = new Intent("android.settings.WIFI_SETTINGS");
+			startActivity(wifiSettingsIntent);
 		}
 		else {
 			ToastUtils.showMessage(mContext,name);
