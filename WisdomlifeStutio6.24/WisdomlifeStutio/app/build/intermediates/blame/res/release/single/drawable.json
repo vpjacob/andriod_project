@@ -676,12 +676,12 @@
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable/mo_fnscanner_arrow.png"
     },
     {
-        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable/dm_bt_blue_stoke.xml",
-        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/drawable/dm_bt_blue_stoke.xml"
-    },
-    {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable/mo_scanner_light.png",
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable/mo_scanner_light.png"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable/dm_bt_blue_stoke.xml",
+        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/drawable/dm_bt_blue_stoke.xml"
     },
     {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable/shape_btn_red.xml",
