@@ -200,12 +200,12 @@
         "source": "/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/res/drawable-xhdpi-v4/dm_clean_field_default.png"
     },
     {
-        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/dm_banner1.jpg",
-        "source": "/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/res/drawable-xhdpi-v4/dm_banner1.jpg"
-    },
-    {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/dm_checkbox_unchecked.png",
         "source": "/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/res/drawable-xhdpi-v4/dm_checkbox_unchecked.png"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/dm_banner1.jpg",
+        "source": "/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/res/drawable-xhdpi-v4/dm_banner1.jpg"
     },
     {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/pause_big_disabled.png",
@@ -600,12 +600,12 @@
         "source": "/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/res/drawable-xhdpi-v4/dm_select_all.png"
     },
     {
-        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/dm_banner2.jpg",
-        "source": "/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/res/drawable-xhdpi-v4/dm_banner2.jpg"
-    },
-    {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png",
         "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/dm_banner2.jpg",
+        "source": "/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/res/drawable-xhdpi-v4/dm_banner2.jpg"
     },
     {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/head_sbox.png",
@@ -764,16 +764,16 @@
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/drawable-xhdpi-v4/ssdk_oks_classic_check_checked.png"
     },
     {
-        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/dm_banner4.jpg",
-        "source": "/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/res/drawable-xhdpi-v4/dm_banner4.jpg"
-    },
-    {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/dm_main_open_record.png",
         "source": "/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/res/drawable-xhdpi-v4/dm_main_open_record.png"
     },
     {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png",
         "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/dm_banner4.jpg",
+        "source": "/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/res/drawable-xhdpi-v4/dm_banner4.jpg"
     },
     {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_oks_classic_tumblr.png",

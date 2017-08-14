@@ -3,231 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/mta-sdk-1.6.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/mta-sdk-1.6.2_94cd7d0980a89fffb86f4a6c8c98f19ec8c6db1b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/baidumapapi_util_v3_6_1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3e7a86f76fa106d11f5db053c969cbc1eb72dc1f">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_util_v3_6_1_79c2e1292140bd0d4d57c25166403ba4dc1dd559/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/baidumapapi_map_v3_6_1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="604b7389127669e56977faca6c35650fff1fc572">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_map_v3_6_1_4eccf629ec104943481aea9b49d02a1aa54c607d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/zxing.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="876d5fc1d8cc7979ecb83b29291fc7d29c0dbc03">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/zxing_a3cf62128e4efe57be568d9f6b104a58509b74fc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b156fa654a31b125b240f8319e962f309dbc8628/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f20d6fdbbce2d675c38942b999c01512b25d4931">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9348fb1ad3d9af63a15f58d488c908b1912bce7b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/locSDK_6.13.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/locSDK_6.13_9c3f462c1cf0d18d12b9a86bf141a54a28076933/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/libs/galaxy_lite.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d783ff164f826274770bbfb64ec27290d74a17a">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/8/galaxy_lite_689dee0e82ca0b02b468dcb3c0d8bea8a1f11e4c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzBle.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="972f067f5b75336c8f11326d91182dc64f2dd280">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzBle_f170df71f864c80d5b42e324c2e6822ede65da8c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/libs/DoormasterSDKV2.0.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a79bcae2423703ed41b31de368b6abc4149400e5">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/8/DoormasterSDKV2.0.5_0d2eb732efd9c958ec0446550b4899e0a09f65d8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/tbs_sdk_v1.5.1.1069_25451_obfs_20160510_174630.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecbfff81a64d384e48067c3984cfb8ea2eca92c1">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/tbs_sdk_v1.5.1.1069_25451_obfs_20160510_174630_d2e400fcfa6edd9d78054831d85092b5d33bf65f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/libs/ShareSDK-Wechat-Core-2.8.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="04eb1fe128294f546968541bb4e551e5d49323cd">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/8/ShareSDK-Wechat-Core-2.8.3_6342a7a78f3aae161df09a3d2accf201b638c794/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/libs/ShareSDK-Wechat-2.8.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4c72b282f1844a7e0c20713a21c43267cbdf39d8">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/8/ShareSDK-Wechat-2.8.3_c07518ba0fd526eee8023216fb86f6ceed448e3c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/photoimageview.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3397bb659b2fb3755bef6a166c1311dd3f9e0d9d">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/photoimageview_ff30ac59f8a882ae6d1fb9de09ee41039e7168a9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/MNPopups.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="014a89fd43e7c9384265ae802e5e0f62ba517868">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/MNPopups_040c1cc548e1811ccd3b85cb1a4459429383e0a4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/UIActionSelector.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="900e6c93ecb058e6d4e16bf021a6ddb6ffc2e702">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/UIActionSelector_e16f7c03db4392c61118c7d6b5b329ac9afaf636/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzQQ.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d6953e658782bba5ab77a796cc6006a6fd239dec">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzQQ_524150eb31435d276aeda6a6fe69959fce9397ea/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzBMap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="51c69e73a80cccfef3249060b8dff79f3cc2b6d9">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzBMap_efc7c42d1a3d093cb964ce3f73260b86876c971d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/fastjson-1.2.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fbcf8415e32859b473b336e5ac6422ee69b1185b">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/fastjson-1.2.4_a8b9bd3e079d6022c6439856f0cf947d836f9017/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzAlipay.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5008a9674a18d9b40925a6427b446d9eb8a7cf50">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzAlipay_926f3bb2701894081a2e7bf993c3bb4b51081424/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/Rong_IMLib.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e5e6d6f5a0db950ac8db4fac15fd268a6286452f">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/Rong_IMLib_4ef1bcc9bd56ed93b3e654b2b85b732d63c97d46/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/webBrowser.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bca4cdfadc4b1d36a9110624f9850041a68b8c8c">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/webBrowser_4cf3a46b507e0696eac54d1b3544ecd9c07e00e7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzPush.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c8a911a23d0fe42882c4f25adedba9113aaa4c7c">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzPush_718b4a497f01375de17b58864c3eed8b05da192a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzUIChatBox.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="483c8711c3b2531571da306a03340f63add63c68">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzUIChatBox_eeaf3d79a361bf74e8feb29e7ee493a0b6819b3b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/eventbus.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bce1c8d061ecc7d7664ae13bb5d29543ff93ca52">
-        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/eventbus_505b7b1f5252b154e0f661af2209858c6f04ecd3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/commons-codec-1.8.jar"
         jumboMode="true"
         optimize="true"
@@ -246,12 +21,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/mta-sdk-1.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/mta-sdk-1.6.2_94cd7d0980a89fffb86f4a6c8c98f19ec8c6db1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/baidumapapi_util_v3_6_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e7a86f76fa106d11f5db053c969cbc1eb72dc1f">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_util_v3_6_1_79c2e1292140bd0d4d57c25166403ba4dc1dd559/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzFNScanner.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="f492bff9d9ef6a8f2dee5f6da6bc86fd31751e0b">
         <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzFNScanner_a9d7390e1e662da60a48b2488e8b9ab03164a37f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/baidumapapi_map_v3_6_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="604b7389127669e56977faca6c35650fff1fc572">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_map_v3_6_1_4eccf629ec104943481aea9b49d02a1aa54c607d/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -282,6 +84,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/zxing.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="876d5fc1d8cc7979ecb83b29291fc7d29c0dbc03">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/zxing_a3cf62128e4efe57be568d9f6b104a58509b74fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzMam.jar"
         jumboMode="true"
         optimize="true"
@@ -300,6 +111,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b156fa654a31b125b240f8319e962f309dbc8628/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/photoBrowser.jar"
         jumboMode="true"
         optimize="true"
@@ -315,6 +135,15 @@
         revision="25.0.2"
         sha1="a6bc44abf88658e10d01f237698f42c0d6de7242">
         <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/8/ShareSDK-QQ-2.8.3_f96d01ece0d332de1a3e4f58952c9420890d86ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f20d6fdbbce2d675c38942b999c01512b25d4931">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9348fb1ad3d9af63a15f58d488c908b1912bce7b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -417,6 +246,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/locSDK_6.13.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/locSDK_6.13_9c3f462c1cf0d18d12b9a86bf141a54a28076933/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/Scanner.jar"
         jumboMode="true"
         optimize="true"
@@ -435,12 +273,66 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/libs/galaxy_lite.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d783ff164f826274770bbfb64ec27290d74a17a">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/8/galaxy_lite_689dee0e82ca0b02b468dcb3c0d8bea8a1f11e4c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzBle.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="972f067f5b75336c8f11326d91182dc64f2dd280">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzBle_f170df71f864c80d5b42e324c2e6822ede65da8c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/baidumapapi_cloud_v3_6_1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d2bb1d8260c1687f153fde72de63fc1215e38798">
         <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_cloud_v3_6_1_3e78ce9bbb48c3088d797db0acc843ce3e4b8899/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/libs/DoormasterSDKV2.0.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a79bcae2423703ed41b31de368b6abc4149400e5">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/8/DoormasterSDKV2.0.5_0d2eb732efd9c958ec0446550b4899e0a09f65d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/tbs_sdk_v1.5.1.1069_25451_obfs_20160510_174630.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecbfff81a64d384e48067c3984cfb8ea2eca92c1">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/tbs_sdk_v1.5.1.1069_25451_obfs_20160510_174630_d2e400fcfa6edd9d78054831d85092b5d33bf65f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/libs/ShareSDK-Wechat-Core-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="04eb1fe128294f546968541bb4e551e5d49323cd">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/8/ShareSDK-Wechat-Core-2.8.3_6342a7a78f3aae161df09a3d2accf201b638c794/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/libs/ShareSDK-Wechat-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c72b282f1844a7e0c20713a21c43267cbdf39d8">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/8/ShareSDK-Wechat-2.8.3_c07518ba0fd526eee8023216fb86f6ceed448e3c/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -462,6 +354,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/photoimageview.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3397bb659b2fb3755bef6a166c1311dd3f9e0d9d">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/photoimageview_ff30ac59f8a882ae6d1fb9de09ee41039e7168a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/MNPopups.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="014a89fd43e7c9384265ae802e5e0f62ba517868">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/MNPopups_040c1cc548e1811ccd3b85cb1a4459429383e0a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/UIActionSelector.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="900e6c93ecb058e6d4e16bf021a6ddb6ffc2e702">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/UIActionSelector_e16f7c03db4392c61118c7d6b5b329ac9afaf636/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/samsung_ble_sdk_200.jar"
         jumboMode="true"
         optimize="true"
@@ -477,6 +396,15 @@
         revision="25.0.2"
         sha1="2a033f6ab8d326c72e5b2cb68e1f153594c30d2e">
         <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzFs_bd0406683bd3f1c8131512b258cd0596cddb4c43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzQQ.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6953e658782bba5ab77a796cc6006a6fd239dec">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzQQ_524150eb31435d276aeda6a6fe69959fce9397ea/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -504,6 +432,69 @@
         revision="25.0.2"
         sha1="1b345408281eeab883ba9ffff470f1a770940658">
         <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_radar_v3_6_1_5df93493c9efed465a8908d4fdf5dfb5c60cc36b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzBMap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51c69e73a80cccfef3249060b8dff79f3cc2b6d9">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzBMap_efc7c42d1a3d093cb964ce3f73260b86876c971d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/fastjson-1.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbcf8415e32859b473b336e5ac6422ee69b1185b">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/fastjson-1.2.4_a8b9bd3e079d6022c6439856f0cf947d836f9017/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzAlipay.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5008a9674a18d9b40925a6427b446d9eb8a7cf50">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzAlipay_926f3bb2701894081a2e7bf993c3bb4b51081424/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/Rong_IMLib.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5e6d6f5a0db950ac8db4fac15fd268a6286452f">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/Rong_IMLib_4ef1bcc9bd56ed93b3e654b2b85b732d63c97d46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/webBrowser.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bca4cdfadc4b1d36a9110624f9850041a68b8c8c">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/webBrowser_4cf3a46b507e0696eac54d1b3544ecd9c07e00e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzPush.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c8a911a23d0fe42882c4f25adedba9113aaa4c7c">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzPush_718b4a497f01375de17b58864c3eed8b05da192a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/uzUIChatBox.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="483c8711c3b2531571da306a03340f63add63c68">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/uzUIChatBox_eeaf3d79a361bf74e8feb29e7ee493a0b6819b3b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -547,7 +538,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7274db880dc9c64883ee70c25114d63d7142f8ef">
+        sha1="9a02778fe69ae14ec1b87b27b8d757802af5e4aa">
         <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_46024f9dc293a4846041155c7020188707242ad1/classes.dex" />
     </item>
     <item
@@ -576,6 +567,15 @@
         revision="25.0.2"
         sha1="865bbb7a2cb195d483822e41d83e98a77cb8734d">
         <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/UIMediaScanner_124d363226c784d4b524a0777a405768be5de3f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/libs/eventbus.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bce1c8d061ecc7d7664ae13bb5d29543ff93ca52">
+        <dex dex="/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/2/eventbus_505b7b1f5252b154e0f661af2209858c6f04ecd3/classes.dex" />
     </item>
     <item
         is-multidex="true"
