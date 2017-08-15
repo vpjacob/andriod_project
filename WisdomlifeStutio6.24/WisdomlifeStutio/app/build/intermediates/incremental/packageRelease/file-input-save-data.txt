@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Aug 14 14:40:47 CST 2017
+#Mon Aug 14 17:27:33 CST 2017
 2185.file=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/assets/release/widget/html/zhwhOM/css/styleMessage.css
 1425.base=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/assets/release
 2716.set=JAVA_RESOURCE

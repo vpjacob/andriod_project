@@ -1,4 +1,4 @@
-#Mon Aug 14 14:40:41 CST 2017
+#Mon Aug 14 17:27:27 CST 2017
 base.0=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
 renamed.1=classes.dex
 renamed.0=classes2.dex
