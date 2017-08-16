@@ -29,11 +29,11 @@ android {
 
     repositories {
         flatDir {
-            dirs '../Topkeeper/libs','libs'
+            dirs '../Topkeeper/libs', 'libs'
         }
     }
 
-    lintOptions{
+    lintOptions {
         checkReleaseBuilds false
         abortOnError false
     }
@@ -41,11 +41,12 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:support-v4:22.2.1'
-    compile 'com.google.code.gson:gson:2.8.0'
     //    compile 'com.google.code.gson:gson:2.4'
-    compile 'com.zhy:okhttputils:2.3.8'
     //    compile(name:'doormaster-vphone-sdk-V1.4.4',ext:'aar')
 //    compile project(path: ':Topkeeper')
     compile project(':Topkeeper')
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.zhy:okhttputils:2.3.8'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
 }

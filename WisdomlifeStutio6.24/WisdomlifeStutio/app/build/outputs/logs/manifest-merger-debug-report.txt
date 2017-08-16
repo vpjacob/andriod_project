@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:2:1-436:12
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:2:1-561:12
 	package
 		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:4:5-33
 		INJECTED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml
@@ -16,957 +16,961 @@ ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeS
 		INJECTED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml
 supports-screens
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:6:5-190
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:6:5-12:40
 	android:largeScreens
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:6:49-76
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:8:9-36
 	android:smallScreens
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:6:132-159
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:11:9-36
 	android:normalScreens
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:6:77-105
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:9:9-37
 	android:xlargeScreens
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:6:160-188
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:12:9-37
 	android:resizeable
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:6:106-131
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:10:9-34
 	android:anyDensity
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:6:23-48
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:7:9-34
 uses-permission#android.permission.INTERNET
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:9:5-66
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:9:22-64
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:15:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:11:5-80
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:17:5-81
 MERGED from [:sdklibrary-release:] /Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:11:22-78
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:17:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:13:5-80
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:19:5-81
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:13:22-78
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:19:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:15:5-78
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:21:5-79
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:15:22-76
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:21:22-76
 uses-permission#android.permission.ACCESS_MOCK_LOCATION
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:16:5-78
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:16:22-76
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:22:22-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:18:5-78
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:18:22-76
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:24:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:20:5-75
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:26:5-76
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:20:22-73
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:26:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:22:5-75
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:28:5-76
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:22:22-73
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:28:22-73
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:24:5-67
-	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:24:22-65
-uses-permission#android.permission.VIBRATE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:26:5-65
-	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:26:22-63
-uses-permission#android.permission.CAMERA
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:28:5-64
-	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:28:22-62
-uses-permission#android.permission.CALL_PHONE
 ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:30:5-68
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:30:22-66
-uses-permission#android.permission.SEND_SMS
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:30:22-65
+uses-permission#android.permission.VIBRATE
 ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:32:5-66
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:32:22-64
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:32:22-63
+uses-permission#android.permission.CAMERA
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:34:5-65
+	android:name
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:34:22-62
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:36:5-69
+	android:name
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:36:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:38:5-67
+	android:name
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:38:22-64
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:34:5-74
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:40:5-75
 MERGED from [:sdklibrary-release:] /Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/AndroidManifest.xml:12:5-75
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:34:22-72
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:40:22-72
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:36:5-71
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:42:5-72
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:36:22-69
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:42:22-69
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:38:5-72
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:44:5-73
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:38:22-70
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:44:22-70
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:40:5-70
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:46:5-71
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:40:22-68
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:46:22-68
 uses-permission#android.permission.FLASHLIGHT
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:42:5-68
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:48:5-69
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:42:22-66
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:48:22-66
 uses-permission#android.permission.READ_LOGS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:44:5-67
-	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:44:22-65
-uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:46:5-80
-	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:46:22-78
-uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:48:5-73
-MERGED from [WisdomlifeStutio:Topkeeper:unspecified] /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/AndroidManifest.xml:16:5-74
-	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:48:22-71
-uses-permission#android.permission.BLUETOOTH
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:50:5-67
-MERGED from [WisdomlifeStutio:Topkeeper:unspecified] /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/AndroidManifest.xml:15:5-68
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:50:5-68
 	android:name
 		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:50:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:52:5-81
+	android:name
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:52:22-78
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:54:5-74
+MERGED from [WisdomlifeStutio:Topkeeper:unspecified] /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:54:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:56:5-68
+MERGED from [WisdomlifeStutio:Topkeeper:unspecified] /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:56:22-65
 uses-feature#android.hardware.camera
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:52:5-59
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:58:5-60
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:52:19-57
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:58:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:53:5-94
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:59:5-61:36
 	android:required
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:53:68-92
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:61:9-33
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:53:19-67
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:60:9-57
 uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:55:5-87
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:63:5-88
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:55:22-85
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:63:22-85
 uses-feature#android.hardware.bluetooth_le
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:57:5-89
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:65:5-67:35
 	android:required
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:57:64-87
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:67:9-32
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:57:19-63
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:66:9-53
 permission#com.z421614851.iga.permission.JPUSH_MESSAGE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:59:5-113
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:69:5-71:47
 	android:protectionLevel
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:59:76-111
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:71:9-44
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:59:17-75
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:70:9-67
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:60:5-79
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:73:5-80
 MERGED from [:sdklibrary-release:] /Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/AndroidManifest.xml:13:5-80
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:60:22-77
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:73:22-77
 uses-permission#android.permission.GET_TASKS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:61:5-67
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:74:5-68
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:61:22-65
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:74:22-65
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:62:5-83
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:75:5-84
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:62:22-81
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:75:22-81
 uses-permission#android.permission.WRITE_MEDIA_STORAGE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:63:5-77
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:76:5-78
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:63:22-75
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:76:22-75
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:64:5-79
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:77:5-80
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:64:22-77
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:77:22-77
 uses-permission#android.permission.RECEIVE_USER_PRESENT
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:65:5-78
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:78:5-79
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:65:22-76
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:78:22-76
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:66:5-77
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:79:5-78
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:66:22-75
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:79:22-75
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:67:5-72
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:80:5-73
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:67:22-70
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:80:22-70
 uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:68:5-88
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:81:5-89
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:68:22-86
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:81:22-86
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:69:5-78
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:82:5-79
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:69:22-76
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:82:22-76
 permission#com.z421614851.iga.permission.C2D_MESSAGE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:76:5-78:47
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:88:5-90:47
 	android:protectionLevel
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:78:9-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:90:9-44
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:77:9-65
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:89:9-65
 uses-permission#com.z421614851.iga.permission.JPUSH_MESSAGE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:79:5-83
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:91:5-83
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:79:22-80
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:91:22-80
 uses-permission#com.z421614851.iga.permission.C2D_MESSAGE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:80:5-81
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:92:5-81
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:80:22-78
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:92:22-78
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:82:5-82
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:94:5-82
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:82:22-79
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:94:22-79
 uses-permission#android.permission.DISABLE_KEYGUARD
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:83:5-75
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:95:5-75
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:83:22-72
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:95:22-72
 uses-permission#android.permission.PROCESS_OUTGOING_CALLS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:84:5-81
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:96:5-81
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:84:22-78
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:96:22-78
 uses-feature#android.hardware.telephony
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:87:5-89:36
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:99:5-101:36
 	android:required
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:89:9-33
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:101:9-33
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:88:9-50
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:100:9-50
 uses-permission#android.permission.BROADCAST_STICKY
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:91:5-75
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:103:5-75
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:91:22-72
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:103:22-72
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:93:5-71
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:105:5-71
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:93:22-68
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:105:22-68
 uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:94:5-86
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:106:5-86
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:94:22-83
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:106:22-83
 uses-permission#android.permission.READ_SYNC_SETTINGS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:95:5-77
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:107:5-77
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:95:22-74
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:107:22-74
 uses-permission#android.permission.WRITE_SYNC_SETTINGS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:96:5-78
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:108:5-78
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:96:22-75
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:108:22-75
 uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:97:5-80
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:109:5-80
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:97:22-77
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:109:22-77
 application
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:100:5-434:19
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:111:5-559:19
 MERGED from [WisdomlifeStutio:Topkeeper:unspecified] /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/AndroidManifest.xml:18:5-346:19
 MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/liuyi/.android/build-cache/690c434a3e3a946c54f49e5746acd0927ab91dc8/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/liuyi/.android/build-cache/eaa62dd7d47163db0a30b140ff63fb84b97dc871/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:percent:25.3.0] /Users/liuyi/.android/build-cache/18130448768579b95a6c6fda99309f61dc1d65c9/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.0] /Users/liuyi/.android/build-cache/1bd287630649366f2bef85da91305fb582190948/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.0] /Users/liuyi/.android/build-cache/17e368fcf4387fe6ccf185f7051ba3f88dfde114/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.0] /Users/liuyi/.android/build-cache/200fceb16d92e1245f96f855c992f2dffa409e35/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:25.3.0] /Users/liuyi/.android/build-cache/c7f582369f7d093e7afadd9879306dfa91efcab6/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.0] /Users/liuyi/.android/build-cache/0dd409775bea993b60338b6324d6f5b44f8c0846/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:percent:25.3.0] /Users/liuyi/.android/build-cache/18130448768579b95a6c6fda99309f61dc1d65c9/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.0] /Users/liuyi/.android/build-cache/72187eaa4658759f4df0c1cd82185d3b0a559c9b/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha8] /Users/liuyi/.android/build-cache/a44296c6c9b4cbb1f8d42cce23189b469bd49cf2/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liuyi/.android/build-cache/286eb871b0d39a1b6cbf96315fdfe13978e918a3/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:104:9-41
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:117:9-41
 	android:hardwareAccelerated
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:102:9-43
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:115:9-43
 	android:debuggable
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:101:9-35
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:114:9-35
 	android:allowBackup
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:100:18-45
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:113:9-36
 	android:icon
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:103:9-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:116:9-44
 	android:largeHeap
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:105:9-33
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:118:9-33
 	tools:replace
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:107:9-103
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:119:9-103
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:106:9-53
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:112:9-53
 		REJECTED from [WisdomlifeStutio:Topkeeper:unspecified] /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/AndroidManifest.xml:18:18-82
 meta-data#uz_version
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:108:9-70
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:120:9-122:38
 	android:value
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:108:46-68
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:122:13-35
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:108:20-45
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:121:13-38
 activity#com.sdk.samples.MainActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:110:9-121:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:124:9-136:20
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:114:13-49
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:128:13-49
 	android:label
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:112:13-45
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:126:13-45
 	android:launchMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:113:13-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:127:13-44
 	android:windowSoftInputMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:116:13-59
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:130:13-59
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:115:13-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:129:13-44
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:111:13-56
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:125:13-56
 activity#com.sdk.samples.apicloud.SplashActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:123:9-132:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:137:9-148:20
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:125:13-49
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:140:13-49
 	android:label
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:124:13-45
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:139:13-45
 	android:windowSoftInputMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:127:13-59
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:142:13-59
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:126:13-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:141:13-44
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:123:19-73
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:138:13-67
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:128:13-131:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:143:13-147:29
 action#android.intent.action.MAIN
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:129:17-68
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:144:17-69
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:129:25-66
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:144:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:130:17-76
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:146:17-77
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:130:27-74
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:146:27-74
 activity#com.sdk.samples.apicloud.WebPageModule
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:134:9-146:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:149:9-161:20
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:138:13-49
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:153:13-49
 	android:label
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:136:13-45
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:151:13-45
 	android:launchMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:137:13-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:152:13-44
 	android:windowSoftInputMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:140:13-59
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:155:13-59
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:139:13-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:154:13-44
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:135:13-66
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:150:13-66
 activity#com.uzmap.pkg.EntranceActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:147:9-152:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:162:9-175:20
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:147:240-276
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:167:13-49
 	android:label
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:147:129-161
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:165:13-45
 	android:launchMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:147:162-193
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:166:13-44
 	android:windowSoftInputMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:147:309-355
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:169:13-59
 	android:configChanges
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:147:19-128
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:164:13-122
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:147:277-308
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:168:13-44
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:147:194-239
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:163:13-58
 provider#com.uzmap.pkg.uzapp.UProvider
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:153:3-149
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:177:9-181:36
 	android:authorities
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:153:13-56
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:179:13-56
 	android:label
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:153:82-102
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:181:13-33
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:153:57-81
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:180:13-37
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:153:103-147
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:178:13-57
 service#com.uzmap.pkg.uzsocket.UPnsService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:154:9-139
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:183:9-187:41
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:154:18-40
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:185:13-35
 	android:process
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:154:112-137
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:187:13-38
 	android:label
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:154:41-61
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:186:13-33
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:154:62-111
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:184:13-62
 receiver#com.uzmap.pkg.uzapp.UPExtraBridge
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:155:9-175:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:188:9-213:20
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:155:19-41
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:190:13-35
 	android:process
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:155:112-137
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:192:13-38
 	android:label
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:155:42-62
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:191:13-33
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:155:63-111
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:189:13-61
 intent-filter#android.intent.action.BOOT_COMPLETED+android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:156:10-159:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:193:13-196:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:157:17-78
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:194:17-79
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:157:25-76
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:194:25-76
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:158:17-78
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:195:17-79
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:158:25-76
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:195:25-76
 intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:160:13-164:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:197:13-202:29
 action#android.intent.action.PACKAGE_REMOVED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:161:17-79
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:198:17-80
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:161:25-77
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:198:25-77
 action#android.intent.action.PACKAGE_ADDED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:162:17-77
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:199:17-78
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:162:25-75
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:199:25-75
 data
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:163:17-49
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:201:17-50
 	android:scheme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:163:23-47
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:201:23-47
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:165:13-167:28
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:203:13-205:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:166:14-75
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:204:17-79
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:166:22-73
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:204:25-76
 intent-filter#android.intent.action.DOWNLOAD_COMPLETE+android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:168:12-171:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:206:13-209:29
 action#android.intent.action.DOWNLOAD_COMPLETE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:169:17-81
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:207:17-82
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:169:25-79
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:207:25-79
 action#android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:170:17-93
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:208:17-94
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:170:25-91
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:208:25-91
 intent-filter#android.intent.apicloud.notification
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:172:4-174:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:210:13-212:29
 action#android.intent.apicloud.notification
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:173:17-78
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:211:17-79
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:173:25-76
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:211:25-76
 activity#cn.jpush.android.ui.PushActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:177:1-183:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:215:9-225:20
 	android:configChanges
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:177:11-61
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:217:13-63
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:177:110-169
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:218:13-72
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:177:62-109
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:216:13-60
 intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.z421614851.iga
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:178:13-182:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:219:13-224:29
 action#cn.jpush.android.ui.PushActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:179:17-74
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:220:17-75
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:179:25-72
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:220:25-72
 category#android.intent.category.DEFAULT
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:180:17-75
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:222:17-76
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:180:27-73
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:222:27-73
 category#com.z421614851.iga
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:181:17-62
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:223:17-63
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:181:27-60
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:223:27-60
 activity#cn.jpush.android.ui.PopWinActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:184:2-185:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:226:9-229:84
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:184:12-36
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:228:13-37
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:184:87-146
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:229:13-72
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:184:37-86
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:227:13-62
 activity#com.alipay.android.app.sdk.WapPayActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:186:9-187:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:230:9-232:61
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:186:76-112
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:232:13-49
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:186:19-75
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:231:13-69
 activity#com.alipay.sdk.app.H5PayActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:188:9-189:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:233:9-238:79
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:188:154-188
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:237:13-47
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:188:81-105
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:236:13-37
 	android:windowSoftInputMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:188:189-243
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:238:13-67
 	android:configChanges
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:188:19-80
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:235:13-74
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:188:106-153
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:234:13-60
 activity#com.uzmap.pkg.uzmodules.uzFNScanner.Zxing.CaptureActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:193:1-194:14
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:242:9-245:72
 	android:windowSoftInputMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:193:143-190
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:245:13-60
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:193:84-142
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:244:13-71
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:193:11-83
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:243:13-85
 activity#com.uzmap.pkg.uzmodules.uzimageBrowser.activity.GalleryActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:196:1-225
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:246:9-250:69
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:196:133-169
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:249:13-49
 	android:configChanges
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:196:11-53
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:248:13-55
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:196:170-223
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:250:13-66
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:196:54-132
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:247:13-91
 activity#com.uzmap.pkg.uzmodules.uzimageBrowser.activity.ImageActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:197:1-223
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:251:9-255:69
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:197:131-167
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:254:13-49
 	android:configChanges
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:197:11-53
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:253:13-55
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:197:168-221
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:255:13-66
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:197:54-130
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:252:13-89
 activity#com.apicloud.movies.MyActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:199:1-200:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:257:9-259:62
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:199:57-94
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:259:13-50
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:199:11-56
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:258:13-58
 activity#com.tencent.connect.common.AssistActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:202:1-166
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:260:9-263:75
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:202:68-104
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:262:13-49
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:202:105-164
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:263:13-72
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:202:11-67
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:261:13-69
 activity#com.uzmap.pkg.uzmodules.uzqq.QQLoginAct
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:203:1-164
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:264:9-267:75
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:203:66-102
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:266:13-49
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:203:103-162
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:267:13-72
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:203:11-65
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:265:13-67
 activity#com.tencent.tauth.AuthActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:204:1-213:14
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:268:9-280:20
 	android:launchMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:204:11-42
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:270:13-44
 	android:noHistory
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:204:89-113
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:271:13-37
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:204:43-88
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:269:13-58
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:205:4-212:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:272:13-279:29
 action#android.intent.action.VIEW
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:206:5-56
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:273:17-69
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:206:13-54
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:273:25-66
 category#android.intent.category.BROWSABLE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:209:5-65
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:276:17-78
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:209:15-63
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:276:27-75
 activity#com.uzmap.pkg.uzmodules.uzScanner.Zxing.CaptureActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:215:1-216:14
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:281:9-286:72
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:215:133-169
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:284:13-49
 	android:windowSoftInputMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:215:229-276
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:286:13-60
 	android:configChanges
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:215:11-61
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:283:13-63
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:215:170-228
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:285:13-71
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:215:62-132
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:282:13-83
 activity#com.uzmap.pkg.uzmodules.UIMediaScanner.UzImgsActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:218:1-81
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:287:9-90
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:218:11-79
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:287:19-87
 activity#com.uzmap.pkg.uzmodules.UIMediaScanner.UzImgFileListActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:219:1-88
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:288:9-97
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:219:11-86
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:288:19-94
 activity#com.uzmap.pkg.uzmodules.UIMediaScanner.PhotoBrowser
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:220:1-79
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:289:9-88
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:220:11-77
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:289:19-85
 activity#com.tencent.smtt.sdk.VideoActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:221:1-226:13
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:290:9-301:20
 	android:launchMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:221:135-166
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:295:13-44
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:221:110-134
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:294:13-37
 	android:configChanges
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:221:48-109
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:293:13-74
 	android:alwaysRetainTaskState
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:221:11-47
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:292:13-49
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:221:167-216
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:291:13-62
 intent-filter#android.intent.category.DEFAULT+com.tencent.smtt.tbs.video.PLAY
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:222:3-225:19
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:296:13-300:29
 action#com.tencent.smtt.tbs.video.PLAY
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:223:4-60
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:297:17-74
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:223:12-58
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:297:25-71
 activity#com.uzmap.pkg.uzmodules.browser.BrowserActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:228:1-307
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:302:9-307:75
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:228:158-182
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:306:13-37
 	android:configChanges
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:228:48-157
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:305:13-122
 	android:alwaysRetainTaskState
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:228:11-47
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:304:13-49
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:228:246-305
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:307:13-72
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:228:183-245
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:303:13-75
 activity#com.sina.weibo.sdk.component.WeiboSdkBrowser
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:229:1-230:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:308:9-312:67
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:229:62-86
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:311:13-37
 	android:windowSoftInputMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:229:147-189
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:312:13-55
 	android:configChanges
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:229:11-61
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:310:13-63
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:229:87-146
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:309:13-72
 activity#com.uzmap.pkg.uzmodules.uzSina.activity.WBAuthActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:232:1-233:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:313:9-317:72
 	android:windowSoftInputMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:232:191-238
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:317:13-60
 	android:configChanges
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:232:11-61
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:315:13-63
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:232:132-190
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:316:13-71
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:232:62-131
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:314:13-82
 activity#com.uzmap.pkg.uzmodules.uzSina.activity.WBShareActivity
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:235:1-241:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:318:9-326:20
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:235:82-141
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:320:13-72
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:235:11-81
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:319:13-83
 intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:236:13-240:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:321:13-325:29
 action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:237:17-91
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:322:17-92
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:237:25-89
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:322:25-89
 service#cn.jpush.android.service.DownloadService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:244:1-245:19
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:329:9-332:48
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:244:10-32
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:331:13-35
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:244:33-57
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:332:13-37
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:244:58-113
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:330:13-68
 service#cn.jpush.android.service.PushService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:247:1-255:19
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:333:9-344:19
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:247:10-32
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:335:13-35
 	android:process
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:247:110-135
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:337:13-38
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:247:33-57
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:336:13-37
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:247:58-109
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:334:13-64
 intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:248:13-254:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:338:13-343:29
 action#cn.jpush.android.intent.REGISTER
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:249:17-74
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:339:17-75
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:249:25-72
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:339:25-72
 action#cn.jpush.android.intent.REPORT
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:250:17-72
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:340:17-73
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:250:25-70
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:340:25-70
 action#cn.jpush.android.intent.PushService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:251:17-77
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:341:17-78
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:251:25-75
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:341:25-75
 action#cn.jpush.android.intent.PUSH_TIME
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:252:17-75
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:342:17-76
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:252:25-73
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:342:25-73
 service#cn.jpush.android.service.DaemonService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:257:1-262:19
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:345:9-354:19
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:257:10-32
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:347:13-35
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:257:33-56
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:348:13-36
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:257:57-110
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:346:13-66
 intent-filter#cn.jpush.android.intent.DaemonService+com.z421614851.iga
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:258:13-261:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:349:13-353:29
 action#cn.jpush.android.intent.DaemonService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:259:17-79
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:350:17-80
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:259:25-77
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:350:25-77
 service#com.baidu.location.f
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:264:1-96
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:355:9-358:41
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:264:10-32
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:357:13-35
 	android:process
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:264:69-94
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:358:13-38
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:264:33-68
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:356:13-48
 service#com.intelligoo.sdk.BluetoothLeService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:265:1-87
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:359:9-361:38
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:265:10-32
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:361:13-35
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:265:33-85
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:360:13-65
 service#io.rong.imlib.ipc.RongService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:266:1-103
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:362:9-365:38
 	android:process
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:266:79-101
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:365:13-35
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:266:10-33
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:364:13-36
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:266:34-78
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:363:13-57
 service#io.rong.imlib.ReConnectService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:267:1-81
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:366:9-368:39
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:267:10-33
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:368:13-36
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:267:34-79
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:367:13-58
 service#io.rong.push.core.PushRegistrationService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:268:1-269:19
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:369:9-371:48
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:268:10-34
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:371:13-37
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:268:35-91
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:370:13-69
 service#io.rong.push.core.MessageHandleService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:271:1-272:19
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:372:9-374:47
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:271:10-33
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:374:13-36
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:271:34-87
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:373:13-66
 service#io.rong.push.PushService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:274:1-275:19
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:375:9-379:19
 	android:process
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:274:74-104
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:378:13-43
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:274:10-33
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:377:13-36
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:274:34-73
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:376:13-52
 receiver#cn.jpush.android.service.PushReceiver
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:277:1-291:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:381:9-399:20
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:277:11-33
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:383:13-35
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:277:34-86
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:382:13-65
 intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.z421614851.iga
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:278:14-281:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:384:13-388:29
 	android:priority
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:278:29-52
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:384:28-51
 action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:279:17-93
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:385:17-94
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:279:25-91
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:385:25-91
 intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:282:13-285:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:389:13-392:29
 action#android.intent.action.USER_PRESENT
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:283:17-76
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:390:17-77
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:283:25-74
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:390:25-74
 receiver#cn.jpush.android.service.AlarmReceiver
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:293:1-66
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:400:9-75
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:293:11-64
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:400:19-72
 receiver#com.open.apicloud.jpush.JPushReceiver
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:294:1-305:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:401:9-415:20
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:294:11-33
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:403:13-35
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:294:34-86
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:402:13-65
 intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.z421614851.iga
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:295:13-304:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:404:13-414:29
 action#cn.jpush.android.intent.REGISTRATION
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:296:17-78
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:405:17-79
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:296:25-76
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:405:25-76
 action#cn.jpush.android.intent.UNREGISTRATION
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:297:17-80
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:406:17-81
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:297:25-78
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:406:25-78
 action#cn.jpush.android.intent.MESSAGE_RECEIVED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:298:17-82
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:407:17-83
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:298:25-80
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:407:25-80
 action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:299:17-87
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:408:17-88
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:299:25-85
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:408:25-85
 action#cn.jpush.android.intent.NOTIFICATION_OPENED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:300:17-85
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:409:17-86
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:300:25-83
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:409:25-83
 action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:301:17-90
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:410:17-91
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:301:25-88
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:410:25-88
 action#cn.jpush.android.intent.CONNECTION
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:302:17-76
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:411:17-77
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:302:25-74
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:411:25-74
 receiver#io.rong.imlib.ConnectChangeReceiver
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:307:1-87
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:416:9-418:39
 	android:exported
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:307:11-34
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:418:13-36
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:307:35-85
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:417:13-63
 receiver#io.rong.imlib.HeartbeatReceiver
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:308:1-82
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:419:9-421:38
 	android:process
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:308:58-80
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:421:13-35
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:308:11-57
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:420:13-59
 receiver#io.rong.push.PushReceiver
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:309:1-327:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:422:9-442:20
 	android:process
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:309:52-82
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:424:13-43
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:309:11-51
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:423:13-53
 intent-filter#io.rong.push.intent.action.HEART_BEAT
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:311:13-313:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:426:13-428:29
 action#io.rong.push.intent.action.HEART_BEAT
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:312:17-79
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:427:17-80
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:312:25-77
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:427:25-77
 intent-filter#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:315:13-317:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:430:13-432:29
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:319:13-321:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:434:13-436:29
 intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.USER_PRESENT
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:322:13-326:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:437:13-441:29
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:324:17-86
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:439:17-87
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:324:25-84
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:439:25-84
 action#android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:325:17-89
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:440:17-90
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:325:25-87
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:440:25-87
 activity#com.doormaster.vphone.activity.Act_Call
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:329:9-333:61
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:444:9-449:62
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:331:13-49
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:447:13-49
 	android:launchMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:330:13-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:446:13-44
 	android:windowSoftInputMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:333:13-59
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:449:13-59
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:332:13-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:448:13-44
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:329:19-73
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:445:13-67
 activity#com.doormaster.vphone.activity.Act_CallIncoming
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:334:9-338:61
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:450:9-455:62
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:336:13-49
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:453:13-49
 	android:launchMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:335:13-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:452:13-44
 	android:windowSoftInputMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:338:13-59
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:455:13-59
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:337:13-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:454:13-44
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:334:19-81
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:451:13-75
 activity#com.doormaster.vphone.activity.Act_CallOutgoing
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:339:9-343:61
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:456:9-461:62
 	android:screenOrientation
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:341:13-49
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:459:13-49
 	android:launchMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:340:13-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:458:13-44
 	android:windowSoftInputMode
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:343:13-59
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:461:13-59
 	android:theme
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:342:13-44
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:460:13-44
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:339:19-81
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:457:13-75
 service#org.linphone.LinphoneService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:344:9-348:43
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:463:9-467:44
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:346:13-35
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:465:13-35
 	android:label
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:347:13-49
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:466:13-49
 	android:stopWithTask
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:348:13-41
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:467:13-41
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:345:13-56
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:464:13-56
 service#com.doormaster.vphone.service.KeepAliveService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:349:9-352:46
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:468:9-471:46
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:351:13-35
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:470:13-35
 	android:process
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:352:13-43
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:471:13-43
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:350:13-74
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:469:13-74
 service#com.doormaster.vphone.service.DService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:353:9-359:19
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:472:9-478:19
 	android:permission
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:355:13-87
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:474:13-87
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:354:13-66
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:473:13-66
 intent-filter#android.service.notification.NotificationListenerService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:356:13-358:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:475:13-477:29
 action#android.service.notification.NotificationListenerService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:357:17-99
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:476:17-99
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:357:25-96
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:476:25-96
 service#org.linphone.gcm.GCMService
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:360:9-63
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:479:9-63
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:360:18-60
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:479:18-60
 receiver#org.linphone.KeepAliveHandler
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:361:9-66
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:481:9-66
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:361:19-63
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:481:19-63
 receiver#org.linphone.NetworkManager
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:362:9-367:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:482:9-486:20
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:362:19-61
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:482:19-61
 receiver#org.linphone.BluetoothManager
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:368:9-371:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:487:9-489:48
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:370:13-36
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:489:13-36
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:369:13-57
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:488:13-57
 receiver#org.linphone.BootReceiver
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:372:9-377:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:490:9-494:20
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:372:19-59
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:490:19-59
 receiver#org.linphone.PhoneStateChangedReceiver
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:378:9-382:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:495:9-499:20
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:378:19-72
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:495:19-72
 intent-filter#android.intent.action.PHONE_STATE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:379:13-381:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:496:13-498:29
 action#android.intent.action.PHONE_STATE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:380:17-76
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:497:17-76
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:380:25-73
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:497:25-73
 receiver#org.linphone.gcm.GCMReceiver
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:384:9-393:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:501:9-510:20
 	android:permission
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:386:13-73
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:503:13-73
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:385:13-56
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:502:13-56
 intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.z421614851.iga
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:387:13-392:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:504:13-509:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:388:17-81
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:505:17-81
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:388:25-78
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:505:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:389:17-86
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:506:17-86
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:389:25-83
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:506:25-83
 receiver#com.doormaster.vphone.receiver.SceneChangeReceiver
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:394:9-403:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:511:9-520:20
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:394:19-84
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:511:19-84
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT+android.media.RINGER_MODE_CHANGED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:395:13-402:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:512:13-519:29
 	android:priority
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:395:28-57
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:512:28-57
 action#android.media.RINGER_MODE_CHANGED
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:401:17-76
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:518:17-76
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:401:25-73
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:518:25-73
 receiver#com.doormaster.vphone.receiver.CallReceiver
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:405:9-421:20
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:522:9-540:20
 	android:enabled
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:407:13-35
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:524:13-35
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:406:13-71
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:523:13-71
 intent-filter#cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+com.z421614851.iga
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:408:13-420:29
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:525:13-539:29
 meta-data#JPUSH_CHANNEL
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:422:1-77
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:542:9-544:50
 	android:value
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:422:41-75
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:544:13-47
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:422:12-40
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:543:13-41
 meta-data#JPUSH_APPKEY
-ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:423:1-82
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:545:9-547:56
 	android:value
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:423:40-80
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:547:13-53
 	android:name
-		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:423:12-39
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:546:13-40
+activity#com.sdk.samples.apicloud.VersionCode
+ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:558:9-82
+	android:name
+		ADDED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml:558:19-70
 uses-sdk
 INJECTED from /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [WisdomlifeStutio:Topkeeper:unspecified] /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
@@ -976,16 +980,16 @@ MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/liuyi/.android/buil
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/liuyi/.android/build-cache/690c434a3e3a946c54f49e5746acd0927ab91dc8/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/liuyi/.android/build-cache/eaa62dd7d47163db0a30b140ff63fb84b97dc871/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/liuyi/.android/build-cache/e5e8786e3fb5475ad3f59c10d424b92d5790c9a8/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:percent:25.3.0] /Users/liuyi/.android/build-cache/18130448768579b95a6c6fda99309f61dc1d65c9/output/AndroidManifest.xml:20:5-43
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/liuyi/.android/build-cache/275a768481cb916202071cc9c306ba5c19112f98/output/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-v4:25.3.0] /Users/liuyi/.android/build-cache/1bd287630649366f2bef85da91305fb582190948/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.0] /Users/liuyi/.android/build-cache/17e368fcf4387fe6ccf185f7051ba3f88dfde114/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.0] /Users/liuyi/.android/build-cache/200fceb16d92e1245f96f855c992f2dffa409e35/output/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.3.0] /Users/liuyi/.android/build-cache/c7f582369f7d093e7afadd9879306dfa91efcab6/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.0] /Users/liuyi/.android/build-cache/0dd409775bea993b60338b6324d6f5b44f8c0846/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.zhy:okhttputils:2.3.8] /Users/liuyi/.android/build-cache/f6657e00372cc98058ab0b7262d4faf3826dd2d7/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:percent:25.3.0] /Users/liuyi/.android/build-cache/18130448768579b95a6c6fda99309f61dc1d65c9/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.0] /Users/liuyi/.android/build-cache/72187eaa4658759f4df0c1cd82185d3b0a559c9b/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.jakewharton:butterknife:8.4.0] /Users/liuyi/.android/build-cache/275a768481cb916202071cc9c306ba5c19112f98/output/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha8] /Users/liuyi/.android/build-cache/a44296c6c9b4cbb1f8d42cce23189b469bd49cf2/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zhy:okhttputils:2.3.8] /Users/liuyi/.android/build-cache/f6657e00372cc98058ab0b7262d4faf3826dd2d7/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/liuyi/.android/build-cache/286eb871b0d39a1b6cbf96315fdfe13978e918a3/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
@@ -1385,12 +1389,12 @@ ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/liuyi/.android/build
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/liuyi/.android/build-cache/690c434a3e3a946c54f49e5746acd0927ab91dc8/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/liuyi/.android/build-cache/eaa62dd7d47163db0a30b140ff63fb84b97dc871/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/liuyi/.android/build-cache/e5e8786e3fb5475ad3f59c10d424b92d5790c9a8/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:percent:25.3.0] /Users/liuyi/.android/build-cache/18130448768579b95a6c6fda99309f61dc1d65c9/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.0] /Users/liuyi/.android/build-cache/1bd287630649366f2bef85da91305fb582190948/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.0] /Users/liuyi/.android/build-cache/17e368fcf4387fe6ccf185f7051ba3f88dfde114/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.0] /Users/liuyi/.android/build-cache/200fceb16d92e1245f96f855c992f2dffa409e35/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-ui:25.3.0] /Users/liuyi/.android/build-cache/c7f582369f7d093e7afadd9879306dfa91efcab6/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.0] /Users/liuyi/.android/build-cache/0dd409775bea993b60338b6324d6f5b44f8c0846/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:percent:25.3.0] /Users/liuyi/.android/build-cache/18130448768579b95a6c6fda99309f61dc1d65c9/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-compat:25.3.0] /Users/liuyi/.android/build-cache/72187eaa4658759f4df0c1cd82185d3b0a559c9b/output/AndroidManifest.xml:25:5-27:34
 	android:value
 		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/AndroidManifest.xml:27:9-31

@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.graphics.Bitmap;
 import android.os.Build;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -367,6 +368,18 @@ public class WebPageModule extends ExternalActivity {
 			SPUtils.put(Constants.USERNAME, null, mContext);
 			DMVPhoneModel.exit();
 			TopkeeperModel.cleanCurDeviceList();
+		}else if (name.equals("palyCarViedo")){
+			JSONObject json = null;
+			try {
+				json = new JSONObject(extra.toString());
+				String path = json.optString("path");
+//				Toast.makeText(WebPageModule.this, "视频测试路径：" +path, Toast.LENGTH_SHORT).show();
+				Intent it = new Intent(Intent.ACTION_VIEW);
+				it.setDataAndType(Uri.parse(path), "video/*");
+				startActivity(it);
+			} catch (JSONException e) {
+				e.printStackTrace();
+			}
 		}else if (name.equals("ShowKey"))
 		{
 			JSONObject jsonObject = new JSONObject();
@@ -405,6 +418,10 @@ public class WebPageModule extends ExternalActivity {
 		}else if (name.equals("ConnetToWiFi")){
 			Intent wifiSettingsIntent = new Intent("android.settings.WIFI_SETTINGS");
 			startActivity(wifiSettingsIntent);
+		}
+		else if (name.equals("showVersionCode")){
+			Intent intent = new Intent(mContext,VersionCode.class);
+			startActivity(intent);
 		}
 		else {
 			ToastUtils.showMessage(mContext,name);
