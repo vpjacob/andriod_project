@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/select"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:padding="2dp"
+        android:src="@drawable/dm_lock" />
+
+    <TextView
+        android:id="@+id/dm_text_accessdev_name"
+        android:layout_width="0dp" 
+        android:layout_height="match_parent"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_weight="0.6"/>
+    <ImageView
+        android:layout_width="0dp" 
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:visibility="invisible"/>
+
+</LinearLayout>

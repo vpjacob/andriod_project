@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:fitsSystemWindows="true"
+   	android:background="@color/main_background">
+    
+    <include android:id="@+id/set_device_modify_top"
+        layout="@layout/inteligoo_main_top"/>
+
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8" 
+	    android:layout_marginTop="5dp"
+	/>
+	<RelativeLayout
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_background" >
+          
+        <EditText
+			android:id="@+id/activity_setting_current_pwd"
+			android:hint="@string/setting_current_pwd"
+			android:inputType="numberPassword"
+            android:layout_width="match_parent"
+           	android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/input_background"
+	        android:textColorHint="@color/input_hintcolor"
+	        android:textColor="@color/input_textcolor"
+            android:singleLine="true"
+            android:textSize="12sp"
+			android:padding="12dp" 
+			android:maxLength="6"/>
+	</RelativeLayout>
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8" 
+	/>
+	
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8" 
+	    android:layout_marginTop="5dp"
+	/>
+	<RelativeLayout
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_background" >
+          
+        <EditText
+			android:id="@+id/activity_setting_new_pwd"
+			android:hint="@string/setting_new_pwd"
+			android:inputType="numberPassword"
+            android:layout_width="match_parent"
+           	android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/input_background"
+	        android:textColorHint="@color/input_hintcolor"
+	        android:textColor="@color/input_textcolor"
+            android:singleLine="true"
+            android:textSize="12sp"
+			android:padding="12dp" 
+			android:maxLength="6"/>
+	</RelativeLayout>
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8" 
+	/>
+    
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8" 
+	    android:layout_marginTop="5dp"
+	/>
+	<RelativeLayout
+    		android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+          	android:background="@color/main_background" >
+          
+		<EditText
+			android:id="@+id/activity_setting_ensure_new_pwd"
+			android:hint="@string/setting_sure_new_pwd"
+			android:inputType="numberPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/input_background"
+	        android:textColorHint="@color/input_hintcolor"
+	        android:textColor="@color/input_textcolor"
+            android:singleLine="true"
+            android:textSize="12sp"
+			android:padding="12dp"
+			android:maxLength="6" />
+    </RelativeLayout>
+    <View
+	    android:layout_width="match_parent"
+	    android:layout_height="0.01dp"
+	    android:background="#C8C8C8" 
+	/>
+
+    <Button
+		android:id="@+id/activity_setting_btn_modify_pwd"
+    	android:text="@string/submit"
+    	android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:layout_marginLeft="5dp"
+    	android:layout_marginRight="5dp"
+    	android:layout_marginTop="20dp"
+   		android:background="@drawable/shape_btn_blue"
+    	android:enabled="true"
+    	android:textColor="@android:color/white"
+    	android:textSize="12sp" 
+    	/>
+
+</LinearLayout>

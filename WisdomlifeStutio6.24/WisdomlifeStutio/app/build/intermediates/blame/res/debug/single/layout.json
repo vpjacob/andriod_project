@@ -356,12 +356,12 @@
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout/act_doorlist.xml",
-        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/layout/act_doorlist.xml"
-    },
-    {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout/act_select_auto_device.xml",
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/layout/act_select_auto_device.xml"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout/act_doorlist.xml",
+        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/layout/act_doorlist.xml"
     },
     {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/layout/yj_act_call.xml",

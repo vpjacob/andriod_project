@@ -1,0 +1,7 @@
+#Wed Aug 23 19:04:45 CST 2017
+base.0=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex
+base.1=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+file.0=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes2.dex

@@ -14,9 +14,10 @@ public class VersionCode extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_version_code);
+
         String string = getVersion();
         TextView textView = (TextView) findViewById(R.id.text_view);
-    textView.setText("安卓版本号:" + string);
+        textView.setText("版本号：" + string);
     }
     public String getVersion() {
         try {
@@ -29,4 +30,5 @@ public class VersionCode extends AppCompatActivity {
             return "error";
         }
     }
+
 }

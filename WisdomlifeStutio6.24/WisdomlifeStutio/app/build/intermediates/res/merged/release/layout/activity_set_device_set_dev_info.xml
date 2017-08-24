@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:fitsSystemWindows="true"
+    android:background="@color/main_background" >
+    <include android:id="@+id/set_device_set_device_info_top"
+        layout="@layout/inteligoo_main_top"/>
+	
+    <!-- 读头韦根26/34设置 -->
+    <LinearLayout 
+        android:id="@+id/ly_set_device_reader_lift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA" 
+        android:layout_marginTop="20dp"/>
+    <RadioGroup 
+        android:id="@+id/rg_set_device_info_Wiegand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton 
+            android:id="@+id/rb_set_device_info_Wiegand_26"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:textColor="@color/main_textcolor"
+            android:text="@string/activity_device_set_dev_Wiegand_26"/>
+        <RadioButton 
+            android:id="@+id/rb_set_device_info_Wiegand_34"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/main_textcolor"
+            android:layout_weight="1"
+            android:text="@string/activity_device_set_dev_Wiegand_34"/>
+    </RadioGroup>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA" />
+    </LinearLayout>
+    <!-- 读头梯控韦根26/34设置 end -->
+    
+    <!-- 一体机  android:visibility="gone"> -->
+    <LinearLayout 
+        android:id="@+id/ly_set_device_access_controllor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       
+    android:visibility="visible">
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA"
+        android:layout_marginTop="10dp" />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="0dp"
+	    android:orientation="horizontal">
+		<!-- //android:gravity="center_horizontal" -->
+
+		<TextView
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="0.27"
+		     android:layout_marginLeft="5dp"
+		    android:gravity="left"
+		    android:textColor="@color/main_textcolor"
+		    android:paddingBottom="10dp"
+		    android:paddingTop="10dp"
+		    android:text="@string/activity_device_set_dev_open_delay"
+		    android:textSize="15sp" />
+		<EditText
+			android:id="@+id/sp_set_device_open_time"
+			android:labelFor="@id/sp_set_device_open_time"
+			android:inputType="number"
+           	android:layout_height="wrap_content"
+           	android:layout_width="0dp"
+           	android:layout_weight="0.27"
+            android:singleLine="true"
+            android:textColorHint="@color/main_textcolor"
+	    	android:layout_marginRight="5dp"
+	    	android:background="@drawable/shape_editview_white"
+            android:textSize="12sp"
+			android:padding="12dp" 
+			android:maxLength="3"/>
+	</LinearLayout>
+    
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA"
+        android:layout_marginTop="10dp" />
+	
+    <RadioGroup 
+        android:id="@+id/rg_set_device_electric_button"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+	    <RadioButton 
+	        android:id="@+id/rb_set_device_electric_lock"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:textColor="@color/main_textcolor"
+	        android:checked="true"
+	        android:text="@string/activity_device_set_dev_electric_lock"/>
+	    <RadioButton 
+	        android:id="@+id/rb_set_device_electric_button"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/main_textcolor"
+	        android:layout_weight="1"
+	        android:text="@string/activity_device_set_dev_electric_button"/>
+    </RadioGroup>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A7A7AA" />
+    </LinearLayout>
+    <!-- 一体机设置 end -->
+    
+    <Button
+		android:id="@+id/bt_set_device_submit"
+    	android:text="@string/submit"
+    	android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:layout_marginLeft="5dp"
+    	android:layout_marginRight="5dp"
+    	android:layout_marginTop="20dp"
+   		android:background="@drawable/shape_btn_blue"
+    	android:enabled="true"
+    	android:textColor="@android:color/white"
+    	android:textSize="12sp" 
+    	/>
+    
+</LinearLayout>

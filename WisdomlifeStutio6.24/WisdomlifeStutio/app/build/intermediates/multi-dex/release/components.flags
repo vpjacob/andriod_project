@@ -1,0 +1,47 @@
+-injars /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/jarMerging/release/jars/1/1f/combined.jar
+-outjars /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/multi-dex/release/componentClasses.jar
+
+-libraryjars /Users/liuyi/Library/Android/sdk/build-tools/25.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/multi-dex/release/components.flags
+
+
+# view AndroidManifest.xml #generated:430
+-keep class io.rong.push.PushReceiver {
+    <init>(...);
+}
+
+# view AndroidManifest.xml #generated:383
+-keep class io.rong.push.PushService {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

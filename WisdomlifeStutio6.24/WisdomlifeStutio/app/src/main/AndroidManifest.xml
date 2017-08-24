@@ -226,23 +226,23 @@
         <activity
             android:name="cn.jpush.android.ui.PopWinActivity"
             android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity
             android:name="com.alipay.android.app.sdk.WapPayActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.alipay.sdk.app.H5PayActivity"
             android:configChanges="orientation|keyboardHidden|navigation"
             android:exported="false"
             android:screenOrientation="behind"
-            android:windowSoftInputMode="adjustResize|stateHidden"></activity>
+            android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <!-- <activity android:configChanges="orientation|keyboardHidden|navigation" android:exported="false" android:name="com.alipay.sdk.app.H5AuthActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize|stateHidden"> -->
         <!-- </activity> -->
         <activity
             android:name="com.uzmap.pkg.uzmodules.uzFNScanner.Zxing.CaptureActivity"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
             android:name="com.uzmap.pkg.uzmodules.uzimageBrowser.activity.GalleryActivity"
             android:configChanges="orientation|locale"
@@ -256,7 +256,7 @@
         <!-- <activity android:configChanges="orientation|locale" android:name="com.apicloud.moduleDemo.DemoActivity" android:screenOrientation="portrait"/> -->
         <activity
             android:name="com.apicloud.movies.MyActivity"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
         <activity
             android:name="com.tencent.connect.common.AssistActivity"
             android:screenOrientation="portrait"
@@ -283,7 +283,7 @@
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <activity android:name="com.uzmap.pkg.uzmodules.UIMediaScanner.UzImgsActivity" />
         <activity android:name="com.uzmap.pkg.uzmodules.UIMediaScanner.UzImgFileListActivity" />
         <activity android:name="com.uzmap.pkg.uzmodules.UIMediaScanner.PhotoBrowser" />
@@ -309,12 +309,12 @@
             android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
             android:configChanges="keyboardHidden|orientation"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize"></activity>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.uzmap.pkg.uzmodules.uzSina.activity.WBAuthActivity"
             android:configChanges="orientation|keyboardHidden"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
             android:name="com.uzmap.pkg.uzmodules.uzSina.activity.WBShareActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar">
@@ -329,7 +329,7 @@
         <service
             android:name="cn.jpush.android.service.DownloadService"
             android:enabled="true"
-            android:exported="false"></service>
+            android:exported="false" />
         <service
             android:name="cn.jpush.android.service.PushService"
             android:enabled="true"
@@ -368,10 +368,10 @@
             android:exported="true" />
         <service
             android:name="io.rong.push.core.PushRegistrationService"
-            android:exported="false"></service>
+            android:exported="false" />
         <service
             android:name="io.rong.push.core.MessageHandleService"
-            android:exported="true"></service>
+            android:exported="true" />
         <service
             android:name="io.rong.push.PushService"
             android:exported="true"
@@ -481,15 +481,15 @@
         <receiver android:name="org.linphone.KeepAliveHandler" />
         <receiver android:name="org.linphone.NetworkManager">
             <intent-filter>
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
         <receiver
             android:name="org.linphone.BluetoothManager"
-            android:enabled="false"></receiver>
+            android:enabled="false" />
         <receiver android:name="org.linphone.BootReceiver">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
         <receiver android:name="org.linphone.PhoneStateChangedReceiver">

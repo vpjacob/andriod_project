@@ -338,7 +338,17 @@ public class WebPageModule extends ExternalActivity {
 			}
 		}else if (name.equals("exitDMVPhoneSDK")) { //退出视频登录
 			DMVPhoneModel.exit();
-		} else if (name.equals("DeviceList")) {//门禁设备列表
+		}
+
+		else if (name.equals("update")) {
+			Intent intent = new Intent();
+			intent.setAction("android.intent.action.VIEW");
+			Uri content_url = Uri.parse("http://shouji.360tpcdn.com/170818/2e29b07d889de7dcfcfec02830912b85/com.z421614851.iga_213.apk");
+			intent.setData(content_url);
+			startActivity(intent);
+		}
+
+		else if (name.equals("DeviceList")) {//门禁设备列表
 			Intent intent = new Intent(mContext, Act_AccessDevList.class);
 			intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			startActivity(intent);
@@ -420,8 +430,11 @@ public class WebPageModule extends ExternalActivity {
 			startActivity(wifiSettingsIntent);
 		}
 		else if (name.equals("showVersionCode")){
-			Intent intent = new Intent(mContext,VersionCode.class);
-			startActivity(intent);
+//			Intent intent = new Intent(mContext,VersionCode.class);
+//			startActivity(intent);
+//			Intent intent = new Intent(mContext,VersionCode.class);
+//			startActivity(intent);
+
 		}
 		else {
 			ToastUtils.showMessage(mContext,name);
