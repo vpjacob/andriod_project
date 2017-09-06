@@ -48,10 +48,6 @@
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/mo_scrollpicture_img_switcher_bg.png"
     },
     {
-        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable-hdpi/shanping_xiaoke.png",
-        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/shanping_xiaoke.png"
-    },
-    {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable-hdpi/mo_media_scanner_select.png",
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/mo_media_scanner_select.png"
     },
@@ -214,6 +210,10 @@
     {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable-hdpi/keyframe11.png",
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/keyframe11.png"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable-hdpi/guanggao.png",
+        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/guanggao.png"
     },
     {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable-hdpi/keyframe17.png",

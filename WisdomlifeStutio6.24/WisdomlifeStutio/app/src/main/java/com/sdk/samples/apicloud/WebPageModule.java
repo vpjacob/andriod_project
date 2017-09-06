@@ -102,7 +102,7 @@ public class WebPageModule extends ExternalActivity {
 		}else //之后都使用闪屏广告
 		{
 			// call after setContentView(R.layout.activity_sample);
-			SplashView.showSplashView(this, 6, R.drawable.shanping_xiaoke, new SplashView.OnSplashViewActionListener() {
+			SplashView.showSplashView(this, 6, R.drawable.guanggao, new SplashView.OnSplashViewActionListener() {
 				@Override
 				public void onSplashImageClick(String actionUrl) {
 					Log.d("SplashView", "img clicked. actionUrl: " + actionUrl);
@@ -187,7 +187,6 @@ public class WebPageModule extends ExternalActivity {
 //					Toast.makeText(WebPageModule.this, "申请权限成功:" + Manifest.permission.WRITE_EXTERNAL_STORAGE, Toast.LENGTH_LONG).show();
 				}
 				break;
-
 		}
 		super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 	}
@@ -199,7 +198,6 @@ public class WebPageModule extends ExternalActivity {
 			@Override
 			public void onReceive(WebViewProvider webViewProvider, Object o) {
 				DMVPhoneModel.callAccount("13533754937",1);
-
 			}
 		});
 //		addHtml5EventListener(new Html5EventListener("html中的方法名") {
@@ -383,7 +381,6 @@ public class WebPageModule extends ExternalActivity {
 			try {
 				json = new JSONObject(extra.toString());
 				String path = json.optString("path");
-//				Toast.makeText(WebPageModule.this, "视频测试路径：" +path, Toast.LENGTH_SHORT).show();
 				Intent it = new Intent(Intent.ACTION_VIEW);
 				it.setDataAndType(Uri.parse(path), "video/*");
 				startActivity(it);

@@ -92,10 +92,6 @@
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/keyframe2.png"
     },
     {
-        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-hdpi/shanping_xiaoke.png",
-        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/shanping_xiaoke.png"
-    },
-    {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-hdpi/mo_alipay_dialog_split_h.png",
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/mo_alipay_dialog_split_h.png"
     },
@@ -130,6 +126,10 @@
     {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-hdpi/keyframe4.png",
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/keyframe4.png"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-hdpi/guanggao.png",
+        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/guanggao.png"
     },
     {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-hdpi/keyframe21.png",
@@ -196,12 +196,12 @@
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/mo_scrollpicture_img_switcher_bg3.png"
     },
     {
-        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-hdpi/mo_alipay_dialog_bg_click.9.png",
-        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/mo_alipay_dialog_bg_click.9.png"
-    },
-    {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-hdpi/mo_scrollpicture_img_switcher_bg0.png",
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/mo_scrollpicture_img_switcher_bg0.png"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-hdpi/mo_alipay_dialog_bg_click.9.png",
+        "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/src/main/res/drawable-hdpi/mo_alipay_dialog_bg_click.9.png"
     },
     {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/debug/drawable-hdpi/mo_alipay_dialog_cut_line.png",
