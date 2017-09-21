@@ -1,0 +1,4 @@
+#Thu Sep 14 09:24:12 CST 2017
+base.0=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
+renamed.0=classes.dex
+file.0=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex

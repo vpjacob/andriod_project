@@ -1456,12 +1456,12 @@
         "source": "/Users/liuyi/.android/build-cache/3cf601a247781b3a1a4c9e3992055dee608d0c91/output/res/drawable-xhdpi-v4/dm_call_incoming.png"
     },
     {
-        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal.9.png",
-        "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
-    },
-    {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/banner3.jpg",
         "source": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/Topkeeper/build/intermediates/bundles/default/res/drawable-xhdpi-v4/banner3.jpg"
+    },
+    {
+        "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/liuyi/.android/build-cache/de9b2cc0765fffb9d95be9a232514482a1da8eb6/output/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/route_speaker.png",

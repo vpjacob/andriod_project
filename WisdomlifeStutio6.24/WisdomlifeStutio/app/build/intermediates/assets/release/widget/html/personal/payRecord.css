@@ -15,6 +15,9 @@ body, input, p {
 	font-size: 16px;
 	font-family: 'Microsoft YaHei';
 }
+body {
+	background-color:#efefef;
+}
 /*h1, h2, h3, h4, h5, h6 { font-size: 100%; }*/
 /*em{font-style:normal;}*/
 /** ÖØÖÃÁÐ±íÔªËØ **/
@@ -32,105 +35,63 @@ img {
 	border: 0px;
 }
 
-.secondul {
-	position: absolute;
-	background-color: #25B2E7;
-	color: #fff;
-	width: 25%;
-	z-index: 150;
-	display: none;
-	right: 10px;
-	border-radius:5px;
+#showLists{
+	background-color:#efefef;
 }
-.secondul li {
-	border-bottom: 1px solid #BBBBBB;
-	padding: 8px 8px;
-	text-align: center;
-}
-li.first {
-	width: 5px;
-	height: 5px;
-	position: absolute;
-	z-index: 200;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	top: -7px;
-	right: 15px;
-	background-color: #25B2E7;
-	border: none;
-}
-.first{
-	width:100%;
-	height: 40px;
- 	border-bottom:1px solid #dddddd; 
-	background-color: #fff;
-}
-.first span{
-	margin-left: 6.7%;
-	font-size: 13px;
-	color: #c0c0c0;
-	line-height: 40px;
-}
-.same{
-	width:100%;
-	height: 60px;
- 	border-bottom:1px solid #dddddd; 
-	background-color: #fff;
 
+.box{
+	margin-top:0.6rem; 
+	width: 100%;
+/* 	height:100%; */
 }
-.same .sameBox{
-	width:93%;
-	margin-left: 6.7%;
-	height: 50px;
-	/* border:1px solid red; */
-	position:relative;
-	top:5px;
+.box .bottom{
+	margin:0 auto;
+	width: 100%;
+	height:44%;
+	background-color:#efefef;
 }
-.same .sameBox .left{
-	width: 29%;
-	   /* border:1px solid red;   */ 
-	 float: left;
+.box .bottom .user{
+	width: 100%;
+	height:2.2rem;
+	border-bottom:1px solid #efefef;
+	background-color:#ffffff;
 }
-.same .sameBox .left span{
-	font-size:15px;
+.box .bottom .same{
+	width: 92%;
+	margin:0 auto;
+}
+.box .bottom .user span{
+	 line-height:2.2rem;
+	font-size:0.7rem;
+	float:left;
+	color: #282828;
 	
 }
-.same .sameBox .left span:nth-child(2){
-	font-size:12px;
+.box .bottom .user span:nth-child(2){
+	 line-height:2.2rem;
+	font-size:15px;
+	float:right;
+	color: #797979;
 }
-.same .sameBox .mid{
-	width: 20%;
-	height:45px;
-   	  /* border:1px solid red;    */
-	 float: left;
-	 border-radius:20px;
-	 margin-left:4%; 
+.box .bottom .user input{
+    line-height:2.2rem;
+	color:#A1A1A1;
+	font-size:15px;
+	width:6.5rem;
 }
-.same .sameBox .mid span{
+.commodity{
+ 	float: right;
+ 	font-size: 0.7rem;
+ 	margin-top: -1.5rem;
+ 	margin-right: 4%;
+ 	color: #797979;
+}
+.box .bottom .other{
 	width: 100%;
-	font-size:15px;
+	height:3.2rem;
+	border-bottom:1px solid #efefef;
+	background-color:#ffffff;
 }
-
-.same .sameBox .right{
-	 float: right;
-	 width:41%;
-/* border:1px solid red; */
-}
-.same .sameBox .right span{
-	font-size:15px;
-	color: #282828;
-	width:100%;
-}
-.same .sameBox .right span:nth-child(2){
-	font-size:12px;
-	width:100%;
-	text-overflow :ellipsis;
-	white-space:nowrap;
-	overflow:hidden;
-	display:block;
-	margin-top:5px;
-}
-
 
 
 

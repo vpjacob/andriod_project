@@ -1,0 +1,7 @@
+#Thu Sep 14 09:24:13 CST 2017
+base.0=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b156fa654a31b125b240f8319e962f309dbc8628
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_46024f9dc293a4846041155c7020188707242ad1/classes.dex
+base.1=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_46024f9dc293a4846041155c7020188707242ad1
+file.0=/Users/liuyi/Desktop/andorid_project/WisdomlifeStutio6.24/WisdomlifeStutio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b156fa654a31b125b240f8319e962f309dbc8628/classes.dex

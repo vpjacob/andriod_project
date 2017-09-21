@@ -20,6 +20,8 @@ import android.view.ViewGroup.LayoutParams;
 import android.view.WindowManager;
 import android.widget.TextView;
 import android.provider.Settings;
+import android.widget.Toast;
+
 import com.doormaster.topkeeper.activity.Act_AccessDevList;
 import com.doormaster.topkeeper.activity.Act_DoorList;
 import com.doormaster.topkeeper.activity.Act_OpenRecord;
@@ -341,7 +343,17 @@ public class WebPageModule extends ExternalActivity {
 		else if (name.equals("update")) {
 			Intent intent = new Intent();
 			intent.setAction("android.intent.action.VIEW");
-			Uri content_url = Uri.parse("http://shouji.360tpcdn.com/170818/2e29b07d889de7dcfcfec02830912b85/com.z421614851.iga_213.apk");
+			JSONObject json = null;
+			String url = "";
+			try {
+				json = new JSONObject(extra.toString());
+				url = json.optString("appServerAndroidUrl");
+			} catch (JSONException e) {
+				e.printStackTrace();
+			}
+
+			Toast.makeText(mContext,url , Toast.LENGTH_SHORT).show();
+			Uri content_url = Uri.parse(url);
 			intent.setData(content_url);
 			startActivity(intent);
 		}

@@ -3,11 +3,12 @@ apiready = function() {
 	if (api.systemType == 'ios') {
 		$api.css(header, 'margin-top:20px;');
 	};
-	FileUtils.readFile("info.json", function(info, err) {
-		urId = info.userNo;
-		queryPayMerchantRecord(urId);
-
-	});
+	
+	urId = api.getPrefs({
+	    sync:true,
+	    key:'userNo'
+    });
+    queryPayMerchantRecord(urId);
 
 	function queryPayMerchantRecord(urId) {
 		api.showProgress({});
@@ -30,24 +31,49 @@ apiready = function() {
 						});
 					} else {
 						for (var i = 0; i < list.length; i++) {
-							var time=list[i].create_time.split(' ');
-							var nowList='<div class="same">'
-									+'<div class="sameBox">'
-									+'<div class="left">'
-									+'<span>'+time[0]+'</span>'
-									+'<span>'+time[1]+'</span>'
+							var type=""
+							if(list[i].pay_type==1){
+								type="支付宝"
+							}else if(list[i].pay_type==2){
+								type="金币余额"
+							}else if(list[i].pay_type==3){
+								type="微信支付"
+							}
+							var nowList='<div class="box">'
+									+'<div class="bottom">'	
+									+'<div class="user">'
+		                            +'<div class="same">' 
+									+'<span>商家名称：</span>'
+									+'<span>'+list[i].merchant_name+'</span>'
 									+'</div>'
-									+'<div class="mid">'
-									+'<span>商家ID</span>'
+									+'</div>'	
+									+'<div class="user">'
+									+'<div class="same">'	
+									+'<span>商家ID：</span>'
 									+'<span>'+list[i].merchant_no+'</span>'
 									+'</div>'
-									+'<div class="right">'
-									+'<span >'+list[i].mount+'元</span>'
-									+'<span >'+list[i].merchant_name+'</span>'
+									+'</div>'
+									+'<div class="user">'
+									+'<div class="same">'	
+									+'<span>支付类型：</span>'
+									+'<span>'+type+'</span>'
+									+'</div>'
+									+'</div>'
+									+'<div class="user">'
+									+'<div class="same">'	
+									+'<span>支付金额：</span>'
+									+'<span>'+list[i].mount+'</span>'
+									+'</div>'
+									+'</div>'
+									+'<div class="user">'
+									+'<div class="same">'	
+									+'<span>支付时间：</span>'
+									+'<span>'+list[i].create_time+'</span>'
 									+'</div>'
 									+'</div>'
 									+'</div>'
-								$('#showLists').append(nowList);
+									+'</div>'
+						$('#showLists').append(nowList);
 						}
 					}
 
